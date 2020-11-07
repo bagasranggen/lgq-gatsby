@@ -1,3 +1,4 @@
+import 'typeface-montserrat';
 import '../src/assets/styles/tailwind.output.css';
 
 export const parameters = {

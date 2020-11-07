@@ -1,7 +1,18 @@
 import React from 'react';
 
-const Home = (): React.ReactElement => {
-    return <div>Hello world!</div>;
+import Layout from 'components/container/layout/Layout';
+import Container from 'components/common/container/Container';
+import Breadcrumbs from 'components/common/breadcrumbs/Breadcrumbs';
+
+const Index = (): React.ReactElement => {
+    return (
+        <Layout>
+            <Container className="bg-red-100">
+                <Breadcrumbs />
+                Hello world!
+            </Container>
+        </Layout>
+    );
 };
 
-export default Home;
+export default Index;

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from 'components/container/header/Header';
+import Sidebar from 'components/container/sidebar/Sidebar';
 import Footer from 'components/container/footer/Footer';
 
 export type LayoutProps = {
@@ -10,9 +11,10 @@ export type LayoutProps = {
 const Layout = ({ children }: LayoutProps): React.ReactElement => {
     return (
         <>
-            <Footer />
-            {children}
             <Header />
+            <Sidebar />
+            <div className="mt-16">{children}</div>
+            <Footer />
         </>
     );
 };

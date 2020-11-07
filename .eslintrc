@@ -31,5 +31,6 @@
     "plugins": ["react", "prettier", "@typescript-eslint"],
     "rules": {
         "react/prop-types": "off"
+        // "react/require-default-props": 0
     }
 }
