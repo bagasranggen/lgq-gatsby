@@ -1,0 +1,72 @@
+{
+  "name": "logique-gatsby",
+  "description": "logique gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build:tailwind": "postcss src/assets/styles/tailwind.css -o src/assets/styles/tailwind.output.css",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --fix",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006 -s public --no-dll",
+    "build-storybook": "build-storybook -s public --no-dll"
+  },
+  "dependencies": {
+    "gatsby": "^2.25.3",
+    "gatsby-plugin-postcss": "^3.0.4",
+    "gatsby-plugin-typescript": "^2.5.0",
+    "postcss": "^8.1.6",
+    "postcss-cli": "^8.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.9.6",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-actions": "^6.0.28",
+    "@storybook/addon-essentials": "^6.0.28",
+    "@storybook/addon-links": "^6.0.28",
+    "@storybook/react": "^6.0.28",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "babel-loader": "^8.1.0",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^9.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
+    "prettier": "2.1.2",
+    "react-is": "^17.0.1"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "yarn format",
+      "yarn lint"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
