@@ -58,9 +58,6 @@
     "prettier": "2.1.2",
     "react-is": "^17.0.1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "yarn format",
