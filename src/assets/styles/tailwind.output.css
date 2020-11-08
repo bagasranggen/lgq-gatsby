@@ -12347,6 +12347,10 @@ video {
   list-style-type: disc;
 }
 
+.list-circle {
+  list-style-type: circle;
+}
+
 .list-decimal {
   list-style-type: decimal;
 }
@@ -16884,6 +16888,10 @@ video {
   fill: #34495e;
 }
 
+.fill-blue-600 {
+  fill: #3a559f;
+}
+
 .fill-indigo-100 {
   fill: #ebf4ff;
 }
@@ -17238,6 +17246,10 @@ video {
 
 .hover\:fill-blue-500:hover {
   fill: #34495e;
+}
+
+.hover\:fill-blue-600:hover {
+  fill: #3a559f;
 }
 
 .hover\:fill-indigo-100:hover {
@@ -17596,6 +17608,10 @@ video {
   fill: #34495e;
 }
 
+.group:hover .group-hover\:fill-blue-600 {
+  fill: #3a559f;
+}
+
 .group:hover .group-hover\:fill-indigo-100 {
   fill: #ebf4ff;
 }
@@ -17704,8 +17720,1084 @@ video {
   fill: #702459;
 }
 
+.stroke-transparent {
+  stroke: transparent;
+}
+
 .stroke-current {
   stroke: currentColor;
+}
+
+.stroke-black {
+  stroke: #000;
+}
+
+.stroke-white {
+  stroke: #fff;
+}
+
+.stroke-gray-100 {
+  stroke: #e8e8e8;
+}
+
+.stroke-gray-200 {
+  stroke: #d1d1d1;
+}
+
+.stroke-gray-300 {
+  stroke: #bababa;
+}
+
+.stroke-gray-400 {
+  stroke: #a1a1a1;
+}
+
+.stroke-gray-500 {
+  stroke: #757575;
+}
+
+.stroke-gray-800 {
+  stroke: #212425;
+}
+
+.stroke-red-100 {
+  stroke: #f38585;
+}
+
+.stroke-red-200 {
+  stroke: #f17070;
+}
+
+.stroke-red-300 {
+  stroke: #ef5c5c;
+}
+
+.stroke-red-400 {
+  stroke: #ed4747;
+}
+
+.stroke-red-500 {
+  stroke: #eb3333;
+}
+
+.stroke-red-600 {
+  stroke: #d42e2e;
+}
+
+.stroke-red-700 {
+  stroke: #bc2929;
+}
+
+.stroke-red-800 {
+  stroke: #a52424;
+}
+
+.stroke-red-900 {
+  stroke: #8d1f1f;
+}
+
+.stroke-orange-100 {
+  stroke: #fff6ec;
+}
+
+.stroke-orange-200 {
+  stroke: #eee0d4;
+}
+
+.stroke-orange-300 {
+  stroke: #f4a44b;
+}
+
+.stroke-orange-400 {
+  stroke: #fc9a22;
+}
+
+.stroke-orange-500 {
+  stroke: #f18d1e;
+}
+
+.stroke-orange-600 {
+  stroke: #d97f1b;
+}
+
+.stroke-orange-700 {
+  stroke: #c17118;
+}
+
+.stroke-orange-800 {
+  stroke: #a96315;
+}
+
+.stroke-orange-900 {
+  stroke: #915512;
+}
+
+.stroke-yellow-100 {
+  stroke: #fffff0;
+}
+
+.stroke-yellow-200 {
+  stroke: #fefcbf;
+}
+
+.stroke-yellow-300 {
+  stroke: #faf089;
+}
+
+.stroke-yellow-400 {
+  stroke: #f6e05e;
+}
+
+.stroke-yellow-500 {
+  stroke: #ffca13;
+}
+
+.stroke-yellow-600 {
+  stroke: #d69e2e;
+}
+
+.stroke-yellow-700 {
+  stroke: #b7791f;
+}
+
+.stroke-yellow-800 {
+  stroke: #975a16;
+}
+
+.stroke-yellow-900 {
+  stroke: #744210;
+}
+
+.stroke-green-100 {
+  stroke: #f0fff4;
+}
+
+.stroke-green-200 {
+  stroke: #c6f6d5;
+}
+
+.stroke-green-300 {
+  stroke: #9ae6b4;
+}
+
+.stroke-green-400 {
+  stroke: #68d391;
+}
+
+.stroke-green-500 {
+  stroke: #48bb78;
+}
+
+.stroke-green-600 {
+  stroke: #38a169;
+}
+
+.stroke-green-700 {
+  stroke: #2f855a;
+}
+
+.stroke-green-800 {
+  stroke: #276749;
+}
+
+.stroke-green-900 {
+  stroke: #22543d;
+}
+
+.stroke-teal-100 {
+  stroke: #e6fffa;
+}
+
+.stroke-teal-200 {
+  stroke: #b2f5ea;
+}
+
+.stroke-teal-300 {
+  stroke: #81e6d9;
+}
+
+.stroke-teal-400 {
+  stroke: #4fd1c5;
+}
+
+.stroke-teal-500 {
+  stroke: #38b2ac;
+}
+
+.stroke-teal-600 {
+  stroke: #319795;
+}
+
+.stroke-teal-700 {
+  stroke: #2c7a7b;
+}
+
+.stroke-teal-800 {
+  stroke: #285e61;
+}
+
+.stroke-teal-900 {
+  stroke: #234e52;
+}
+
+.stroke-blue-100 {
+  stroke: #edf6ff;
+}
+
+.stroke-blue-150 {
+  stroke: #e5f1fc;
+}
+
+.stroke-blue-200 {
+  stroke: #d0dde9;
+}
+
+.stroke-blue-250 {
+  stroke: #d7e4f1;
+}
+
+.stroke-blue-300 {
+  stroke: #9ab6cb;
+}
+
+.stroke-blue-400 {
+  stroke: #31658c;
+}
+
+.stroke-blue-500 {
+  stroke: #34495e;
+}
+
+.stroke-blue-600 {
+  stroke: #3a559f;
+}
+
+.stroke-indigo-100 {
+  stroke: #ebf4ff;
+}
+
+.stroke-indigo-200 {
+  stroke: #c3dafe;
+}
+
+.stroke-indigo-300 {
+  stroke: #a3bffa;
+}
+
+.stroke-indigo-400 {
+  stroke: #7f9cf5;
+}
+
+.stroke-indigo-500 {
+  stroke: #667eea;
+}
+
+.stroke-indigo-600 {
+  stroke: #5a67d8;
+}
+
+.stroke-indigo-700 {
+  stroke: #4c51bf;
+}
+
+.stroke-indigo-800 {
+  stroke: #434190;
+}
+
+.stroke-indigo-900 {
+  stroke: #3c366b;
+}
+
+.stroke-purple-100 {
+  stroke: #faf5ff;
+}
+
+.stroke-purple-200 {
+  stroke: #e9d8fd;
+}
+
+.stroke-purple-300 {
+  stroke: #d6bcfa;
+}
+
+.stroke-purple-400 {
+  stroke: #b794f4;
+}
+
+.stroke-purple-500 {
+  stroke: #9f7aea;
+}
+
+.stroke-purple-600 {
+  stroke: #805ad5;
+}
+
+.stroke-purple-700 {
+  stroke: #6b46c1;
+}
+
+.stroke-purple-800 {
+  stroke: #553c9a;
+}
+
+.stroke-purple-900 {
+  stroke: #44337a;
+}
+
+.stroke-pink-100 {
+  stroke: #fff5f7;
+}
+
+.stroke-pink-200 {
+  stroke: #fed7e2;
+}
+
+.stroke-pink-300 {
+  stroke: #fbb6ce;
+}
+
+.stroke-pink-400 {
+  stroke: #f687b3;
+}
+
+.stroke-pink-500 {
+  stroke: #ed64a6;
+}
+
+.stroke-pink-600 {
+  stroke: #d53f8c;
+}
+
+.stroke-pink-700 {
+  stroke: #b83280;
+}
+
+.stroke-pink-800 {
+  stroke: #97266d;
+}
+
+.stroke-pink-900 {
+  stroke: #702459;
+}
+
+.hover\:stroke-transparent:hover {
+  stroke: transparent;
+}
+
+.hover\:stroke-current:hover {
+  stroke: currentColor;
+}
+
+.hover\:stroke-black:hover {
+  stroke: #000;
+}
+
+.hover\:stroke-white:hover {
+  stroke: #fff;
+}
+
+.hover\:stroke-gray-100:hover {
+  stroke: #e8e8e8;
+}
+
+.hover\:stroke-gray-200:hover {
+  stroke: #d1d1d1;
+}
+
+.hover\:stroke-gray-300:hover {
+  stroke: #bababa;
+}
+
+.hover\:stroke-gray-400:hover {
+  stroke: #a1a1a1;
+}
+
+.hover\:stroke-gray-500:hover {
+  stroke: #757575;
+}
+
+.hover\:stroke-gray-800:hover {
+  stroke: #212425;
+}
+
+.hover\:stroke-red-100:hover {
+  stroke: #f38585;
+}
+
+.hover\:stroke-red-200:hover {
+  stroke: #f17070;
+}
+
+.hover\:stroke-red-300:hover {
+  stroke: #ef5c5c;
+}
+
+.hover\:stroke-red-400:hover {
+  stroke: #ed4747;
+}
+
+.hover\:stroke-red-500:hover {
+  stroke: #eb3333;
+}
+
+.hover\:stroke-red-600:hover {
+  stroke: #d42e2e;
+}
+
+.hover\:stroke-red-700:hover {
+  stroke: #bc2929;
+}
+
+.hover\:stroke-red-800:hover {
+  stroke: #a52424;
+}
+
+.hover\:stroke-red-900:hover {
+  stroke: #8d1f1f;
+}
+
+.hover\:stroke-orange-100:hover {
+  stroke: #fff6ec;
+}
+
+.hover\:stroke-orange-200:hover {
+  stroke: #eee0d4;
+}
+
+.hover\:stroke-orange-300:hover {
+  stroke: #f4a44b;
+}
+
+.hover\:stroke-orange-400:hover {
+  stroke: #fc9a22;
+}
+
+.hover\:stroke-orange-500:hover {
+  stroke: #f18d1e;
+}
+
+.hover\:stroke-orange-600:hover {
+  stroke: #d97f1b;
+}
+
+.hover\:stroke-orange-700:hover {
+  stroke: #c17118;
+}
+
+.hover\:stroke-orange-800:hover {
+  stroke: #a96315;
+}
+
+.hover\:stroke-orange-900:hover {
+  stroke: #915512;
+}
+
+.hover\:stroke-yellow-100:hover {
+  stroke: #fffff0;
+}
+
+.hover\:stroke-yellow-200:hover {
+  stroke: #fefcbf;
+}
+
+.hover\:stroke-yellow-300:hover {
+  stroke: #faf089;
+}
+
+.hover\:stroke-yellow-400:hover {
+  stroke: #f6e05e;
+}
+
+.hover\:stroke-yellow-500:hover {
+  stroke: #ffca13;
+}
+
+.hover\:stroke-yellow-600:hover {
+  stroke: #d69e2e;
+}
+
+.hover\:stroke-yellow-700:hover {
+  stroke: #b7791f;
+}
+
+.hover\:stroke-yellow-800:hover {
+  stroke: #975a16;
+}
+
+.hover\:stroke-yellow-900:hover {
+  stroke: #744210;
+}
+
+.hover\:stroke-green-100:hover {
+  stroke: #f0fff4;
+}
+
+.hover\:stroke-green-200:hover {
+  stroke: #c6f6d5;
+}
+
+.hover\:stroke-green-300:hover {
+  stroke: #9ae6b4;
+}
+
+.hover\:stroke-green-400:hover {
+  stroke: #68d391;
+}
+
+.hover\:stroke-green-500:hover {
+  stroke: #48bb78;
+}
+
+.hover\:stroke-green-600:hover {
+  stroke: #38a169;
+}
+
+.hover\:stroke-green-700:hover {
+  stroke: #2f855a;
+}
+
+.hover\:stroke-green-800:hover {
+  stroke: #276749;
+}
+
+.hover\:stroke-green-900:hover {
+  stroke: #22543d;
+}
+
+.hover\:stroke-teal-100:hover {
+  stroke: #e6fffa;
+}
+
+.hover\:stroke-teal-200:hover {
+  stroke: #b2f5ea;
+}
+
+.hover\:stroke-teal-300:hover {
+  stroke: #81e6d9;
+}
+
+.hover\:stroke-teal-400:hover {
+  stroke: #4fd1c5;
+}
+
+.hover\:stroke-teal-500:hover {
+  stroke: #38b2ac;
+}
+
+.hover\:stroke-teal-600:hover {
+  stroke: #319795;
+}
+
+.hover\:stroke-teal-700:hover {
+  stroke: #2c7a7b;
+}
+
+.hover\:stroke-teal-800:hover {
+  stroke: #285e61;
+}
+
+.hover\:stroke-teal-900:hover {
+  stroke: #234e52;
+}
+
+.hover\:stroke-blue-100:hover {
+  stroke: #edf6ff;
+}
+
+.hover\:stroke-blue-150:hover {
+  stroke: #e5f1fc;
+}
+
+.hover\:stroke-blue-200:hover {
+  stroke: #d0dde9;
+}
+
+.hover\:stroke-blue-250:hover {
+  stroke: #d7e4f1;
+}
+
+.hover\:stroke-blue-300:hover {
+  stroke: #9ab6cb;
+}
+
+.hover\:stroke-blue-400:hover {
+  stroke: #31658c;
+}
+
+.hover\:stroke-blue-500:hover {
+  stroke: #34495e;
+}
+
+.hover\:stroke-blue-600:hover {
+  stroke: #3a559f;
+}
+
+.hover\:stroke-indigo-100:hover {
+  stroke: #ebf4ff;
+}
+
+.hover\:stroke-indigo-200:hover {
+  stroke: #c3dafe;
+}
+
+.hover\:stroke-indigo-300:hover {
+  stroke: #a3bffa;
+}
+
+.hover\:stroke-indigo-400:hover {
+  stroke: #7f9cf5;
+}
+
+.hover\:stroke-indigo-500:hover {
+  stroke: #667eea;
+}
+
+.hover\:stroke-indigo-600:hover {
+  stroke: #5a67d8;
+}
+
+.hover\:stroke-indigo-700:hover {
+  stroke: #4c51bf;
+}
+
+.hover\:stroke-indigo-800:hover {
+  stroke: #434190;
+}
+
+.hover\:stroke-indigo-900:hover {
+  stroke: #3c366b;
+}
+
+.hover\:stroke-purple-100:hover {
+  stroke: #faf5ff;
+}
+
+.hover\:stroke-purple-200:hover {
+  stroke: #e9d8fd;
+}
+
+.hover\:stroke-purple-300:hover {
+  stroke: #d6bcfa;
+}
+
+.hover\:stroke-purple-400:hover {
+  stroke: #b794f4;
+}
+
+.hover\:stroke-purple-500:hover {
+  stroke: #9f7aea;
+}
+
+.hover\:stroke-purple-600:hover {
+  stroke: #805ad5;
+}
+
+.hover\:stroke-purple-700:hover {
+  stroke: #6b46c1;
+}
+
+.hover\:stroke-purple-800:hover {
+  stroke: #553c9a;
+}
+
+.hover\:stroke-purple-900:hover {
+  stroke: #44337a;
+}
+
+.hover\:stroke-pink-100:hover {
+  stroke: #fff5f7;
+}
+
+.hover\:stroke-pink-200:hover {
+  stroke: #fed7e2;
+}
+
+.hover\:stroke-pink-300:hover {
+  stroke: #fbb6ce;
+}
+
+.hover\:stroke-pink-400:hover {
+  stroke: #f687b3;
+}
+
+.hover\:stroke-pink-500:hover {
+  stroke: #ed64a6;
+}
+
+.hover\:stroke-pink-600:hover {
+  stroke: #d53f8c;
+}
+
+.hover\:stroke-pink-700:hover {
+  stroke: #b83280;
+}
+
+.hover\:stroke-pink-800:hover {
+  stroke: #97266d;
+}
+
+.hover\:stroke-pink-900:hover {
+  stroke: #702459;
+}
+
+.group:hover .group-hover\:stroke-transparent {
+  stroke: transparent;
+}
+
+.group:hover .group-hover\:stroke-current {
+  stroke: currentColor;
+}
+
+.group:hover .group-hover\:stroke-black {
+  stroke: #000;
+}
+
+.group:hover .group-hover\:stroke-white {
+  stroke: #fff;
+}
+
+.group:hover .group-hover\:stroke-gray-100 {
+  stroke: #e8e8e8;
+}
+
+.group:hover .group-hover\:stroke-gray-200 {
+  stroke: #d1d1d1;
+}
+
+.group:hover .group-hover\:stroke-gray-300 {
+  stroke: #bababa;
+}
+
+.group:hover .group-hover\:stroke-gray-400 {
+  stroke: #a1a1a1;
+}
+
+.group:hover .group-hover\:stroke-gray-500 {
+  stroke: #757575;
+}
+
+.group:hover .group-hover\:stroke-gray-800 {
+  stroke: #212425;
+}
+
+.group:hover .group-hover\:stroke-red-100 {
+  stroke: #f38585;
+}
+
+.group:hover .group-hover\:stroke-red-200 {
+  stroke: #f17070;
+}
+
+.group:hover .group-hover\:stroke-red-300 {
+  stroke: #ef5c5c;
+}
+
+.group:hover .group-hover\:stroke-red-400 {
+  stroke: #ed4747;
+}
+
+.group:hover .group-hover\:stroke-red-500 {
+  stroke: #eb3333;
+}
+
+.group:hover .group-hover\:stroke-red-600 {
+  stroke: #d42e2e;
+}
+
+.group:hover .group-hover\:stroke-red-700 {
+  stroke: #bc2929;
+}
+
+.group:hover .group-hover\:stroke-red-800 {
+  stroke: #a52424;
+}
+
+.group:hover .group-hover\:stroke-red-900 {
+  stroke: #8d1f1f;
+}
+
+.group:hover .group-hover\:stroke-orange-100 {
+  stroke: #fff6ec;
+}
+
+.group:hover .group-hover\:stroke-orange-200 {
+  stroke: #eee0d4;
+}
+
+.group:hover .group-hover\:stroke-orange-300 {
+  stroke: #f4a44b;
+}
+
+.group:hover .group-hover\:stroke-orange-400 {
+  stroke: #fc9a22;
+}
+
+.group:hover .group-hover\:stroke-orange-500 {
+  stroke: #f18d1e;
+}
+
+.group:hover .group-hover\:stroke-orange-600 {
+  stroke: #d97f1b;
+}
+
+.group:hover .group-hover\:stroke-orange-700 {
+  stroke: #c17118;
+}
+
+.group:hover .group-hover\:stroke-orange-800 {
+  stroke: #a96315;
+}
+
+.group:hover .group-hover\:stroke-orange-900 {
+  stroke: #915512;
+}
+
+.group:hover .group-hover\:stroke-yellow-100 {
+  stroke: #fffff0;
+}
+
+.group:hover .group-hover\:stroke-yellow-200 {
+  stroke: #fefcbf;
+}
+
+.group:hover .group-hover\:stroke-yellow-300 {
+  stroke: #faf089;
+}
+
+.group:hover .group-hover\:stroke-yellow-400 {
+  stroke: #f6e05e;
+}
+
+.group:hover .group-hover\:stroke-yellow-500 {
+  stroke: #ffca13;
+}
+
+.group:hover .group-hover\:stroke-yellow-600 {
+  stroke: #d69e2e;
+}
+
+.group:hover .group-hover\:stroke-yellow-700 {
+  stroke: #b7791f;
+}
+
+.group:hover .group-hover\:stroke-yellow-800 {
+  stroke: #975a16;
+}
+
+.group:hover .group-hover\:stroke-yellow-900 {
+  stroke: #744210;
+}
+
+.group:hover .group-hover\:stroke-green-100 {
+  stroke: #f0fff4;
+}
+
+.group:hover .group-hover\:stroke-green-200 {
+  stroke: #c6f6d5;
+}
+
+.group:hover .group-hover\:stroke-green-300 {
+  stroke: #9ae6b4;
+}
+
+.group:hover .group-hover\:stroke-green-400 {
+  stroke: #68d391;
+}
+
+.group:hover .group-hover\:stroke-green-500 {
+  stroke: #48bb78;
+}
+
+.group:hover .group-hover\:stroke-green-600 {
+  stroke: #38a169;
+}
+
+.group:hover .group-hover\:stroke-green-700 {
+  stroke: #2f855a;
+}
+
+.group:hover .group-hover\:stroke-green-800 {
+  stroke: #276749;
+}
+
+.group:hover .group-hover\:stroke-green-900 {
+  stroke: #22543d;
+}
+
+.group:hover .group-hover\:stroke-teal-100 {
+  stroke: #e6fffa;
+}
+
+.group:hover .group-hover\:stroke-teal-200 {
+  stroke: #b2f5ea;
+}
+
+.group:hover .group-hover\:stroke-teal-300 {
+  stroke: #81e6d9;
+}
+
+.group:hover .group-hover\:stroke-teal-400 {
+  stroke: #4fd1c5;
+}
+
+.group:hover .group-hover\:stroke-teal-500 {
+  stroke: #38b2ac;
+}
+
+.group:hover .group-hover\:stroke-teal-600 {
+  stroke: #319795;
+}
+
+.group:hover .group-hover\:stroke-teal-700 {
+  stroke: #2c7a7b;
+}
+
+.group:hover .group-hover\:stroke-teal-800 {
+  stroke: #285e61;
+}
+
+.group:hover .group-hover\:stroke-teal-900 {
+  stroke: #234e52;
+}
+
+.group:hover .group-hover\:stroke-blue-100 {
+  stroke: #edf6ff;
+}
+
+.group:hover .group-hover\:stroke-blue-150 {
+  stroke: #e5f1fc;
+}
+
+.group:hover .group-hover\:stroke-blue-200 {
+  stroke: #d0dde9;
+}
+
+.group:hover .group-hover\:stroke-blue-250 {
+  stroke: #d7e4f1;
+}
+
+.group:hover .group-hover\:stroke-blue-300 {
+  stroke: #9ab6cb;
+}
+
+.group:hover .group-hover\:stroke-blue-400 {
+  stroke: #31658c;
+}
+
+.group:hover .group-hover\:stroke-blue-500 {
+  stroke: #34495e;
+}
+
+.group:hover .group-hover\:stroke-blue-600 {
+  stroke: #3a559f;
+}
+
+.group:hover .group-hover\:stroke-indigo-100 {
+  stroke: #ebf4ff;
+}
+
+.group:hover .group-hover\:stroke-indigo-200 {
+  stroke: #c3dafe;
+}
+
+.group:hover .group-hover\:stroke-indigo-300 {
+  stroke: #a3bffa;
+}
+
+.group:hover .group-hover\:stroke-indigo-400 {
+  stroke: #7f9cf5;
+}
+
+.group:hover .group-hover\:stroke-indigo-500 {
+  stroke: #667eea;
+}
+
+.group:hover .group-hover\:stroke-indigo-600 {
+  stroke: #5a67d8;
+}
+
+.group:hover .group-hover\:stroke-indigo-700 {
+  stroke: #4c51bf;
+}
+
+.group:hover .group-hover\:stroke-indigo-800 {
+  stroke: #434190;
+}
+
+.group:hover .group-hover\:stroke-indigo-900 {
+  stroke: #3c366b;
+}
+
+.group:hover .group-hover\:stroke-purple-100 {
+  stroke: #faf5ff;
+}
+
+.group:hover .group-hover\:stroke-purple-200 {
+  stroke: #e9d8fd;
+}
+
+.group:hover .group-hover\:stroke-purple-300 {
+  stroke: #d6bcfa;
+}
+
+.group:hover .group-hover\:stroke-purple-400 {
+  stroke: #b794f4;
+}
+
+.group:hover .group-hover\:stroke-purple-500 {
+  stroke: #9f7aea;
+}
+
+.group:hover .group-hover\:stroke-purple-600 {
+  stroke: #805ad5;
+}
+
+.group:hover .group-hover\:stroke-purple-700 {
+  stroke: #6b46c1;
+}
+
+.group:hover .group-hover\:stroke-purple-800 {
+  stroke: #553c9a;
+}
+
+.group:hover .group-hover\:stroke-purple-900 {
+  stroke: #44337a;
+}
+
+.group:hover .group-hover\:stroke-pink-100 {
+  stroke: #fff5f7;
+}
+
+.group:hover .group-hover\:stroke-pink-200 {
+  stroke: #fed7e2;
+}
+
+.group:hover .group-hover\:stroke-pink-300 {
+  stroke: #fbb6ce;
+}
+
+.group:hover .group-hover\:stroke-pink-400 {
+  stroke: #f687b3;
+}
+
+.group:hover .group-hover\:stroke-pink-500 {
+  stroke: #ed64a6;
+}
+
+.group:hover .group-hover\:stroke-pink-600 {
+  stroke: #d53f8c;
+}
+
+.group:hover .group-hover\:stroke-pink-700 {
+  stroke: #b83280;
+}
+
+.group:hover .group-hover\:stroke-pink-800 {
+  stroke: #97266d;
+}
+
+.group:hover .group-hover\:stroke-pink-900 {
+  stroke: #702459;
 }
 
 .stroke-0 {
@@ -35525,6 +36617,10 @@ video {
     list-style-type: disc;
   }
 
+  .sm\:list-circle {
+    list-style-type: circle;
+  }
+
   .sm\:list-decimal {
     list-style-type: decimal;
   }
@@ -40062,6 +41158,10 @@ video {
     fill: #34495e;
   }
 
+  .sm\:fill-blue-600 {
+    fill: #3a559f;
+  }
+
   .sm\:fill-indigo-100 {
     fill: #ebf4ff;
   }
@@ -40416,6 +41516,10 @@ video {
 
   .sm\:hover\:fill-blue-500:hover {
     fill: #34495e;
+  }
+
+  .sm\:hover\:fill-blue-600:hover {
+    fill: #3a559f;
   }
 
   .sm\:hover\:fill-indigo-100:hover {
@@ -40774,6 +41878,10 @@ video {
     fill: #34495e;
   }
 
+  .group:hover .sm\:group-hover\:fill-blue-600 {
+    fill: #3a559f;
+  }
+
   .group:hover .sm\:group-hover\:fill-indigo-100 {
     fill: #ebf4ff;
   }
@@ -40882,8 +41990,1084 @@ video {
     fill: #702459;
   }
 
+  .sm\:stroke-transparent {
+    stroke: transparent;
+  }
+
   .sm\:stroke-current {
     stroke: currentColor;
+  }
+
+  .sm\:stroke-black {
+    stroke: #000;
+  }
+
+  .sm\:stroke-white {
+    stroke: #fff;
+  }
+
+  .sm\:stroke-gray-100 {
+    stroke: #e8e8e8;
+  }
+
+  .sm\:stroke-gray-200 {
+    stroke: #d1d1d1;
+  }
+
+  .sm\:stroke-gray-300 {
+    stroke: #bababa;
+  }
+
+  .sm\:stroke-gray-400 {
+    stroke: #a1a1a1;
+  }
+
+  .sm\:stroke-gray-500 {
+    stroke: #757575;
+  }
+
+  .sm\:stroke-gray-800 {
+    stroke: #212425;
+  }
+
+  .sm\:stroke-red-100 {
+    stroke: #f38585;
+  }
+
+  .sm\:stroke-red-200 {
+    stroke: #f17070;
+  }
+
+  .sm\:stroke-red-300 {
+    stroke: #ef5c5c;
+  }
+
+  .sm\:stroke-red-400 {
+    stroke: #ed4747;
+  }
+
+  .sm\:stroke-red-500 {
+    stroke: #eb3333;
+  }
+
+  .sm\:stroke-red-600 {
+    stroke: #d42e2e;
+  }
+
+  .sm\:stroke-red-700 {
+    stroke: #bc2929;
+  }
+
+  .sm\:stroke-red-800 {
+    stroke: #a52424;
+  }
+
+  .sm\:stroke-red-900 {
+    stroke: #8d1f1f;
+  }
+
+  .sm\:stroke-orange-100 {
+    stroke: #fff6ec;
+  }
+
+  .sm\:stroke-orange-200 {
+    stroke: #eee0d4;
+  }
+
+  .sm\:stroke-orange-300 {
+    stroke: #f4a44b;
+  }
+
+  .sm\:stroke-orange-400 {
+    stroke: #fc9a22;
+  }
+
+  .sm\:stroke-orange-500 {
+    stroke: #f18d1e;
+  }
+
+  .sm\:stroke-orange-600 {
+    stroke: #d97f1b;
+  }
+
+  .sm\:stroke-orange-700 {
+    stroke: #c17118;
+  }
+
+  .sm\:stroke-orange-800 {
+    stroke: #a96315;
+  }
+
+  .sm\:stroke-orange-900 {
+    stroke: #915512;
+  }
+
+  .sm\:stroke-yellow-100 {
+    stroke: #fffff0;
+  }
+
+  .sm\:stroke-yellow-200 {
+    stroke: #fefcbf;
+  }
+
+  .sm\:stroke-yellow-300 {
+    stroke: #faf089;
+  }
+
+  .sm\:stroke-yellow-400 {
+    stroke: #f6e05e;
+  }
+
+  .sm\:stroke-yellow-500 {
+    stroke: #ffca13;
+  }
+
+  .sm\:stroke-yellow-600 {
+    stroke: #d69e2e;
+  }
+
+  .sm\:stroke-yellow-700 {
+    stroke: #b7791f;
+  }
+
+  .sm\:stroke-yellow-800 {
+    stroke: #975a16;
+  }
+
+  .sm\:stroke-yellow-900 {
+    stroke: #744210;
+  }
+
+  .sm\:stroke-green-100 {
+    stroke: #f0fff4;
+  }
+
+  .sm\:stroke-green-200 {
+    stroke: #c6f6d5;
+  }
+
+  .sm\:stroke-green-300 {
+    stroke: #9ae6b4;
+  }
+
+  .sm\:stroke-green-400 {
+    stroke: #68d391;
+  }
+
+  .sm\:stroke-green-500 {
+    stroke: #48bb78;
+  }
+
+  .sm\:stroke-green-600 {
+    stroke: #38a169;
+  }
+
+  .sm\:stroke-green-700 {
+    stroke: #2f855a;
+  }
+
+  .sm\:stroke-green-800 {
+    stroke: #276749;
+  }
+
+  .sm\:stroke-green-900 {
+    stroke: #22543d;
+  }
+
+  .sm\:stroke-teal-100 {
+    stroke: #e6fffa;
+  }
+
+  .sm\:stroke-teal-200 {
+    stroke: #b2f5ea;
+  }
+
+  .sm\:stroke-teal-300 {
+    stroke: #81e6d9;
+  }
+
+  .sm\:stroke-teal-400 {
+    stroke: #4fd1c5;
+  }
+
+  .sm\:stroke-teal-500 {
+    stroke: #38b2ac;
+  }
+
+  .sm\:stroke-teal-600 {
+    stroke: #319795;
+  }
+
+  .sm\:stroke-teal-700 {
+    stroke: #2c7a7b;
+  }
+
+  .sm\:stroke-teal-800 {
+    stroke: #285e61;
+  }
+
+  .sm\:stroke-teal-900 {
+    stroke: #234e52;
+  }
+
+  .sm\:stroke-blue-100 {
+    stroke: #edf6ff;
+  }
+
+  .sm\:stroke-blue-150 {
+    stroke: #e5f1fc;
+  }
+
+  .sm\:stroke-blue-200 {
+    stroke: #d0dde9;
+  }
+
+  .sm\:stroke-blue-250 {
+    stroke: #d7e4f1;
+  }
+
+  .sm\:stroke-blue-300 {
+    stroke: #9ab6cb;
+  }
+
+  .sm\:stroke-blue-400 {
+    stroke: #31658c;
+  }
+
+  .sm\:stroke-blue-500 {
+    stroke: #34495e;
+  }
+
+  .sm\:stroke-blue-600 {
+    stroke: #3a559f;
+  }
+
+  .sm\:stroke-indigo-100 {
+    stroke: #ebf4ff;
+  }
+
+  .sm\:stroke-indigo-200 {
+    stroke: #c3dafe;
+  }
+
+  .sm\:stroke-indigo-300 {
+    stroke: #a3bffa;
+  }
+
+  .sm\:stroke-indigo-400 {
+    stroke: #7f9cf5;
+  }
+
+  .sm\:stroke-indigo-500 {
+    stroke: #667eea;
+  }
+
+  .sm\:stroke-indigo-600 {
+    stroke: #5a67d8;
+  }
+
+  .sm\:stroke-indigo-700 {
+    stroke: #4c51bf;
+  }
+
+  .sm\:stroke-indigo-800 {
+    stroke: #434190;
+  }
+
+  .sm\:stroke-indigo-900 {
+    stroke: #3c366b;
+  }
+
+  .sm\:stroke-purple-100 {
+    stroke: #faf5ff;
+  }
+
+  .sm\:stroke-purple-200 {
+    stroke: #e9d8fd;
+  }
+
+  .sm\:stroke-purple-300 {
+    stroke: #d6bcfa;
+  }
+
+  .sm\:stroke-purple-400 {
+    stroke: #b794f4;
+  }
+
+  .sm\:stroke-purple-500 {
+    stroke: #9f7aea;
+  }
+
+  .sm\:stroke-purple-600 {
+    stroke: #805ad5;
+  }
+
+  .sm\:stroke-purple-700 {
+    stroke: #6b46c1;
+  }
+
+  .sm\:stroke-purple-800 {
+    stroke: #553c9a;
+  }
+
+  .sm\:stroke-purple-900 {
+    stroke: #44337a;
+  }
+
+  .sm\:stroke-pink-100 {
+    stroke: #fff5f7;
+  }
+
+  .sm\:stroke-pink-200 {
+    stroke: #fed7e2;
+  }
+
+  .sm\:stroke-pink-300 {
+    stroke: #fbb6ce;
+  }
+
+  .sm\:stroke-pink-400 {
+    stroke: #f687b3;
+  }
+
+  .sm\:stroke-pink-500 {
+    stroke: #ed64a6;
+  }
+
+  .sm\:stroke-pink-600 {
+    stroke: #d53f8c;
+  }
+
+  .sm\:stroke-pink-700 {
+    stroke: #b83280;
+  }
+
+  .sm\:stroke-pink-800 {
+    stroke: #97266d;
+  }
+
+  .sm\:stroke-pink-900 {
+    stroke: #702459;
+  }
+
+  .sm\:hover\:stroke-transparent:hover {
+    stroke: transparent;
+  }
+
+  .sm\:hover\:stroke-current:hover {
+    stroke: currentColor;
+  }
+
+  .sm\:hover\:stroke-black:hover {
+    stroke: #000;
+  }
+
+  .sm\:hover\:stroke-white:hover {
+    stroke: #fff;
+  }
+
+  .sm\:hover\:stroke-gray-100:hover {
+    stroke: #e8e8e8;
+  }
+
+  .sm\:hover\:stroke-gray-200:hover {
+    stroke: #d1d1d1;
+  }
+
+  .sm\:hover\:stroke-gray-300:hover {
+    stroke: #bababa;
+  }
+
+  .sm\:hover\:stroke-gray-400:hover {
+    stroke: #a1a1a1;
+  }
+
+  .sm\:hover\:stroke-gray-500:hover {
+    stroke: #757575;
+  }
+
+  .sm\:hover\:stroke-gray-800:hover {
+    stroke: #212425;
+  }
+
+  .sm\:hover\:stroke-red-100:hover {
+    stroke: #f38585;
+  }
+
+  .sm\:hover\:stroke-red-200:hover {
+    stroke: #f17070;
+  }
+
+  .sm\:hover\:stroke-red-300:hover {
+    stroke: #ef5c5c;
+  }
+
+  .sm\:hover\:stroke-red-400:hover {
+    stroke: #ed4747;
+  }
+
+  .sm\:hover\:stroke-red-500:hover {
+    stroke: #eb3333;
+  }
+
+  .sm\:hover\:stroke-red-600:hover {
+    stroke: #d42e2e;
+  }
+
+  .sm\:hover\:stroke-red-700:hover {
+    stroke: #bc2929;
+  }
+
+  .sm\:hover\:stroke-red-800:hover {
+    stroke: #a52424;
+  }
+
+  .sm\:hover\:stroke-red-900:hover {
+    stroke: #8d1f1f;
+  }
+
+  .sm\:hover\:stroke-orange-100:hover {
+    stroke: #fff6ec;
+  }
+
+  .sm\:hover\:stroke-orange-200:hover {
+    stroke: #eee0d4;
+  }
+
+  .sm\:hover\:stroke-orange-300:hover {
+    stroke: #f4a44b;
+  }
+
+  .sm\:hover\:stroke-orange-400:hover {
+    stroke: #fc9a22;
+  }
+
+  .sm\:hover\:stroke-orange-500:hover {
+    stroke: #f18d1e;
+  }
+
+  .sm\:hover\:stroke-orange-600:hover {
+    stroke: #d97f1b;
+  }
+
+  .sm\:hover\:stroke-orange-700:hover {
+    stroke: #c17118;
+  }
+
+  .sm\:hover\:stroke-orange-800:hover {
+    stroke: #a96315;
+  }
+
+  .sm\:hover\:stroke-orange-900:hover {
+    stroke: #915512;
+  }
+
+  .sm\:hover\:stroke-yellow-100:hover {
+    stroke: #fffff0;
+  }
+
+  .sm\:hover\:stroke-yellow-200:hover {
+    stroke: #fefcbf;
+  }
+
+  .sm\:hover\:stroke-yellow-300:hover {
+    stroke: #faf089;
+  }
+
+  .sm\:hover\:stroke-yellow-400:hover {
+    stroke: #f6e05e;
+  }
+
+  .sm\:hover\:stroke-yellow-500:hover {
+    stroke: #ffca13;
+  }
+
+  .sm\:hover\:stroke-yellow-600:hover {
+    stroke: #d69e2e;
+  }
+
+  .sm\:hover\:stroke-yellow-700:hover {
+    stroke: #b7791f;
+  }
+
+  .sm\:hover\:stroke-yellow-800:hover {
+    stroke: #975a16;
+  }
+
+  .sm\:hover\:stroke-yellow-900:hover {
+    stroke: #744210;
+  }
+
+  .sm\:hover\:stroke-green-100:hover {
+    stroke: #f0fff4;
+  }
+
+  .sm\:hover\:stroke-green-200:hover {
+    stroke: #c6f6d5;
+  }
+
+  .sm\:hover\:stroke-green-300:hover {
+    stroke: #9ae6b4;
+  }
+
+  .sm\:hover\:stroke-green-400:hover {
+    stroke: #68d391;
+  }
+
+  .sm\:hover\:stroke-green-500:hover {
+    stroke: #48bb78;
+  }
+
+  .sm\:hover\:stroke-green-600:hover {
+    stroke: #38a169;
+  }
+
+  .sm\:hover\:stroke-green-700:hover {
+    stroke: #2f855a;
+  }
+
+  .sm\:hover\:stroke-green-800:hover {
+    stroke: #276749;
+  }
+
+  .sm\:hover\:stroke-green-900:hover {
+    stroke: #22543d;
+  }
+
+  .sm\:hover\:stroke-teal-100:hover {
+    stroke: #e6fffa;
+  }
+
+  .sm\:hover\:stroke-teal-200:hover {
+    stroke: #b2f5ea;
+  }
+
+  .sm\:hover\:stroke-teal-300:hover {
+    stroke: #81e6d9;
+  }
+
+  .sm\:hover\:stroke-teal-400:hover {
+    stroke: #4fd1c5;
+  }
+
+  .sm\:hover\:stroke-teal-500:hover {
+    stroke: #38b2ac;
+  }
+
+  .sm\:hover\:stroke-teal-600:hover {
+    stroke: #319795;
+  }
+
+  .sm\:hover\:stroke-teal-700:hover {
+    stroke: #2c7a7b;
+  }
+
+  .sm\:hover\:stroke-teal-800:hover {
+    stroke: #285e61;
+  }
+
+  .sm\:hover\:stroke-teal-900:hover {
+    stroke: #234e52;
+  }
+
+  .sm\:hover\:stroke-blue-100:hover {
+    stroke: #edf6ff;
+  }
+
+  .sm\:hover\:stroke-blue-150:hover {
+    stroke: #e5f1fc;
+  }
+
+  .sm\:hover\:stroke-blue-200:hover {
+    stroke: #d0dde9;
+  }
+
+  .sm\:hover\:stroke-blue-250:hover {
+    stroke: #d7e4f1;
+  }
+
+  .sm\:hover\:stroke-blue-300:hover {
+    stroke: #9ab6cb;
+  }
+
+  .sm\:hover\:stroke-blue-400:hover {
+    stroke: #31658c;
+  }
+
+  .sm\:hover\:stroke-blue-500:hover {
+    stroke: #34495e;
+  }
+
+  .sm\:hover\:stroke-blue-600:hover {
+    stroke: #3a559f;
+  }
+
+  .sm\:hover\:stroke-indigo-100:hover {
+    stroke: #ebf4ff;
+  }
+
+  .sm\:hover\:stroke-indigo-200:hover {
+    stroke: #c3dafe;
+  }
+
+  .sm\:hover\:stroke-indigo-300:hover {
+    stroke: #a3bffa;
+  }
+
+  .sm\:hover\:stroke-indigo-400:hover {
+    stroke: #7f9cf5;
+  }
+
+  .sm\:hover\:stroke-indigo-500:hover {
+    stroke: #667eea;
+  }
+
+  .sm\:hover\:stroke-indigo-600:hover {
+    stroke: #5a67d8;
+  }
+
+  .sm\:hover\:stroke-indigo-700:hover {
+    stroke: #4c51bf;
+  }
+
+  .sm\:hover\:stroke-indigo-800:hover {
+    stroke: #434190;
+  }
+
+  .sm\:hover\:stroke-indigo-900:hover {
+    stroke: #3c366b;
+  }
+
+  .sm\:hover\:stroke-purple-100:hover {
+    stroke: #faf5ff;
+  }
+
+  .sm\:hover\:stroke-purple-200:hover {
+    stroke: #e9d8fd;
+  }
+
+  .sm\:hover\:stroke-purple-300:hover {
+    stroke: #d6bcfa;
+  }
+
+  .sm\:hover\:stroke-purple-400:hover {
+    stroke: #b794f4;
+  }
+
+  .sm\:hover\:stroke-purple-500:hover {
+    stroke: #9f7aea;
+  }
+
+  .sm\:hover\:stroke-purple-600:hover {
+    stroke: #805ad5;
+  }
+
+  .sm\:hover\:stroke-purple-700:hover {
+    stroke: #6b46c1;
+  }
+
+  .sm\:hover\:stroke-purple-800:hover {
+    stroke: #553c9a;
+  }
+
+  .sm\:hover\:stroke-purple-900:hover {
+    stroke: #44337a;
+  }
+
+  .sm\:hover\:stroke-pink-100:hover {
+    stroke: #fff5f7;
+  }
+
+  .sm\:hover\:stroke-pink-200:hover {
+    stroke: #fed7e2;
+  }
+
+  .sm\:hover\:stroke-pink-300:hover {
+    stroke: #fbb6ce;
+  }
+
+  .sm\:hover\:stroke-pink-400:hover {
+    stroke: #f687b3;
+  }
+
+  .sm\:hover\:stroke-pink-500:hover {
+    stroke: #ed64a6;
+  }
+
+  .sm\:hover\:stroke-pink-600:hover {
+    stroke: #d53f8c;
+  }
+
+  .sm\:hover\:stroke-pink-700:hover {
+    stroke: #b83280;
+  }
+
+  .sm\:hover\:stroke-pink-800:hover {
+    stroke: #97266d;
+  }
+
+  .sm\:hover\:stroke-pink-900:hover {
+    stroke: #702459;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-transparent {
+    stroke: transparent;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-black {
+    stroke: #000;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-white {
+    stroke: #fff;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-gray-100 {
+    stroke: #e8e8e8;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-gray-200 {
+    stroke: #d1d1d1;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-gray-300 {
+    stroke: #bababa;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-gray-400 {
+    stroke: #a1a1a1;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-gray-500 {
+    stroke: #757575;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-gray-800 {
+    stroke: #212425;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-100 {
+    stroke: #f38585;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-200 {
+    stroke: #f17070;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-300 {
+    stroke: #ef5c5c;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-400 {
+    stroke: #ed4747;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-500 {
+    stroke: #eb3333;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-600 {
+    stroke: #d42e2e;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-700 {
+    stroke: #bc2929;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-800 {
+    stroke: #a52424;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-red-900 {
+    stroke: #8d1f1f;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-100 {
+    stroke: #fff6ec;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-200 {
+    stroke: #eee0d4;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-300 {
+    stroke: #f4a44b;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-400 {
+    stroke: #fc9a22;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-500 {
+    stroke: #f18d1e;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-600 {
+    stroke: #d97f1b;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-700 {
+    stroke: #c17118;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-800 {
+    stroke: #a96315;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-orange-900 {
+    stroke: #915512;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-100 {
+    stroke: #fffff0;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-200 {
+    stroke: #fefcbf;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-300 {
+    stroke: #faf089;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-400 {
+    stroke: #f6e05e;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-500 {
+    stroke: #ffca13;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-600 {
+    stroke: #d69e2e;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-700 {
+    stroke: #b7791f;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-800 {
+    stroke: #975a16;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-yellow-900 {
+    stroke: #744210;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-100 {
+    stroke: #f0fff4;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-200 {
+    stroke: #c6f6d5;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-300 {
+    stroke: #9ae6b4;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-400 {
+    stroke: #68d391;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-500 {
+    stroke: #48bb78;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-600 {
+    stroke: #38a169;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-700 {
+    stroke: #2f855a;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-800 {
+    stroke: #276749;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-green-900 {
+    stroke: #22543d;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-100 {
+    stroke: #e6fffa;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-200 {
+    stroke: #b2f5ea;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-300 {
+    stroke: #81e6d9;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-400 {
+    stroke: #4fd1c5;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-500 {
+    stroke: #38b2ac;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-600 {
+    stroke: #319795;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-700 {
+    stroke: #2c7a7b;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-800 {
+    stroke: #285e61;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-teal-900 {
+    stroke: #234e52;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-100 {
+    stroke: #edf6ff;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-150 {
+    stroke: #e5f1fc;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-200 {
+    stroke: #d0dde9;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-250 {
+    stroke: #d7e4f1;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-300 {
+    stroke: #9ab6cb;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-400 {
+    stroke: #31658c;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-500 {
+    stroke: #34495e;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-600 {
+    stroke: #3a559f;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-100 {
+    stroke: #ebf4ff;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-200 {
+    stroke: #c3dafe;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-300 {
+    stroke: #a3bffa;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-400 {
+    stroke: #7f9cf5;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-500 {
+    stroke: #667eea;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-600 {
+    stroke: #5a67d8;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-700 {
+    stroke: #4c51bf;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-800 {
+    stroke: #434190;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-indigo-900 {
+    stroke: #3c366b;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-100 {
+    stroke: #faf5ff;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-200 {
+    stroke: #e9d8fd;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-300 {
+    stroke: #d6bcfa;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-400 {
+    stroke: #b794f4;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-500 {
+    stroke: #9f7aea;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-600 {
+    stroke: #805ad5;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-700 {
+    stroke: #6b46c1;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-800 {
+    stroke: #553c9a;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-purple-900 {
+    stroke: #44337a;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-100 {
+    stroke: #fff5f7;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-200 {
+    stroke: #fed7e2;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-300 {
+    stroke: #fbb6ce;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-400 {
+    stroke: #f687b3;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-500 {
+    stroke: #ed64a6;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-600 {
+    stroke: #d53f8c;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-700 {
+    stroke: #b83280;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-800 {
+    stroke: #97266d;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-pink-900 {
+    stroke: #702459;
   }
 
   .sm\:stroke-0 {
@@ -58673,6 +60857,10 @@ video {
     list-style-type: disc;
   }
 
+  .md\:list-circle {
+    list-style-type: circle;
+  }
+
   .md\:list-decimal {
     list-style-type: decimal;
   }
@@ -63210,6 +65398,10 @@ video {
     fill: #34495e;
   }
 
+  .md\:fill-blue-600 {
+    fill: #3a559f;
+  }
+
   .md\:fill-indigo-100 {
     fill: #ebf4ff;
   }
@@ -63564,6 +65756,10 @@ video {
 
   .md\:hover\:fill-blue-500:hover {
     fill: #34495e;
+  }
+
+  .md\:hover\:fill-blue-600:hover {
+    fill: #3a559f;
   }
 
   .md\:hover\:fill-indigo-100:hover {
@@ -63922,6 +66118,10 @@ video {
     fill: #34495e;
   }
 
+  .group:hover .md\:group-hover\:fill-blue-600 {
+    fill: #3a559f;
+  }
+
   .group:hover .md\:group-hover\:fill-indigo-100 {
     fill: #ebf4ff;
   }
@@ -64030,8 +66230,1084 @@ video {
     fill: #702459;
   }
 
+  .md\:stroke-transparent {
+    stroke: transparent;
+  }
+
   .md\:stroke-current {
     stroke: currentColor;
+  }
+
+  .md\:stroke-black {
+    stroke: #000;
+  }
+
+  .md\:stroke-white {
+    stroke: #fff;
+  }
+
+  .md\:stroke-gray-100 {
+    stroke: #e8e8e8;
+  }
+
+  .md\:stroke-gray-200 {
+    stroke: #d1d1d1;
+  }
+
+  .md\:stroke-gray-300 {
+    stroke: #bababa;
+  }
+
+  .md\:stroke-gray-400 {
+    stroke: #a1a1a1;
+  }
+
+  .md\:stroke-gray-500 {
+    stroke: #757575;
+  }
+
+  .md\:stroke-gray-800 {
+    stroke: #212425;
+  }
+
+  .md\:stroke-red-100 {
+    stroke: #f38585;
+  }
+
+  .md\:stroke-red-200 {
+    stroke: #f17070;
+  }
+
+  .md\:stroke-red-300 {
+    stroke: #ef5c5c;
+  }
+
+  .md\:stroke-red-400 {
+    stroke: #ed4747;
+  }
+
+  .md\:stroke-red-500 {
+    stroke: #eb3333;
+  }
+
+  .md\:stroke-red-600 {
+    stroke: #d42e2e;
+  }
+
+  .md\:stroke-red-700 {
+    stroke: #bc2929;
+  }
+
+  .md\:stroke-red-800 {
+    stroke: #a52424;
+  }
+
+  .md\:stroke-red-900 {
+    stroke: #8d1f1f;
+  }
+
+  .md\:stroke-orange-100 {
+    stroke: #fff6ec;
+  }
+
+  .md\:stroke-orange-200 {
+    stroke: #eee0d4;
+  }
+
+  .md\:stroke-orange-300 {
+    stroke: #f4a44b;
+  }
+
+  .md\:stroke-orange-400 {
+    stroke: #fc9a22;
+  }
+
+  .md\:stroke-orange-500 {
+    stroke: #f18d1e;
+  }
+
+  .md\:stroke-orange-600 {
+    stroke: #d97f1b;
+  }
+
+  .md\:stroke-orange-700 {
+    stroke: #c17118;
+  }
+
+  .md\:stroke-orange-800 {
+    stroke: #a96315;
+  }
+
+  .md\:stroke-orange-900 {
+    stroke: #915512;
+  }
+
+  .md\:stroke-yellow-100 {
+    stroke: #fffff0;
+  }
+
+  .md\:stroke-yellow-200 {
+    stroke: #fefcbf;
+  }
+
+  .md\:stroke-yellow-300 {
+    stroke: #faf089;
+  }
+
+  .md\:stroke-yellow-400 {
+    stroke: #f6e05e;
+  }
+
+  .md\:stroke-yellow-500 {
+    stroke: #ffca13;
+  }
+
+  .md\:stroke-yellow-600 {
+    stroke: #d69e2e;
+  }
+
+  .md\:stroke-yellow-700 {
+    stroke: #b7791f;
+  }
+
+  .md\:stroke-yellow-800 {
+    stroke: #975a16;
+  }
+
+  .md\:stroke-yellow-900 {
+    stroke: #744210;
+  }
+
+  .md\:stroke-green-100 {
+    stroke: #f0fff4;
+  }
+
+  .md\:stroke-green-200 {
+    stroke: #c6f6d5;
+  }
+
+  .md\:stroke-green-300 {
+    stroke: #9ae6b4;
+  }
+
+  .md\:stroke-green-400 {
+    stroke: #68d391;
+  }
+
+  .md\:stroke-green-500 {
+    stroke: #48bb78;
+  }
+
+  .md\:stroke-green-600 {
+    stroke: #38a169;
+  }
+
+  .md\:stroke-green-700 {
+    stroke: #2f855a;
+  }
+
+  .md\:stroke-green-800 {
+    stroke: #276749;
+  }
+
+  .md\:stroke-green-900 {
+    stroke: #22543d;
+  }
+
+  .md\:stroke-teal-100 {
+    stroke: #e6fffa;
+  }
+
+  .md\:stroke-teal-200 {
+    stroke: #b2f5ea;
+  }
+
+  .md\:stroke-teal-300 {
+    stroke: #81e6d9;
+  }
+
+  .md\:stroke-teal-400 {
+    stroke: #4fd1c5;
+  }
+
+  .md\:stroke-teal-500 {
+    stroke: #38b2ac;
+  }
+
+  .md\:stroke-teal-600 {
+    stroke: #319795;
+  }
+
+  .md\:stroke-teal-700 {
+    stroke: #2c7a7b;
+  }
+
+  .md\:stroke-teal-800 {
+    stroke: #285e61;
+  }
+
+  .md\:stroke-teal-900 {
+    stroke: #234e52;
+  }
+
+  .md\:stroke-blue-100 {
+    stroke: #edf6ff;
+  }
+
+  .md\:stroke-blue-150 {
+    stroke: #e5f1fc;
+  }
+
+  .md\:stroke-blue-200 {
+    stroke: #d0dde9;
+  }
+
+  .md\:stroke-blue-250 {
+    stroke: #d7e4f1;
+  }
+
+  .md\:stroke-blue-300 {
+    stroke: #9ab6cb;
+  }
+
+  .md\:stroke-blue-400 {
+    stroke: #31658c;
+  }
+
+  .md\:stroke-blue-500 {
+    stroke: #34495e;
+  }
+
+  .md\:stroke-blue-600 {
+    stroke: #3a559f;
+  }
+
+  .md\:stroke-indigo-100 {
+    stroke: #ebf4ff;
+  }
+
+  .md\:stroke-indigo-200 {
+    stroke: #c3dafe;
+  }
+
+  .md\:stroke-indigo-300 {
+    stroke: #a3bffa;
+  }
+
+  .md\:stroke-indigo-400 {
+    stroke: #7f9cf5;
+  }
+
+  .md\:stroke-indigo-500 {
+    stroke: #667eea;
+  }
+
+  .md\:stroke-indigo-600 {
+    stroke: #5a67d8;
+  }
+
+  .md\:stroke-indigo-700 {
+    stroke: #4c51bf;
+  }
+
+  .md\:stroke-indigo-800 {
+    stroke: #434190;
+  }
+
+  .md\:stroke-indigo-900 {
+    stroke: #3c366b;
+  }
+
+  .md\:stroke-purple-100 {
+    stroke: #faf5ff;
+  }
+
+  .md\:stroke-purple-200 {
+    stroke: #e9d8fd;
+  }
+
+  .md\:stroke-purple-300 {
+    stroke: #d6bcfa;
+  }
+
+  .md\:stroke-purple-400 {
+    stroke: #b794f4;
+  }
+
+  .md\:stroke-purple-500 {
+    stroke: #9f7aea;
+  }
+
+  .md\:stroke-purple-600 {
+    stroke: #805ad5;
+  }
+
+  .md\:stroke-purple-700 {
+    stroke: #6b46c1;
+  }
+
+  .md\:stroke-purple-800 {
+    stroke: #553c9a;
+  }
+
+  .md\:stroke-purple-900 {
+    stroke: #44337a;
+  }
+
+  .md\:stroke-pink-100 {
+    stroke: #fff5f7;
+  }
+
+  .md\:stroke-pink-200 {
+    stroke: #fed7e2;
+  }
+
+  .md\:stroke-pink-300 {
+    stroke: #fbb6ce;
+  }
+
+  .md\:stroke-pink-400 {
+    stroke: #f687b3;
+  }
+
+  .md\:stroke-pink-500 {
+    stroke: #ed64a6;
+  }
+
+  .md\:stroke-pink-600 {
+    stroke: #d53f8c;
+  }
+
+  .md\:stroke-pink-700 {
+    stroke: #b83280;
+  }
+
+  .md\:stroke-pink-800 {
+    stroke: #97266d;
+  }
+
+  .md\:stroke-pink-900 {
+    stroke: #702459;
+  }
+
+  .md\:hover\:stroke-transparent:hover {
+    stroke: transparent;
+  }
+
+  .md\:hover\:stroke-current:hover {
+    stroke: currentColor;
+  }
+
+  .md\:hover\:stroke-black:hover {
+    stroke: #000;
+  }
+
+  .md\:hover\:stroke-white:hover {
+    stroke: #fff;
+  }
+
+  .md\:hover\:stroke-gray-100:hover {
+    stroke: #e8e8e8;
+  }
+
+  .md\:hover\:stroke-gray-200:hover {
+    stroke: #d1d1d1;
+  }
+
+  .md\:hover\:stroke-gray-300:hover {
+    stroke: #bababa;
+  }
+
+  .md\:hover\:stroke-gray-400:hover {
+    stroke: #a1a1a1;
+  }
+
+  .md\:hover\:stroke-gray-500:hover {
+    stroke: #757575;
+  }
+
+  .md\:hover\:stroke-gray-800:hover {
+    stroke: #212425;
+  }
+
+  .md\:hover\:stroke-red-100:hover {
+    stroke: #f38585;
+  }
+
+  .md\:hover\:stroke-red-200:hover {
+    stroke: #f17070;
+  }
+
+  .md\:hover\:stroke-red-300:hover {
+    stroke: #ef5c5c;
+  }
+
+  .md\:hover\:stroke-red-400:hover {
+    stroke: #ed4747;
+  }
+
+  .md\:hover\:stroke-red-500:hover {
+    stroke: #eb3333;
+  }
+
+  .md\:hover\:stroke-red-600:hover {
+    stroke: #d42e2e;
+  }
+
+  .md\:hover\:stroke-red-700:hover {
+    stroke: #bc2929;
+  }
+
+  .md\:hover\:stroke-red-800:hover {
+    stroke: #a52424;
+  }
+
+  .md\:hover\:stroke-red-900:hover {
+    stroke: #8d1f1f;
+  }
+
+  .md\:hover\:stroke-orange-100:hover {
+    stroke: #fff6ec;
+  }
+
+  .md\:hover\:stroke-orange-200:hover {
+    stroke: #eee0d4;
+  }
+
+  .md\:hover\:stroke-orange-300:hover {
+    stroke: #f4a44b;
+  }
+
+  .md\:hover\:stroke-orange-400:hover {
+    stroke: #fc9a22;
+  }
+
+  .md\:hover\:stroke-orange-500:hover {
+    stroke: #f18d1e;
+  }
+
+  .md\:hover\:stroke-orange-600:hover {
+    stroke: #d97f1b;
+  }
+
+  .md\:hover\:stroke-orange-700:hover {
+    stroke: #c17118;
+  }
+
+  .md\:hover\:stroke-orange-800:hover {
+    stroke: #a96315;
+  }
+
+  .md\:hover\:stroke-orange-900:hover {
+    stroke: #915512;
+  }
+
+  .md\:hover\:stroke-yellow-100:hover {
+    stroke: #fffff0;
+  }
+
+  .md\:hover\:stroke-yellow-200:hover {
+    stroke: #fefcbf;
+  }
+
+  .md\:hover\:stroke-yellow-300:hover {
+    stroke: #faf089;
+  }
+
+  .md\:hover\:stroke-yellow-400:hover {
+    stroke: #f6e05e;
+  }
+
+  .md\:hover\:stroke-yellow-500:hover {
+    stroke: #ffca13;
+  }
+
+  .md\:hover\:stroke-yellow-600:hover {
+    stroke: #d69e2e;
+  }
+
+  .md\:hover\:stroke-yellow-700:hover {
+    stroke: #b7791f;
+  }
+
+  .md\:hover\:stroke-yellow-800:hover {
+    stroke: #975a16;
+  }
+
+  .md\:hover\:stroke-yellow-900:hover {
+    stroke: #744210;
+  }
+
+  .md\:hover\:stroke-green-100:hover {
+    stroke: #f0fff4;
+  }
+
+  .md\:hover\:stroke-green-200:hover {
+    stroke: #c6f6d5;
+  }
+
+  .md\:hover\:stroke-green-300:hover {
+    stroke: #9ae6b4;
+  }
+
+  .md\:hover\:stroke-green-400:hover {
+    stroke: #68d391;
+  }
+
+  .md\:hover\:stroke-green-500:hover {
+    stroke: #48bb78;
+  }
+
+  .md\:hover\:stroke-green-600:hover {
+    stroke: #38a169;
+  }
+
+  .md\:hover\:stroke-green-700:hover {
+    stroke: #2f855a;
+  }
+
+  .md\:hover\:stroke-green-800:hover {
+    stroke: #276749;
+  }
+
+  .md\:hover\:stroke-green-900:hover {
+    stroke: #22543d;
+  }
+
+  .md\:hover\:stroke-teal-100:hover {
+    stroke: #e6fffa;
+  }
+
+  .md\:hover\:stroke-teal-200:hover {
+    stroke: #b2f5ea;
+  }
+
+  .md\:hover\:stroke-teal-300:hover {
+    stroke: #81e6d9;
+  }
+
+  .md\:hover\:stroke-teal-400:hover {
+    stroke: #4fd1c5;
+  }
+
+  .md\:hover\:stroke-teal-500:hover {
+    stroke: #38b2ac;
+  }
+
+  .md\:hover\:stroke-teal-600:hover {
+    stroke: #319795;
+  }
+
+  .md\:hover\:stroke-teal-700:hover {
+    stroke: #2c7a7b;
+  }
+
+  .md\:hover\:stroke-teal-800:hover {
+    stroke: #285e61;
+  }
+
+  .md\:hover\:stroke-teal-900:hover {
+    stroke: #234e52;
+  }
+
+  .md\:hover\:stroke-blue-100:hover {
+    stroke: #edf6ff;
+  }
+
+  .md\:hover\:stroke-blue-150:hover {
+    stroke: #e5f1fc;
+  }
+
+  .md\:hover\:stroke-blue-200:hover {
+    stroke: #d0dde9;
+  }
+
+  .md\:hover\:stroke-blue-250:hover {
+    stroke: #d7e4f1;
+  }
+
+  .md\:hover\:stroke-blue-300:hover {
+    stroke: #9ab6cb;
+  }
+
+  .md\:hover\:stroke-blue-400:hover {
+    stroke: #31658c;
+  }
+
+  .md\:hover\:stroke-blue-500:hover {
+    stroke: #34495e;
+  }
+
+  .md\:hover\:stroke-blue-600:hover {
+    stroke: #3a559f;
+  }
+
+  .md\:hover\:stroke-indigo-100:hover {
+    stroke: #ebf4ff;
+  }
+
+  .md\:hover\:stroke-indigo-200:hover {
+    stroke: #c3dafe;
+  }
+
+  .md\:hover\:stroke-indigo-300:hover {
+    stroke: #a3bffa;
+  }
+
+  .md\:hover\:stroke-indigo-400:hover {
+    stroke: #7f9cf5;
+  }
+
+  .md\:hover\:stroke-indigo-500:hover {
+    stroke: #667eea;
+  }
+
+  .md\:hover\:stroke-indigo-600:hover {
+    stroke: #5a67d8;
+  }
+
+  .md\:hover\:stroke-indigo-700:hover {
+    stroke: #4c51bf;
+  }
+
+  .md\:hover\:stroke-indigo-800:hover {
+    stroke: #434190;
+  }
+
+  .md\:hover\:stroke-indigo-900:hover {
+    stroke: #3c366b;
+  }
+
+  .md\:hover\:stroke-purple-100:hover {
+    stroke: #faf5ff;
+  }
+
+  .md\:hover\:stroke-purple-200:hover {
+    stroke: #e9d8fd;
+  }
+
+  .md\:hover\:stroke-purple-300:hover {
+    stroke: #d6bcfa;
+  }
+
+  .md\:hover\:stroke-purple-400:hover {
+    stroke: #b794f4;
+  }
+
+  .md\:hover\:stroke-purple-500:hover {
+    stroke: #9f7aea;
+  }
+
+  .md\:hover\:stroke-purple-600:hover {
+    stroke: #805ad5;
+  }
+
+  .md\:hover\:stroke-purple-700:hover {
+    stroke: #6b46c1;
+  }
+
+  .md\:hover\:stroke-purple-800:hover {
+    stroke: #553c9a;
+  }
+
+  .md\:hover\:stroke-purple-900:hover {
+    stroke: #44337a;
+  }
+
+  .md\:hover\:stroke-pink-100:hover {
+    stroke: #fff5f7;
+  }
+
+  .md\:hover\:stroke-pink-200:hover {
+    stroke: #fed7e2;
+  }
+
+  .md\:hover\:stroke-pink-300:hover {
+    stroke: #fbb6ce;
+  }
+
+  .md\:hover\:stroke-pink-400:hover {
+    stroke: #f687b3;
+  }
+
+  .md\:hover\:stroke-pink-500:hover {
+    stroke: #ed64a6;
+  }
+
+  .md\:hover\:stroke-pink-600:hover {
+    stroke: #d53f8c;
+  }
+
+  .md\:hover\:stroke-pink-700:hover {
+    stroke: #b83280;
+  }
+
+  .md\:hover\:stroke-pink-800:hover {
+    stroke: #97266d;
+  }
+
+  .md\:hover\:stroke-pink-900:hover {
+    stroke: #702459;
+  }
+
+  .group:hover .md\:group-hover\:stroke-transparent {
+    stroke: transparent;
+  }
+
+  .group:hover .md\:group-hover\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .group:hover .md\:group-hover\:stroke-black {
+    stroke: #000;
+  }
+
+  .group:hover .md\:group-hover\:stroke-white {
+    stroke: #fff;
+  }
+
+  .group:hover .md\:group-hover\:stroke-gray-100 {
+    stroke: #e8e8e8;
+  }
+
+  .group:hover .md\:group-hover\:stroke-gray-200 {
+    stroke: #d1d1d1;
+  }
+
+  .group:hover .md\:group-hover\:stroke-gray-300 {
+    stroke: #bababa;
+  }
+
+  .group:hover .md\:group-hover\:stroke-gray-400 {
+    stroke: #a1a1a1;
+  }
+
+  .group:hover .md\:group-hover\:stroke-gray-500 {
+    stroke: #757575;
+  }
+
+  .group:hover .md\:group-hover\:stroke-gray-800 {
+    stroke: #212425;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-100 {
+    stroke: #f38585;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-200 {
+    stroke: #f17070;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-300 {
+    stroke: #ef5c5c;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-400 {
+    stroke: #ed4747;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-500 {
+    stroke: #eb3333;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-600 {
+    stroke: #d42e2e;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-700 {
+    stroke: #bc2929;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-800 {
+    stroke: #a52424;
+  }
+
+  .group:hover .md\:group-hover\:stroke-red-900 {
+    stroke: #8d1f1f;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-100 {
+    stroke: #fff6ec;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-200 {
+    stroke: #eee0d4;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-300 {
+    stroke: #f4a44b;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-400 {
+    stroke: #fc9a22;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-500 {
+    stroke: #f18d1e;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-600 {
+    stroke: #d97f1b;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-700 {
+    stroke: #c17118;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-800 {
+    stroke: #a96315;
+  }
+
+  .group:hover .md\:group-hover\:stroke-orange-900 {
+    stroke: #915512;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-100 {
+    stroke: #fffff0;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-200 {
+    stroke: #fefcbf;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-300 {
+    stroke: #faf089;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-400 {
+    stroke: #f6e05e;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-500 {
+    stroke: #ffca13;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-600 {
+    stroke: #d69e2e;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-700 {
+    stroke: #b7791f;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-800 {
+    stroke: #975a16;
+  }
+
+  .group:hover .md\:group-hover\:stroke-yellow-900 {
+    stroke: #744210;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-100 {
+    stroke: #f0fff4;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-200 {
+    stroke: #c6f6d5;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-300 {
+    stroke: #9ae6b4;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-400 {
+    stroke: #68d391;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-500 {
+    stroke: #48bb78;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-600 {
+    stroke: #38a169;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-700 {
+    stroke: #2f855a;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-800 {
+    stroke: #276749;
+  }
+
+  .group:hover .md\:group-hover\:stroke-green-900 {
+    stroke: #22543d;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-100 {
+    stroke: #e6fffa;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-200 {
+    stroke: #b2f5ea;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-300 {
+    stroke: #81e6d9;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-400 {
+    stroke: #4fd1c5;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-500 {
+    stroke: #38b2ac;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-600 {
+    stroke: #319795;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-700 {
+    stroke: #2c7a7b;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-800 {
+    stroke: #285e61;
+  }
+
+  .group:hover .md\:group-hover\:stroke-teal-900 {
+    stroke: #234e52;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-100 {
+    stroke: #edf6ff;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-150 {
+    stroke: #e5f1fc;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-200 {
+    stroke: #d0dde9;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-250 {
+    stroke: #d7e4f1;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-300 {
+    stroke: #9ab6cb;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-400 {
+    stroke: #31658c;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-500 {
+    stroke: #34495e;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-600 {
+    stroke: #3a559f;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-100 {
+    stroke: #ebf4ff;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-200 {
+    stroke: #c3dafe;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-300 {
+    stroke: #a3bffa;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-400 {
+    stroke: #7f9cf5;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-500 {
+    stroke: #667eea;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-600 {
+    stroke: #5a67d8;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-700 {
+    stroke: #4c51bf;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-800 {
+    stroke: #434190;
+  }
+
+  .group:hover .md\:group-hover\:stroke-indigo-900 {
+    stroke: #3c366b;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-100 {
+    stroke: #faf5ff;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-200 {
+    stroke: #e9d8fd;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-300 {
+    stroke: #d6bcfa;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-400 {
+    stroke: #b794f4;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-500 {
+    stroke: #9f7aea;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-600 {
+    stroke: #805ad5;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-700 {
+    stroke: #6b46c1;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-800 {
+    stroke: #553c9a;
+  }
+
+  .group:hover .md\:group-hover\:stroke-purple-900 {
+    stroke: #44337a;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-100 {
+    stroke: #fff5f7;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-200 {
+    stroke: #fed7e2;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-300 {
+    stroke: #fbb6ce;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-400 {
+    stroke: #f687b3;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-500 {
+    stroke: #ed64a6;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-600 {
+    stroke: #d53f8c;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-700 {
+    stroke: #b83280;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-800 {
+    stroke: #97266d;
+  }
+
+  .group:hover .md\:group-hover\:stroke-pink-900 {
+    stroke: #702459;
   }
 
   .md\:stroke-0 {
@@ -81821,6 +85097,10 @@ video {
     list-style-type: disc;
   }
 
+  .lg\:list-circle {
+    list-style-type: circle;
+  }
+
   .lg\:list-decimal {
     list-style-type: decimal;
   }
@@ -86358,6 +89638,10 @@ video {
     fill: #34495e;
   }
 
+  .lg\:fill-blue-600 {
+    fill: #3a559f;
+  }
+
   .lg\:fill-indigo-100 {
     fill: #ebf4ff;
   }
@@ -86712,6 +89996,10 @@ video {
 
   .lg\:hover\:fill-blue-500:hover {
     fill: #34495e;
+  }
+
+  .lg\:hover\:fill-blue-600:hover {
+    fill: #3a559f;
   }
 
   .lg\:hover\:fill-indigo-100:hover {
@@ -87070,6 +90358,10 @@ video {
     fill: #34495e;
   }
 
+  .group:hover .lg\:group-hover\:fill-blue-600 {
+    fill: #3a559f;
+  }
+
   .group:hover .lg\:group-hover\:fill-indigo-100 {
     fill: #ebf4ff;
   }
@@ -87178,8 +90470,1084 @@ video {
     fill: #702459;
   }
 
+  .lg\:stroke-transparent {
+    stroke: transparent;
+  }
+
   .lg\:stroke-current {
     stroke: currentColor;
+  }
+
+  .lg\:stroke-black {
+    stroke: #000;
+  }
+
+  .lg\:stroke-white {
+    stroke: #fff;
+  }
+
+  .lg\:stroke-gray-100 {
+    stroke: #e8e8e8;
+  }
+
+  .lg\:stroke-gray-200 {
+    stroke: #d1d1d1;
+  }
+
+  .lg\:stroke-gray-300 {
+    stroke: #bababa;
+  }
+
+  .lg\:stroke-gray-400 {
+    stroke: #a1a1a1;
+  }
+
+  .lg\:stroke-gray-500 {
+    stroke: #757575;
+  }
+
+  .lg\:stroke-gray-800 {
+    stroke: #212425;
+  }
+
+  .lg\:stroke-red-100 {
+    stroke: #f38585;
+  }
+
+  .lg\:stroke-red-200 {
+    stroke: #f17070;
+  }
+
+  .lg\:stroke-red-300 {
+    stroke: #ef5c5c;
+  }
+
+  .lg\:stroke-red-400 {
+    stroke: #ed4747;
+  }
+
+  .lg\:stroke-red-500 {
+    stroke: #eb3333;
+  }
+
+  .lg\:stroke-red-600 {
+    stroke: #d42e2e;
+  }
+
+  .lg\:stroke-red-700 {
+    stroke: #bc2929;
+  }
+
+  .lg\:stroke-red-800 {
+    stroke: #a52424;
+  }
+
+  .lg\:stroke-red-900 {
+    stroke: #8d1f1f;
+  }
+
+  .lg\:stroke-orange-100 {
+    stroke: #fff6ec;
+  }
+
+  .lg\:stroke-orange-200 {
+    stroke: #eee0d4;
+  }
+
+  .lg\:stroke-orange-300 {
+    stroke: #f4a44b;
+  }
+
+  .lg\:stroke-orange-400 {
+    stroke: #fc9a22;
+  }
+
+  .lg\:stroke-orange-500 {
+    stroke: #f18d1e;
+  }
+
+  .lg\:stroke-orange-600 {
+    stroke: #d97f1b;
+  }
+
+  .lg\:stroke-orange-700 {
+    stroke: #c17118;
+  }
+
+  .lg\:stroke-orange-800 {
+    stroke: #a96315;
+  }
+
+  .lg\:stroke-orange-900 {
+    stroke: #915512;
+  }
+
+  .lg\:stroke-yellow-100 {
+    stroke: #fffff0;
+  }
+
+  .lg\:stroke-yellow-200 {
+    stroke: #fefcbf;
+  }
+
+  .lg\:stroke-yellow-300 {
+    stroke: #faf089;
+  }
+
+  .lg\:stroke-yellow-400 {
+    stroke: #f6e05e;
+  }
+
+  .lg\:stroke-yellow-500 {
+    stroke: #ffca13;
+  }
+
+  .lg\:stroke-yellow-600 {
+    stroke: #d69e2e;
+  }
+
+  .lg\:stroke-yellow-700 {
+    stroke: #b7791f;
+  }
+
+  .lg\:stroke-yellow-800 {
+    stroke: #975a16;
+  }
+
+  .lg\:stroke-yellow-900 {
+    stroke: #744210;
+  }
+
+  .lg\:stroke-green-100 {
+    stroke: #f0fff4;
+  }
+
+  .lg\:stroke-green-200 {
+    stroke: #c6f6d5;
+  }
+
+  .lg\:stroke-green-300 {
+    stroke: #9ae6b4;
+  }
+
+  .lg\:stroke-green-400 {
+    stroke: #68d391;
+  }
+
+  .lg\:stroke-green-500 {
+    stroke: #48bb78;
+  }
+
+  .lg\:stroke-green-600 {
+    stroke: #38a169;
+  }
+
+  .lg\:stroke-green-700 {
+    stroke: #2f855a;
+  }
+
+  .lg\:stroke-green-800 {
+    stroke: #276749;
+  }
+
+  .lg\:stroke-green-900 {
+    stroke: #22543d;
+  }
+
+  .lg\:stroke-teal-100 {
+    stroke: #e6fffa;
+  }
+
+  .lg\:stroke-teal-200 {
+    stroke: #b2f5ea;
+  }
+
+  .lg\:stroke-teal-300 {
+    stroke: #81e6d9;
+  }
+
+  .lg\:stroke-teal-400 {
+    stroke: #4fd1c5;
+  }
+
+  .lg\:stroke-teal-500 {
+    stroke: #38b2ac;
+  }
+
+  .lg\:stroke-teal-600 {
+    stroke: #319795;
+  }
+
+  .lg\:stroke-teal-700 {
+    stroke: #2c7a7b;
+  }
+
+  .lg\:stroke-teal-800 {
+    stroke: #285e61;
+  }
+
+  .lg\:stroke-teal-900 {
+    stroke: #234e52;
+  }
+
+  .lg\:stroke-blue-100 {
+    stroke: #edf6ff;
+  }
+
+  .lg\:stroke-blue-150 {
+    stroke: #e5f1fc;
+  }
+
+  .lg\:stroke-blue-200 {
+    stroke: #d0dde9;
+  }
+
+  .lg\:stroke-blue-250 {
+    stroke: #d7e4f1;
+  }
+
+  .lg\:stroke-blue-300 {
+    stroke: #9ab6cb;
+  }
+
+  .lg\:stroke-blue-400 {
+    stroke: #31658c;
+  }
+
+  .lg\:stroke-blue-500 {
+    stroke: #34495e;
+  }
+
+  .lg\:stroke-blue-600 {
+    stroke: #3a559f;
+  }
+
+  .lg\:stroke-indigo-100 {
+    stroke: #ebf4ff;
+  }
+
+  .lg\:stroke-indigo-200 {
+    stroke: #c3dafe;
+  }
+
+  .lg\:stroke-indigo-300 {
+    stroke: #a3bffa;
+  }
+
+  .lg\:stroke-indigo-400 {
+    stroke: #7f9cf5;
+  }
+
+  .lg\:stroke-indigo-500 {
+    stroke: #667eea;
+  }
+
+  .lg\:stroke-indigo-600 {
+    stroke: #5a67d8;
+  }
+
+  .lg\:stroke-indigo-700 {
+    stroke: #4c51bf;
+  }
+
+  .lg\:stroke-indigo-800 {
+    stroke: #434190;
+  }
+
+  .lg\:stroke-indigo-900 {
+    stroke: #3c366b;
+  }
+
+  .lg\:stroke-purple-100 {
+    stroke: #faf5ff;
+  }
+
+  .lg\:stroke-purple-200 {
+    stroke: #e9d8fd;
+  }
+
+  .lg\:stroke-purple-300 {
+    stroke: #d6bcfa;
+  }
+
+  .lg\:stroke-purple-400 {
+    stroke: #b794f4;
+  }
+
+  .lg\:stroke-purple-500 {
+    stroke: #9f7aea;
+  }
+
+  .lg\:stroke-purple-600 {
+    stroke: #805ad5;
+  }
+
+  .lg\:stroke-purple-700 {
+    stroke: #6b46c1;
+  }
+
+  .lg\:stroke-purple-800 {
+    stroke: #553c9a;
+  }
+
+  .lg\:stroke-purple-900 {
+    stroke: #44337a;
+  }
+
+  .lg\:stroke-pink-100 {
+    stroke: #fff5f7;
+  }
+
+  .lg\:stroke-pink-200 {
+    stroke: #fed7e2;
+  }
+
+  .lg\:stroke-pink-300 {
+    stroke: #fbb6ce;
+  }
+
+  .lg\:stroke-pink-400 {
+    stroke: #f687b3;
+  }
+
+  .lg\:stroke-pink-500 {
+    stroke: #ed64a6;
+  }
+
+  .lg\:stroke-pink-600 {
+    stroke: #d53f8c;
+  }
+
+  .lg\:stroke-pink-700 {
+    stroke: #b83280;
+  }
+
+  .lg\:stroke-pink-800 {
+    stroke: #97266d;
+  }
+
+  .lg\:stroke-pink-900 {
+    stroke: #702459;
+  }
+
+  .lg\:hover\:stroke-transparent:hover {
+    stroke: transparent;
+  }
+
+  .lg\:hover\:stroke-current:hover {
+    stroke: currentColor;
+  }
+
+  .lg\:hover\:stroke-black:hover {
+    stroke: #000;
+  }
+
+  .lg\:hover\:stroke-white:hover {
+    stroke: #fff;
+  }
+
+  .lg\:hover\:stroke-gray-100:hover {
+    stroke: #e8e8e8;
+  }
+
+  .lg\:hover\:stroke-gray-200:hover {
+    stroke: #d1d1d1;
+  }
+
+  .lg\:hover\:stroke-gray-300:hover {
+    stroke: #bababa;
+  }
+
+  .lg\:hover\:stroke-gray-400:hover {
+    stroke: #a1a1a1;
+  }
+
+  .lg\:hover\:stroke-gray-500:hover {
+    stroke: #757575;
+  }
+
+  .lg\:hover\:stroke-gray-800:hover {
+    stroke: #212425;
+  }
+
+  .lg\:hover\:stroke-red-100:hover {
+    stroke: #f38585;
+  }
+
+  .lg\:hover\:stroke-red-200:hover {
+    stroke: #f17070;
+  }
+
+  .lg\:hover\:stroke-red-300:hover {
+    stroke: #ef5c5c;
+  }
+
+  .lg\:hover\:stroke-red-400:hover {
+    stroke: #ed4747;
+  }
+
+  .lg\:hover\:stroke-red-500:hover {
+    stroke: #eb3333;
+  }
+
+  .lg\:hover\:stroke-red-600:hover {
+    stroke: #d42e2e;
+  }
+
+  .lg\:hover\:stroke-red-700:hover {
+    stroke: #bc2929;
+  }
+
+  .lg\:hover\:stroke-red-800:hover {
+    stroke: #a52424;
+  }
+
+  .lg\:hover\:stroke-red-900:hover {
+    stroke: #8d1f1f;
+  }
+
+  .lg\:hover\:stroke-orange-100:hover {
+    stroke: #fff6ec;
+  }
+
+  .lg\:hover\:stroke-orange-200:hover {
+    stroke: #eee0d4;
+  }
+
+  .lg\:hover\:stroke-orange-300:hover {
+    stroke: #f4a44b;
+  }
+
+  .lg\:hover\:stroke-orange-400:hover {
+    stroke: #fc9a22;
+  }
+
+  .lg\:hover\:stroke-orange-500:hover {
+    stroke: #f18d1e;
+  }
+
+  .lg\:hover\:stroke-orange-600:hover {
+    stroke: #d97f1b;
+  }
+
+  .lg\:hover\:stroke-orange-700:hover {
+    stroke: #c17118;
+  }
+
+  .lg\:hover\:stroke-orange-800:hover {
+    stroke: #a96315;
+  }
+
+  .lg\:hover\:stroke-orange-900:hover {
+    stroke: #915512;
+  }
+
+  .lg\:hover\:stroke-yellow-100:hover {
+    stroke: #fffff0;
+  }
+
+  .lg\:hover\:stroke-yellow-200:hover {
+    stroke: #fefcbf;
+  }
+
+  .lg\:hover\:stroke-yellow-300:hover {
+    stroke: #faf089;
+  }
+
+  .lg\:hover\:stroke-yellow-400:hover {
+    stroke: #f6e05e;
+  }
+
+  .lg\:hover\:stroke-yellow-500:hover {
+    stroke: #ffca13;
+  }
+
+  .lg\:hover\:stroke-yellow-600:hover {
+    stroke: #d69e2e;
+  }
+
+  .lg\:hover\:stroke-yellow-700:hover {
+    stroke: #b7791f;
+  }
+
+  .lg\:hover\:stroke-yellow-800:hover {
+    stroke: #975a16;
+  }
+
+  .lg\:hover\:stroke-yellow-900:hover {
+    stroke: #744210;
+  }
+
+  .lg\:hover\:stroke-green-100:hover {
+    stroke: #f0fff4;
+  }
+
+  .lg\:hover\:stroke-green-200:hover {
+    stroke: #c6f6d5;
+  }
+
+  .lg\:hover\:stroke-green-300:hover {
+    stroke: #9ae6b4;
+  }
+
+  .lg\:hover\:stroke-green-400:hover {
+    stroke: #68d391;
+  }
+
+  .lg\:hover\:stroke-green-500:hover {
+    stroke: #48bb78;
+  }
+
+  .lg\:hover\:stroke-green-600:hover {
+    stroke: #38a169;
+  }
+
+  .lg\:hover\:stroke-green-700:hover {
+    stroke: #2f855a;
+  }
+
+  .lg\:hover\:stroke-green-800:hover {
+    stroke: #276749;
+  }
+
+  .lg\:hover\:stroke-green-900:hover {
+    stroke: #22543d;
+  }
+
+  .lg\:hover\:stroke-teal-100:hover {
+    stroke: #e6fffa;
+  }
+
+  .lg\:hover\:stroke-teal-200:hover {
+    stroke: #b2f5ea;
+  }
+
+  .lg\:hover\:stroke-teal-300:hover {
+    stroke: #81e6d9;
+  }
+
+  .lg\:hover\:stroke-teal-400:hover {
+    stroke: #4fd1c5;
+  }
+
+  .lg\:hover\:stroke-teal-500:hover {
+    stroke: #38b2ac;
+  }
+
+  .lg\:hover\:stroke-teal-600:hover {
+    stroke: #319795;
+  }
+
+  .lg\:hover\:stroke-teal-700:hover {
+    stroke: #2c7a7b;
+  }
+
+  .lg\:hover\:stroke-teal-800:hover {
+    stroke: #285e61;
+  }
+
+  .lg\:hover\:stroke-teal-900:hover {
+    stroke: #234e52;
+  }
+
+  .lg\:hover\:stroke-blue-100:hover {
+    stroke: #edf6ff;
+  }
+
+  .lg\:hover\:stroke-blue-150:hover {
+    stroke: #e5f1fc;
+  }
+
+  .lg\:hover\:stroke-blue-200:hover {
+    stroke: #d0dde9;
+  }
+
+  .lg\:hover\:stroke-blue-250:hover {
+    stroke: #d7e4f1;
+  }
+
+  .lg\:hover\:stroke-blue-300:hover {
+    stroke: #9ab6cb;
+  }
+
+  .lg\:hover\:stroke-blue-400:hover {
+    stroke: #31658c;
+  }
+
+  .lg\:hover\:stroke-blue-500:hover {
+    stroke: #34495e;
+  }
+
+  .lg\:hover\:stroke-blue-600:hover {
+    stroke: #3a559f;
+  }
+
+  .lg\:hover\:stroke-indigo-100:hover {
+    stroke: #ebf4ff;
+  }
+
+  .lg\:hover\:stroke-indigo-200:hover {
+    stroke: #c3dafe;
+  }
+
+  .lg\:hover\:stroke-indigo-300:hover {
+    stroke: #a3bffa;
+  }
+
+  .lg\:hover\:stroke-indigo-400:hover {
+    stroke: #7f9cf5;
+  }
+
+  .lg\:hover\:stroke-indigo-500:hover {
+    stroke: #667eea;
+  }
+
+  .lg\:hover\:stroke-indigo-600:hover {
+    stroke: #5a67d8;
+  }
+
+  .lg\:hover\:stroke-indigo-700:hover {
+    stroke: #4c51bf;
+  }
+
+  .lg\:hover\:stroke-indigo-800:hover {
+    stroke: #434190;
+  }
+
+  .lg\:hover\:stroke-indigo-900:hover {
+    stroke: #3c366b;
+  }
+
+  .lg\:hover\:stroke-purple-100:hover {
+    stroke: #faf5ff;
+  }
+
+  .lg\:hover\:stroke-purple-200:hover {
+    stroke: #e9d8fd;
+  }
+
+  .lg\:hover\:stroke-purple-300:hover {
+    stroke: #d6bcfa;
+  }
+
+  .lg\:hover\:stroke-purple-400:hover {
+    stroke: #b794f4;
+  }
+
+  .lg\:hover\:stroke-purple-500:hover {
+    stroke: #9f7aea;
+  }
+
+  .lg\:hover\:stroke-purple-600:hover {
+    stroke: #805ad5;
+  }
+
+  .lg\:hover\:stroke-purple-700:hover {
+    stroke: #6b46c1;
+  }
+
+  .lg\:hover\:stroke-purple-800:hover {
+    stroke: #553c9a;
+  }
+
+  .lg\:hover\:stroke-purple-900:hover {
+    stroke: #44337a;
+  }
+
+  .lg\:hover\:stroke-pink-100:hover {
+    stroke: #fff5f7;
+  }
+
+  .lg\:hover\:stroke-pink-200:hover {
+    stroke: #fed7e2;
+  }
+
+  .lg\:hover\:stroke-pink-300:hover {
+    stroke: #fbb6ce;
+  }
+
+  .lg\:hover\:stroke-pink-400:hover {
+    stroke: #f687b3;
+  }
+
+  .lg\:hover\:stroke-pink-500:hover {
+    stroke: #ed64a6;
+  }
+
+  .lg\:hover\:stroke-pink-600:hover {
+    stroke: #d53f8c;
+  }
+
+  .lg\:hover\:stroke-pink-700:hover {
+    stroke: #b83280;
+  }
+
+  .lg\:hover\:stroke-pink-800:hover {
+    stroke: #97266d;
+  }
+
+  .lg\:hover\:stroke-pink-900:hover {
+    stroke: #702459;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-transparent {
+    stroke: transparent;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-black {
+    stroke: #000;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-white {
+    stroke: #fff;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-gray-100 {
+    stroke: #e8e8e8;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-gray-200 {
+    stroke: #d1d1d1;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-gray-300 {
+    stroke: #bababa;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-gray-400 {
+    stroke: #a1a1a1;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-gray-500 {
+    stroke: #757575;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-gray-800 {
+    stroke: #212425;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-100 {
+    stroke: #f38585;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-200 {
+    stroke: #f17070;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-300 {
+    stroke: #ef5c5c;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-400 {
+    stroke: #ed4747;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-500 {
+    stroke: #eb3333;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-600 {
+    stroke: #d42e2e;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-700 {
+    stroke: #bc2929;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-800 {
+    stroke: #a52424;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-red-900 {
+    stroke: #8d1f1f;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-100 {
+    stroke: #fff6ec;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-200 {
+    stroke: #eee0d4;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-300 {
+    stroke: #f4a44b;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-400 {
+    stroke: #fc9a22;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-500 {
+    stroke: #f18d1e;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-600 {
+    stroke: #d97f1b;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-700 {
+    stroke: #c17118;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-800 {
+    stroke: #a96315;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-orange-900 {
+    stroke: #915512;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-100 {
+    stroke: #fffff0;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-200 {
+    stroke: #fefcbf;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-300 {
+    stroke: #faf089;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-400 {
+    stroke: #f6e05e;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-500 {
+    stroke: #ffca13;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-600 {
+    stroke: #d69e2e;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-700 {
+    stroke: #b7791f;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-800 {
+    stroke: #975a16;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-yellow-900 {
+    stroke: #744210;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-100 {
+    stroke: #f0fff4;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-200 {
+    stroke: #c6f6d5;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-300 {
+    stroke: #9ae6b4;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-400 {
+    stroke: #68d391;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-500 {
+    stroke: #48bb78;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-600 {
+    stroke: #38a169;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-700 {
+    stroke: #2f855a;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-800 {
+    stroke: #276749;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-green-900 {
+    stroke: #22543d;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-100 {
+    stroke: #e6fffa;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-200 {
+    stroke: #b2f5ea;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-300 {
+    stroke: #81e6d9;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-400 {
+    stroke: #4fd1c5;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-500 {
+    stroke: #38b2ac;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-600 {
+    stroke: #319795;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-700 {
+    stroke: #2c7a7b;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-800 {
+    stroke: #285e61;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-teal-900 {
+    stroke: #234e52;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-100 {
+    stroke: #edf6ff;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-150 {
+    stroke: #e5f1fc;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-200 {
+    stroke: #d0dde9;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-250 {
+    stroke: #d7e4f1;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-300 {
+    stroke: #9ab6cb;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-400 {
+    stroke: #31658c;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-500 {
+    stroke: #34495e;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-600 {
+    stroke: #3a559f;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-100 {
+    stroke: #ebf4ff;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-200 {
+    stroke: #c3dafe;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-300 {
+    stroke: #a3bffa;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-400 {
+    stroke: #7f9cf5;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-500 {
+    stroke: #667eea;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-600 {
+    stroke: #5a67d8;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-700 {
+    stroke: #4c51bf;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-800 {
+    stroke: #434190;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-indigo-900 {
+    stroke: #3c366b;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-100 {
+    stroke: #faf5ff;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-200 {
+    stroke: #e9d8fd;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-300 {
+    stroke: #d6bcfa;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-400 {
+    stroke: #b794f4;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-500 {
+    stroke: #9f7aea;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-600 {
+    stroke: #805ad5;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-700 {
+    stroke: #6b46c1;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-800 {
+    stroke: #553c9a;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-purple-900 {
+    stroke: #44337a;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-100 {
+    stroke: #fff5f7;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-200 {
+    stroke: #fed7e2;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-300 {
+    stroke: #fbb6ce;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-400 {
+    stroke: #f687b3;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-500 {
+    stroke: #ed64a6;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-600 {
+    stroke: #d53f8c;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-700 {
+    stroke: #b83280;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-800 {
+    stroke: #97266d;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-pink-900 {
+    stroke: #702459;
   }
 
   .lg\:stroke-0 {
@@ -104969,6 +109337,10 @@ video {
     list-style-type: disc;
   }
 
+  .xl\:list-circle {
+    list-style-type: circle;
+  }
+
   .xl\:list-decimal {
     list-style-type: decimal;
   }
@@ -109506,6 +113878,10 @@ video {
     fill: #34495e;
   }
 
+  .xl\:fill-blue-600 {
+    fill: #3a559f;
+  }
+
   .xl\:fill-indigo-100 {
     fill: #ebf4ff;
   }
@@ -109860,6 +114236,10 @@ video {
 
   .xl\:hover\:fill-blue-500:hover {
     fill: #34495e;
+  }
+
+  .xl\:hover\:fill-blue-600:hover {
+    fill: #3a559f;
   }
 
   .xl\:hover\:fill-indigo-100:hover {
@@ -110218,6 +114598,10 @@ video {
     fill: #34495e;
   }
 
+  .group:hover .xl\:group-hover\:fill-blue-600 {
+    fill: #3a559f;
+  }
+
   .group:hover .xl\:group-hover\:fill-indigo-100 {
     fill: #ebf4ff;
   }
@@ -110326,8 +114710,1084 @@ video {
     fill: #702459;
   }
 
+  .xl\:stroke-transparent {
+    stroke: transparent;
+  }
+
   .xl\:stroke-current {
     stroke: currentColor;
+  }
+
+  .xl\:stroke-black {
+    stroke: #000;
+  }
+
+  .xl\:stroke-white {
+    stroke: #fff;
+  }
+
+  .xl\:stroke-gray-100 {
+    stroke: #e8e8e8;
+  }
+
+  .xl\:stroke-gray-200 {
+    stroke: #d1d1d1;
+  }
+
+  .xl\:stroke-gray-300 {
+    stroke: #bababa;
+  }
+
+  .xl\:stroke-gray-400 {
+    stroke: #a1a1a1;
+  }
+
+  .xl\:stroke-gray-500 {
+    stroke: #757575;
+  }
+
+  .xl\:stroke-gray-800 {
+    stroke: #212425;
+  }
+
+  .xl\:stroke-red-100 {
+    stroke: #f38585;
+  }
+
+  .xl\:stroke-red-200 {
+    stroke: #f17070;
+  }
+
+  .xl\:stroke-red-300 {
+    stroke: #ef5c5c;
+  }
+
+  .xl\:stroke-red-400 {
+    stroke: #ed4747;
+  }
+
+  .xl\:stroke-red-500 {
+    stroke: #eb3333;
+  }
+
+  .xl\:stroke-red-600 {
+    stroke: #d42e2e;
+  }
+
+  .xl\:stroke-red-700 {
+    stroke: #bc2929;
+  }
+
+  .xl\:stroke-red-800 {
+    stroke: #a52424;
+  }
+
+  .xl\:stroke-red-900 {
+    stroke: #8d1f1f;
+  }
+
+  .xl\:stroke-orange-100 {
+    stroke: #fff6ec;
+  }
+
+  .xl\:stroke-orange-200 {
+    stroke: #eee0d4;
+  }
+
+  .xl\:stroke-orange-300 {
+    stroke: #f4a44b;
+  }
+
+  .xl\:stroke-orange-400 {
+    stroke: #fc9a22;
+  }
+
+  .xl\:stroke-orange-500 {
+    stroke: #f18d1e;
+  }
+
+  .xl\:stroke-orange-600 {
+    stroke: #d97f1b;
+  }
+
+  .xl\:stroke-orange-700 {
+    stroke: #c17118;
+  }
+
+  .xl\:stroke-orange-800 {
+    stroke: #a96315;
+  }
+
+  .xl\:stroke-orange-900 {
+    stroke: #915512;
+  }
+
+  .xl\:stroke-yellow-100 {
+    stroke: #fffff0;
+  }
+
+  .xl\:stroke-yellow-200 {
+    stroke: #fefcbf;
+  }
+
+  .xl\:stroke-yellow-300 {
+    stroke: #faf089;
+  }
+
+  .xl\:stroke-yellow-400 {
+    stroke: #f6e05e;
+  }
+
+  .xl\:stroke-yellow-500 {
+    stroke: #ffca13;
+  }
+
+  .xl\:stroke-yellow-600 {
+    stroke: #d69e2e;
+  }
+
+  .xl\:stroke-yellow-700 {
+    stroke: #b7791f;
+  }
+
+  .xl\:stroke-yellow-800 {
+    stroke: #975a16;
+  }
+
+  .xl\:stroke-yellow-900 {
+    stroke: #744210;
+  }
+
+  .xl\:stroke-green-100 {
+    stroke: #f0fff4;
+  }
+
+  .xl\:stroke-green-200 {
+    stroke: #c6f6d5;
+  }
+
+  .xl\:stroke-green-300 {
+    stroke: #9ae6b4;
+  }
+
+  .xl\:stroke-green-400 {
+    stroke: #68d391;
+  }
+
+  .xl\:stroke-green-500 {
+    stroke: #48bb78;
+  }
+
+  .xl\:stroke-green-600 {
+    stroke: #38a169;
+  }
+
+  .xl\:stroke-green-700 {
+    stroke: #2f855a;
+  }
+
+  .xl\:stroke-green-800 {
+    stroke: #276749;
+  }
+
+  .xl\:stroke-green-900 {
+    stroke: #22543d;
+  }
+
+  .xl\:stroke-teal-100 {
+    stroke: #e6fffa;
+  }
+
+  .xl\:stroke-teal-200 {
+    stroke: #b2f5ea;
+  }
+
+  .xl\:stroke-teal-300 {
+    stroke: #81e6d9;
+  }
+
+  .xl\:stroke-teal-400 {
+    stroke: #4fd1c5;
+  }
+
+  .xl\:stroke-teal-500 {
+    stroke: #38b2ac;
+  }
+
+  .xl\:stroke-teal-600 {
+    stroke: #319795;
+  }
+
+  .xl\:stroke-teal-700 {
+    stroke: #2c7a7b;
+  }
+
+  .xl\:stroke-teal-800 {
+    stroke: #285e61;
+  }
+
+  .xl\:stroke-teal-900 {
+    stroke: #234e52;
+  }
+
+  .xl\:stroke-blue-100 {
+    stroke: #edf6ff;
+  }
+
+  .xl\:stroke-blue-150 {
+    stroke: #e5f1fc;
+  }
+
+  .xl\:stroke-blue-200 {
+    stroke: #d0dde9;
+  }
+
+  .xl\:stroke-blue-250 {
+    stroke: #d7e4f1;
+  }
+
+  .xl\:stroke-blue-300 {
+    stroke: #9ab6cb;
+  }
+
+  .xl\:stroke-blue-400 {
+    stroke: #31658c;
+  }
+
+  .xl\:stroke-blue-500 {
+    stroke: #34495e;
+  }
+
+  .xl\:stroke-blue-600 {
+    stroke: #3a559f;
+  }
+
+  .xl\:stroke-indigo-100 {
+    stroke: #ebf4ff;
+  }
+
+  .xl\:stroke-indigo-200 {
+    stroke: #c3dafe;
+  }
+
+  .xl\:stroke-indigo-300 {
+    stroke: #a3bffa;
+  }
+
+  .xl\:stroke-indigo-400 {
+    stroke: #7f9cf5;
+  }
+
+  .xl\:stroke-indigo-500 {
+    stroke: #667eea;
+  }
+
+  .xl\:stroke-indigo-600 {
+    stroke: #5a67d8;
+  }
+
+  .xl\:stroke-indigo-700 {
+    stroke: #4c51bf;
+  }
+
+  .xl\:stroke-indigo-800 {
+    stroke: #434190;
+  }
+
+  .xl\:stroke-indigo-900 {
+    stroke: #3c366b;
+  }
+
+  .xl\:stroke-purple-100 {
+    stroke: #faf5ff;
+  }
+
+  .xl\:stroke-purple-200 {
+    stroke: #e9d8fd;
+  }
+
+  .xl\:stroke-purple-300 {
+    stroke: #d6bcfa;
+  }
+
+  .xl\:stroke-purple-400 {
+    stroke: #b794f4;
+  }
+
+  .xl\:stroke-purple-500 {
+    stroke: #9f7aea;
+  }
+
+  .xl\:stroke-purple-600 {
+    stroke: #805ad5;
+  }
+
+  .xl\:stroke-purple-700 {
+    stroke: #6b46c1;
+  }
+
+  .xl\:stroke-purple-800 {
+    stroke: #553c9a;
+  }
+
+  .xl\:stroke-purple-900 {
+    stroke: #44337a;
+  }
+
+  .xl\:stroke-pink-100 {
+    stroke: #fff5f7;
+  }
+
+  .xl\:stroke-pink-200 {
+    stroke: #fed7e2;
+  }
+
+  .xl\:stroke-pink-300 {
+    stroke: #fbb6ce;
+  }
+
+  .xl\:stroke-pink-400 {
+    stroke: #f687b3;
+  }
+
+  .xl\:stroke-pink-500 {
+    stroke: #ed64a6;
+  }
+
+  .xl\:stroke-pink-600 {
+    stroke: #d53f8c;
+  }
+
+  .xl\:stroke-pink-700 {
+    stroke: #b83280;
+  }
+
+  .xl\:stroke-pink-800 {
+    stroke: #97266d;
+  }
+
+  .xl\:stroke-pink-900 {
+    stroke: #702459;
+  }
+
+  .xl\:hover\:stroke-transparent:hover {
+    stroke: transparent;
+  }
+
+  .xl\:hover\:stroke-current:hover {
+    stroke: currentColor;
+  }
+
+  .xl\:hover\:stroke-black:hover {
+    stroke: #000;
+  }
+
+  .xl\:hover\:stroke-white:hover {
+    stroke: #fff;
+  }
+
+  .xl\:hover\:stroke-gray-100:hover {
+    stroke: #e8e8e8;
+  }
+
+  .xl\:hover\:stroke-gray-200:hover {
+    stroke: #d1d1d1;
+  }
+
+  .xl\:hover\:stroke-gray-300:hover {
+    stroke: #bababa;
+  }
+
+  .xl\:hover\:stroke-gray-400:hover {
+    stroke: #a1a1a1;
+  }
+
+  .xl\:hover\:stroke-gray-500:hover {
+    stroke: #757575;
+  }
+
+  .xl\:hover\:stroke-gray-800:hover {
+    stroke: #212425;
+  }
+
+  .xl\:hover\:stroke-red-100:hover {
+    stroke: #f38585;
+  }
+
+  .xl\:hover\:stroke-red-200:hover {
+    stroke: #f17070;
+  }
+
+  .xl\:hover\:stroke-red-300:hover {
+    stroke: #ef5c5c;
+  }
+
+  .xl\:hover\:stroke-red-400:hover {
+    stroke: #ed4747;
+  }
+
+  .xl\:hover\:stroke-red-500:hover {
+    stroke: #eb3333;
+  }
+
+  .xl\:hover\:stroke-red-600:hover {
+    stroke: #d42e2e;
+  }
+
+  .xl\:hover\:stroke-red-700:hover {
+    stroke: #bc2929;
+  }
+
+  .xl\:hover\:stroke-red-800:hover {
+    stroke: #a52424;
+  }
+
+  .xl\:hover\:stroke-red-900:hover {
+    stroke: #8d1f1f;
+  }
+
+  .xl\:hover\:stroke-orange-100:hover {
+    stroke: #fff6ec;
+  }
+
+  .xl\:hover\:stroke-orange-200:hover {
+    stroke: #eee0d4;
+  }
+
+  .xl\:hover\:stroke-orange-300:hover {
+    stroke: #f4a44b;
+  }
+
+  .xl\:hover\:stroke-orange-400:hover {
+    stroke: #fc9a22;
+  }
+
+  .xl\:hover\:stroke-orange-500:hover {
+    stroke: #f18d1e;
+  }
+
+  .xl\:hover\:stroke-orange-600:hover {
+    stroke: #d97f1b;
+  }
+
+  .xl\:hover\:stroke-orange-700:hover {
+    stroke: #c17118;
+  }
+
+  .xl\:hover\:stroke-orange-800:hover {
+    stroke: #a96315;
+  }
+
+  .xl\:hover\:stroke-orange-900:hover {
+    stroke: #915512;
+  }
+
+  .xl\:hover\:stroke-yellow-100:hover {
+    stroke: #fffff0;
+  }
+
+  .xl\:hover\:stroke-yellow-200:hover {
+    stroke: #fefcbf;
+  }
+
+  .xl\:hover\:stroke-yellow-300:hover {
+    stroke: #faf089;
+  }
+
+  .xl\:hover\:stroke-yellow-400:hover {
+    stroke: #f6e05e;
+  }
+
+  .xl\:hover\:stroke-yellow-500:hover {
+    stroke: #ffca13;
+  }
+
+  .xl\:hover\:stroke-yellow-600:hover {
+    stroke: #d69e2e;
+  }
+
+  .xl\:hover\:stroke-yellow-700:hover {
+    stroke: #b7791f;
+  }
+
+  .xl\:hover\:stroke-yellow-800:hover {
+    stroke: #975a16;
+  }
+
+  .xl\:hover\:stroke-yellow-900:hover {
+    stroke: #744210;
+  }
+
+  .xl\:hover\:stroke-green-100:hover {
+    stroke: #f0fff4;
+  }
+
+  .xl\:hover\:stroke-green-200:hover {
+    stroke: #c6f6d5;
+  }
+
+  .xl\:hover\:stroke-green-300:hover {
+    stroke: #9ae6b4;
+  }
+
+  .xl\:hover\:stroke-green-400:hover {
+    stroke: #68d391;
+  }
+
+  .xl\:hover\:stroke-green-500:hover {
+    stroke: #48bb78;
+  }
+
+  .xl\:hover\:stroke-green-600:hover {
+    stroke: #38a169;
+  }
+
+  .xl\:hover\:stroke-green-700:hover {
+    stroke: #2f855a;
+  }
+
+  .xl\:hover\:stroke-green-800:hover {
+    stroke: #276749;
+  }
+
+  .xl\:hover\:stroke-green-900:hover {
+    stroke: #22543d;
+  }
+
+  .xl\:hover\:stroke-teal-100:hover {
+    stroke: #e6fffa;
+  }
+
+  .xl\:hover\:stroke-teal-200:hover {
+    stroke: #b2f5ea;
+  }
+
+  .xl\:hover\:stroke-teal-300:hover {
+    stroke: #81e6d9;
+  }
+
+  .xl\:hover\:stroke-teal-400:hover {
+    stroke: #4fd1c5;
+  }
+
+  .xl\:hover\:stroke-teal-500:hover {
+    stroke: #38b2ac;
+  }
+
+  .xl\:hover\:stroke-teal-600:hover {
+    stroke: #319795;
+  }
+
+  .xl\:hover\:stroke-teal-700:hover {
+    stroke: #2c7a7b;
+  }
+
+  .xl\:hover\:stroke-teal-800:hover {
+    stroke: #285e61;
+  }
+
+  .xl\:hover\:stroke-teal-900:hover {
+    stroke: #234e52;
+  }
+
+  .xl\:hover\:stroke-blue-100:hover {
+    stroke: #edf6ff;
+  }
+
+  .xl\:hover\:stroke-blue-150:hover {
+    stroke: #e5f1fc;
+  }
+
+  .xl\:hover\:stroke-blue-200:hover {
+    stroke: #d0dde9;
+  }
+
+  .xl\:hover\:stroke-blue-250:hover {
+    stroke: #d7e4f1;
+  }
+
+  .xl\:hover\:stroke-blue-300:hover {
+    stroke: #9ab6cb;
+  }
+
+  .xl\:hover\:stroke-blue-400:hover {
+    stroke: #31658c;
+  }
+
+  .xl\:hover\:stroke-blue-500:hover {
+    stroke: #34495e;
+  }
+
+  .xl\:hover\:stroke-blue-600:hover {
+    stroke: #3a559f;
+  }
+
+  .xl\:hover\:stroke-indigo-100:hover {
+    stroke: #ebf4ff;
+  }
+
+  .xl\:hover\:stroke-indigo-200:hover {
+    stroke: #c3dafe;
+  }
+
+  .xl\:hover\:stroke-indigo-300:hover {
+    stroke: #a3bffa;
+  }
+
+  .xl\:hover\:stroke-indigo-400:hover {
+    stroke: #7f9cf5;
+  }
+
+  .xl\:hover\:stroke-indigo-500:hover {
+    stroke: #667eea;
+  }
+
+  .xl\:hover\:stroke-indigo-600:hover {
+    stroke: #5a67d8;
+  }
+
+  .xl\:hover\:stroke-indigo-700:hover {
+    stroke: #4c51bf;
+  }
+
+  .xl\:hover\:stroke-indigo-800:hover {
+    stroke: #434190;
+  }
+
+  .xl\:hover\:stroke-indigo-900:hover {
+    stroke: #3c366b;
+  }
+
+  .xl\:hover\:stroke-purple-100:hover {
+    stroke: #faf5ff;
+  }
+
+  .xl\:hover\:stroke-purple-200:hover {
+    stroke: #e9d8fd;
+  }
+
+  .xl\:hover\:stroke-purple-300:hover {
+    stroke: #d6bcfa;
+  }
+
+  .xl\:hover\:stroke-purple-400:hover {
+    stroke: #b794f4;
+  }
+
+  .xl\:hover\:stroke-purple-500:hover {
+    stroke: #9f7aea;
+  }
+
+  .xl\:hover\:stroke-purple-600:hover {
+    stroke: #805ad5;
+  }
+
+  .xl\:hover\:stroke-purple-700:hover {
+    stroke: #6b46c1;
+  }
+
+  .xl\:hover\:stroke-purple-800:hover {
+    stroke: #553c9a;
+  }
+
+  .xl\:hover\:stroke-purple-900:hover {
+    stroke: #44337a;
+  }
+
+  .xl\:hover\:stroke-pink-100:hover {
+    stroke: #fff5f7;
+  }
+
+  .xl\:hover\:stroke-pink-200:hover {
+    stroke: #fed7e2;
+  }
+
+  .xl\:hover\:stroke-pink-300:hover {
+    stroke: #fbb6ce;
+  }
+
+  .xl\:hover\:stroke-pink-400:hover {
+    stroke: #f687b3;
+  }
+
+  .xl\:hover\:stroke-pink-500:hover {
+    stroke: #ed64a6;
+  }
+
+  .xl\:hover\:stroke-pink-600:hover {
+    stroke: #d53f8c;
+  }
+
+  .xl\:hover\:stroke-pink-700:hover {
+    stroke: #b83280;
+  }
+
+  .xl\:hover\:stroke-pink-800:hover {
+    stroke: #97266d;
+  }
+
+  .xl\:hover\:stroke-pink-900:hover {
+    stroke: #702459;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-transparent {
+    stroke: transparent;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-black {
+    stroke: #000;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-white {
+    stroke: #fff;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-gray-100 {
+    stroke: #e8e8e8;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-gray-200 {
+    stroke: #d1d1d1;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-gray-300 {
+    stroke: #bababa;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-gray-400 {
+    stroke: #a1a1a1;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-gray-500 {
+    stroke: #757575;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-gray-800 {
+    stroke: #212425;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-100 {
+    stroke: #f38585;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-200 {
+    stroke: #f17070;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-300 {
+    stroke: #ef5c5c;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-400 {
+    stroke: #ed4747;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-500 {
+    stroke: #eb3333;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-600 {
+    stroke: #d42e2e;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-700 {
+    stroke: #bc2929;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-800 {
+    stroke: #a52424;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-red-900 {
+    stroke: #8d1f1f;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-100 {
+    stroke: #fff6ec;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-200 {
+    stroke: #eee0d4;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-300 {
+    stroke: #f4a44b;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-400 {
+    stroke: #fc9a22;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-500 {
+    stroke: #f18d1e;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-600 {
+    stroke: #d97f1b;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-700 {
+    stroke: #c17118;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-800 {
+    stroke: #a96315;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-orange-900 {
+    stroke: #915512;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-100 {
+    stroke: #fffff0;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-200 {
+    stroke: #fefcbf;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-300 {
+    stroke: #faf089;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-400 {
+    stroke: #f6e05e;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-500 {
+    stroke: #ffca13;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-600 {
+    stroke: #d69e2e;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-700 {
+    stroke: #b7791f;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-800 {
+    stroke: #975a16;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-yellow-900 {
+    stroke: #744210;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-100 {
+    stroke: #f0fff4;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-200 {
+    stroke: #c6f6d5;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-300 {
+    stroke: #9ae6b4;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-400 {
+    stroke: #68d391;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-500 {
+    stroke: #48bb78;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-600 {
+    stroke: #38a169;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-700 {
+    stroke: #2f855a;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-800 {
+    stroke: #276749;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-green-900 {
+    stroke: #22543d;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-100 {
+    stroke: #e6fffa;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-200 {
+    stroke: #b2f5ea;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-300 {
+    stroke: #81e6d9;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-400 {
+    stroke: #4fd1c5;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-500 {
+    stroke: #38b2ac;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-600 {
+    stroke: #319795;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-700 {
+    stroke: #2c7a7b;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-800 {
+    stroke: #285e61;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-teal-900 {
+    stroke: #234e52;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-100 {
+    stroke: #edf6ff;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-150 {
+    stroke: #e5f1fc;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-200 {
+    stroke: #d0dde9;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-250 {
+    stroke: #d7e4f1;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-300 {
+    stroke: #9ab6cb;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-400 {
+    stroke: #31658c;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-500 {
+    stroke: #34495e;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-600 {
+    stroke: #3a559f;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-100 {
+    stroke: #ebf4ff;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-200 {
+    stroke: #c3dafe;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-300 {
+    stroke: #a3bffa;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-400 {
+    stroke: #7f9cf5;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-500 {
+    stroke: #667eea;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-600 {
+    stroke: #5a67d8;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-700 {
+    stroke: #4c51bf;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-800 {
+    stroke: #434190;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-indigo-900 {
+    stroke: #3c366b;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-100 {
+    stroke: #faf5ff;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-200 {
+    stroke: #e9d8fd;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-300 {
+    stroke: #d6bcfa;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-400 {
+    stroke: #b794f4;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-500 {
+    stroke: #9f7aea;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-600 {
+    stroke: #805ad5;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-700 {
+    stroke: #6b46c1;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-800 {
+    stroke: #553c9a;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-purple-900 {
+    stroke: #44337a;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-100 {
+    stroke: #fff5f7;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-200 {
+    stroke: #fed7e2;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-300 {
+    stroke: #fbb6ce;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-400 {
+    stroke: #f687b3;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-500 {
+    stroke: #ed64a6;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-600 {
+    stroke: #d53f8c;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-700 {
+    stroke: #b83280;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-800 {
+    stroke: #97266d;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-pink-900 {
+    stroke: #702459;
   }
 
   .xl\:stroke-0 {

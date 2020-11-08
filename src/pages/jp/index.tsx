@@ -7,8 +7,8 @@ import Breadcrumbs from 'components/common/breadcrumbs/Breadcrumbs';
 const Index = (): React.ReactElement => {
     const indexLink = [
         { lang: 'en', link: '/en/' },
-        { lang: 'id', link: '#' },
-        { lang: 'jp', link: '/jp/' },
+        { lang: 'id', link: '/' },
+        { lang: 'jp', link: '#', active: true },
     ];
 
     const breadcrumb = [
@@ -17,7 +17,7 @@ const Index = (): React.ReactElement => {
     ];
 
     return (
-        <Layout pageLang="id" langs={indexLink}>
+        <Layout pageLang="jp" langs={indexLink}>
             <Container className="bg-red-100">
                 <Breadcrumbs breadcrumbLinks={breadcrumb} />
                 Hello world!

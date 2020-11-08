@@ -2,14 +2,16 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import Footer from './Footer';
+import Footer, { FooterProps } from './Footer';
 
 export default {
     title: 'Container/Footer',
     component: Footer,
 } as Meta;
 
-const Template: Story = (args) => <Footer {...args} />;
+const Template: Story<FooterProps> = (args) => <Footer {...args} />;
 
 export const Default = Template.bind({});
-Default.args = { children: 'Hello World' };
+Default.args = {
+    pageLang: 'id',
+};

@@ -6,15 +6,20 @@ import Footer from 'components/container/footer/Footer';
 
 export type LayoutProps = {
     children: React.ReactNode;
+    pageLang: 'en' | 'id' | 'jp';
+    langs: Array<{
+        lang: string;
+        link: string;
+    }>;
 };
 
-const Layout = ({ children }: LayoutProps): React.ReactElement => {
+const Layout = ({ children, pageLang, langs }: LayoutProps): React.ReactElement => {
     return (
         <>
-            <Header />
-            <Sidebar />
+            <Header pageLang={pageLang} langs={langs} />
+            <Sidebar pageLang={pageLang} />
             <div className="mt-16">{children}</div>
-            <Footer />
+            <Footer pageLang={pageLang} />
         </>
     );
 };

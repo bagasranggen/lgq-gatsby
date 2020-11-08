@@ -12,4 +12,21 @@ export default {
 const Template: Story<LayoutProps> = (args) => <Layout {...args} />;
 
 export const Default = Template.bind({});
-Default.args = { children: 'Hello World' };
+Default.args = {
+    pageLang: 'en',
+    langs: [
+        {
+            lang: 'en',
+            link: '/',
+        },
+        {
+            lang: 'id',
+            link: '/',
+        },
+        {
+            lang: 'jp',
+            link: '/',
+        },
+    ],
+    children: 'Hello World',
+};
