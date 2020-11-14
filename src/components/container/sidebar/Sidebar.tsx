@@ -76,7 +76,7 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
     }
 
     return (
-        <div className="fixed top-0 left-0 ml-4">
+        <div className="fixed top-0 left-0 ml-4 z-10">
             <nav className="w-24 py-8 px-15px bg-yellow-500 rounded-20px flex flex-col items-center">
                 {sidebarLang?.map((sidebar) => (
                     <Link to={sidebar.link} key={sidebar.label} className="group text-center text-black mb-6">

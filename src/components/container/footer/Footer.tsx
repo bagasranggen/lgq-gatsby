@@ -352,7 +352,7 @@ const Footer = ({ pageLang }: FooterProps): React.ReactElement => {
     return (
         <Container className="bg-gray-800 text-white text-sm py-10">
             <footer className="flex flex-wrap -mx-15px">
-                <div className="w-1/3 px-15px">
+                <div className="lg:w-1/3 w-full lg:mb-0 mb-4 px-15px">
                     <a href="/">
                         <h4 className="text-5xl font-novocento-bold leading-none mb-4">LOGIQUE</h4>
                         <div className="mb-8">
@@ -402,8 +402,7 @@ const Footer = ({ pageLang }: FooterProps): React.ReactElement => {
                         </div>
                     </a>
                 </div>
-
-                <div className="w-1/3 px-15px">
+                <div className="lg:w-1/3 w-6/12 lg:mb-0 mb-4 px-15px">
                     <ul className="">
                         {list1Lang?.map((list) => (
                             <>
@@ -455,7 +454,7 @@ const Footer = ({ pageLang }: FooterProps): React.ReactElement => {
                         ))}
                     </ul>
                 </div>
-                <div className="w-1/3 px-15px">
+                <div className="lg:w-1/3 w-6/12 lg:mb-0 mb-4 px-15px">
                     <ul>
                         {list2Lang?.map((list) => (
                             <>
@@ -476,7 +475,7 @@ const Footer = ({ pageLang }: FooterProps): React.ReactElement => {
                                                 <li className={listStyle} key={chlist.label}>
                                                     <Link
                                                         to={chlist.link}
-                                                        className={`${listAnchorStyle} whitespace-pre`}
+                                                        className={`${listAnchorStyle} md:whitespace-pre`}
                                                     >
                                                         {chlist.label}
                                                         {chlist.logo && (

@@ -5,7 +5,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import Index from './index';
 
 export default {
-    title: 'Page/Index EN',
+    title: 'Page/EN/Index',
     component: Index,
 } as Meta;
 

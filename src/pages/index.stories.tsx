@@ -12,4 +12,4 @@ export default {
 const Template: Story = (args) => <Index {...args} />;
 
 export const Default = Template.bind({});
-Default.args = { children: 'Hello World' };
+Default.args = {};

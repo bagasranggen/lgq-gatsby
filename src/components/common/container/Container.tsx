@@ -7,7 +7,7 @@ export type ContainerProps = {
 
 const Container = ({ children, className }: ContainerProps): React.ReactElement => (
     <section className={className}>
-        <div className="lg:container lg:pl-28 mx-auto">{children}</div>
+        <div className="lg:container lg:pl-28 px-15px mx-auto z-10">{children}</div>
     </section>
 );
 

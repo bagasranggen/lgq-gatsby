@@ -20,7 +20,7 @@ const Header = ({ pageLang, langs }: HeaderProps): React.ReactElement => {
     const langInactive = 'bg-gray-100 text-gray-400 hover:bg-yellow-500 hover:text-black';
 
     return (
-        <header className="fixed top-0 left-0 w-full bg-white shadow-md">
+        <header className="fixed top-0 left-0 w-full bg-white shadow-md z-10">
             <Container>
                 <div className="h-16 flex justify-between items-center">
                     <Link to={`/${pageLang === 'id' ? '' : pageLang}`}>
