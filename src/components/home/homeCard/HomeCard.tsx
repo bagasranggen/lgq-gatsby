@@ -8,24 +8,32 @@ export type HomeCardProps = {
     children: React.ReactNode;
     link: string;
     icon?: string;
+    iconWebp?: string;
     iconAlt?: string;
     iconStyle?: string;
     bgImage?: string;
     width: '3-col' | '4-col' | string;
     noShadow?: boolean;
     noArrow?: boolean;
+    padding?: 'p-10px' | 'p-5';
+    label?: string;
+    target?: '_blank';
 };
 
 const HomeCard = ({
     children,
     link,
     icon,
+    iconWebp,
     iconAlt,
     iconStyle,
     bgImage,
     width,
     noShadow,
     noArrow,
+    padding,
+    label,
+    target,
 }: HomeCardProps): React.ReactElement => {
     let col;
 
@@ -45,12 +53,27 @@ const HomeCard = ({
 
     return (
         <Card
+            target={target}
             link={link}
             className={`${col} px-15px`}
-            cardStyle={`block h-full p-5 bg-white duration-200 ${noShadow ? '' : 'shadow-md hover:shadow-xl'}`}
+            cardStyle={`block relative h-full bg-white duration-200 ${noShadow ? '' : 'shadow-md hover:shadow-xl'} ${
+                padding || 'p-5'
+            }`}
             bg={bgImage && style}
         >
-            <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
+            {icon && iconWebp ? (
+                <picture>
+                    <source srcSet={iconWebp} type="image/webp" />
+                    <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
+                </picture>
+            ) : (
+                <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
+            )}
+            {label && (
+                <div className="uppercase absolute top-0 left-0 mt-10px ml-10px bg-yellow-500 text-xs px-10px py-1">
+                    {label}
+                </div>
+            )}
             <p className="mb-6 text-lg">{children}</p>
             {!noArrow && <img src={iconArrowRight} className="mb-3" alt="go to website page" />}
         </Card>

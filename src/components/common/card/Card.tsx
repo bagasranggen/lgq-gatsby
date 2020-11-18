@@ -7,14 +7,27 @@ export type CardProps = {
     link?: string;
     children: React.ReactNode;
     bg?: any;
+    target?: '_blank';
 };
 
-const Card = ({ className, cardStyle, link, children, bg }: CardProps): React.ReactElement => {
+const Card = ({ className, cardStyle, link, children, bg, target }: CardProps): React.ReactElement => {
     return (
         <div className={className}>
-            <Link to={link === undefined ? '#' : link} className={cardStyle} style={bg}>
-                {children}
-            </Link>
+            {target ? (
+                <a
+                    target={target}
+                    rel="noreferrer"
+                    href={link === undefined ? '#' : link}
+                    className={cardStyle}
+                    style={bg}
+                >
+                    {children}
+                </a>
+            ) : (
+                <Link to={link === undefined ? '#' : link} className={cardStyle} style={bg}>
+                    {children}
+                </Link>
+            )}
         </div>
     );
 };

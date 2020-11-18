@@ -6,7 +6,7 @@ import bgContact from 'assets/img/bg/home/bg-contact.png';
 import HomeCardLink, { HomeCardLinkProps } from './HomeCardLink';
 
 export default {
-    title: 'Common/Home/Home Card Link',
+    title: 'Home/Home Card Link',
     component: HomeCardLink,
 } as Meta;
 

@@ -1,17 +1,25 @@
 import React from 'react';
 
-// import Link from 'gatsby-link';
-
 import Layout from 'components/container/layout/Layout';
 import Container from 'components/common/container/Container';
 import HomeCard from 'components/home/homeCard/HomeCard';
 import HomeCardLink from 'components/home/homeCardLink/HomeCardLink';
 import TitleHeadline from 'components/common/titleHeadline/TitleHeadline';
+import Button from 'components/common/button/Button';
 // import Breadcrumbs from 'components/common/breadcrumbs/Breadcrumbs';
 
 import imgVideo from 'assets/img/jpg/img-video-banner.jpg';
 import videoMp4 from 'assets/vid/mainbanner-video.mp4';
 import videoWebm from 'assets/vid/mainbanner-video.webm';
+
+import imgPorto from 'assets/img/png/home/img-our-portfolio.png';
+import imgPortoWebp from 'assets/img/webp/home/img-our-portfolio.webp';
+import imgCaseStudyJba from 'assets/img/jpg/home/img-case-study-jba.jpg';
+import imgWebpCaseStudyJba from 'assets/img/webp/home/img-case-study-jba.webp';
+import imgCaseStudyKlikHoreca from 'assets/img/jpg/home/img-case-study-klikhoreca.jpg';
+import imgWebpCaseStudyKlikHoreca from 'assets/img/webp/home/img-case-study-klikhoreca.webp';
+import imgCaseStudyJbaInterview from 'assets/img/jpg/home/img-case-study-jba-interview.jpg';
+import imgWebpCaseStudyJbaInterview from 'assets/img/webp/home/img-case-study-jba-interview.webp';
 
 import iconArrowRight from 'assets/img/icon/icon-arrow-right.svg';
 import iconWebsite from 'assets/img/icon/home/icon-website.svg';
@@ -42,7 +50,12 @@ const Index = (): React.ReactElement => {
     ];
 
     return (
-        <Layout pageLang="id" langs={indexLink}>
+        <Layout
+            pageLang="id"
+            langs={indexLink}
+            canonical="https://www.logique.co.id/"
+            ogUrl="https://www.logique.co.id/"
+        >
             <div className="">
                 <video poster={imgVideo} playsInline autoPlay muted loop className="absolute left-0 -z-10 w-full">
                     <source src={videoWebm} type="video/webm" />
@@ -100,6 +113,12 @@ const Index = (): React.ReactElement => {
                             karyawan, e-money, berbagai aplikasi internal perusahaan, dan pengoperasian iklan digital.
                         </p>
                         <img src={iconArrowRight} alt="Portofolio Kami" className="mt-6" />
+                    </div>
+                    <div className="w-1/2 px-15px">
+                        <picture>
+                            <source srcSet={imgPortoWebp} type="image/webp" />
+                            <img src={imgPorto} alt="logique portfolio" className="w-full" />
+                        </picture>
                     </div>
                 </div>
             </Container>
@@ -175,7 +194,51 @@ const Index = (): React.ReactElement => {
                     berbagai klien ternama, dari startup lokal sampai dengan perusahaan internasional untuk
                     mengembangkan Website, Sistem, Web App dan Aplikasi Mobile.
                 </p>
-                <div className="mb-4">{/* s */}</div>
+                <div className="flex flex-wrap -mx-15px mb-4">
+                    <HomeCard
+                        link="/"
+                        width="3-col"
+                        padding="p-10px"
+                        icon={imgCaseStudyJba}
+                        iconWebp={imgWebpCaseStudyJba}
+                        iconStyle="w-full h-48 object-cover"
+                        label="Website"
+                    >
+                        <h6 className="text-xs uppercase">JBA Indonesia</h6>
+                        <h4 className="text-lg">Online Auction System</h4>
+                    </HomeCard>
+                    <HomeCard
+                        link="/"
+                        width="3-col"
+                        padding="p-10px"
+                        icon={imgCaseStudyKlikHoreca}
+                        iconWebp={imgWebpCaseStudyKlikHoreca}
+                        iconStyle="w-full h-48 object-cover"
+                        label="Web App"
+                    >
+                        <h6 className="text-xs uppercase">Klikhoreca</h6>
+                        <h4 className="text-lg">Progressive Web App</h4>
+                    </HomeCard>
+                    <HomeCard
+                        target="_blank"
+                        link="https://www.logique.co.id/blog/2020/11/13/interview-jba-standardisasi-dan-dx-dalam-industri-lelang-mobil/"
+                        width="3-col"
+                        padding="p-10px"
+                        icon={imgCaseStudyJbaInterview}
+                        iconWebp={imgWebpCaseStudyJbaInterview}
+                        iconStyle="w-full h-48 object-cover"
+                    >
+                        <h6 className="text-xs uppercase">Interview</h6>
+                        <h4 className="text-lg">PT JBA Indonesia: Standardisasi dan DX dalam industri lelang mobil </h4>
+                    </HomeCard>
+                </div>
+                <div className="flex justify-center -mx-15px">
+                    <div className="md:w-3/12 w-full px-15px">
+                        <Button type="anchor" link="/" color="yellow" className="text-center mt-5 mb-6">
+                            Lihat Lebih Banyak
+                        </Button>
+                    </div>
+                </div>
                 <p className="">
                     <span className="font-novocento-bold">LOGIQUE</span> berkomitmen untuk memberikan solusi terbaik
                     untuk klien-klien kami; berdasarkan pengalaman kami dalam e-commerce, sistem management pelelangan

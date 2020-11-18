@@ -8,6 +8,7 @@ const path = require('path');
 module.exports = {
     /* Your site config here */
     plugins: [
+        `gatsby-plugin-react-helmet`,
         `gatsby-plugin-typescript`,
         `gatsby-plugin-postcss`,
         {

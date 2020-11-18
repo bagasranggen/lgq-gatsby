@@ -392,6 +392,8 @@ module.exports = {
             mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
             novocento: ['Novocento Sans Wide'],
             'novocento-bold': ['Novocento Sans Wide Medium'],
+            mplus: ['"M Plus 1p"'],
+            'mplus-bold': ['"M Plus 1p Bold"'],
         },
         fontSize: {
             xs: '0.75rem',

@@ -6,7 +6,7 @@ import iconService from 'assets/img/icon/home/icon-service.webp';
 import HomeCard, { HomeCardProps } from './HomeCard';
 
 export default {
-    title: 'Common/Home/Home Card',
+    title: 'Home/Home Card',
     component: HomeCard,
 } as Meta;
 
