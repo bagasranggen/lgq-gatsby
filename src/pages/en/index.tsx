@@ -151,9 +151,9 @@ const Index = (): React.ReactElement => {
                     >
                         <p>Dokodemo Kerja</p>
                         <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> menawarkan kepada Anda sebuah sistem
-                            web untuk bekerja remote bernama Dokodemo-Kerja. Sistem ini mampu memonitor dan
-                            mengkalkulasi jam kerja karyawan secara akurat.
+                            <span className="font-novocento-bold">LOGIQUE</span> offers a flexible solution to the
+                            limitations of remote working for employees; our software, Dokodemo-Kerja. This system can
+                            accurately monitor and calculate employee working hours.
                         </p>
                     </HomeCard>
                     <HomeCard
@@ -166,10 +166,9 @@ const Index = (): React.ReactElement => {
                     >
                         <p>Nippo</p>
                         <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> menawarkan sistem manajemen pelaporan
-                            harian untuk karyawan yang bernama Nippo. Sistem ini memberikan solusi bagi perusahaan,
-                            dimana perusahaan dapat dengan mudah melakukan monitoring, penilaian, dan evaluasi kinerja
-                            karyawan setiap bulan.
+                            <span className="font-novocento-bold">LOGIQUE</span> offers a helpful way to assist
+                            management in easily monitoring and evaluating the progression of employee performance
+                            through a daily reporting system called Nippo.
                         </p>
                     </HomeCard>
                     <HomeCard
@@ -182,9 +181,9 @@ const Index = (): React.ReactElement => {
                     >
                         <p>Sugoi Saiyo</p>
                         <p className="text-base mt-3">
-                            Sugoi Saiyo adalah sebuah sistem manajemen yang dapat membantu aktivitas rekrutmen menjadi
-                            lebih efektif dan efisien bagi tim HRD atau para pencari kerja. Sistem ini akan menentukan
-                            kapan dan dimana proses interview akan dilaksanakan.
+                            Sugoi Saiyo is a system designed to carry out the recruitment process so that the most
+                            suitable candidates can be filtered through to HR quickly and more efficiently,
+                            automatically structuring the time and place of the interview.
                         </p>
                     </HomeCard>
                 </div>
@@ -234,7 +233,9 @@ const Index = (): React.ReactElement => {
                         iconStyle="w-full h-48 object-cover"
                     >
                         <h6 className="text-xs uppercase">Interview</h6>
-                        <h4 className="text-lg">PT JBA Indonesia: Standardisasi dan DX dalam industri lelang mobil </h4>
+                        <h4 className="text-lg">
+                            PT JBA Indonesia: Standardization and DX in the automobile auction industry{' '}
+                        </h4>
                     </HomeCard>
                 </div>
 
@@ -296,50 +297,48 @@ const Index = (): React.ReactElement => {
             <Container className="pb-10">
                 <div className="flex flex-wrap -mx-15px">
                     <HomeCardLink title="Tentang Kami" bg={bgLinkAbout}>
-                        <span className="font-novocento-bold">LOGIQUE Digital Indonesia</span> adalah konsultan IT
-                        terkemuka dan perusahaan pengembangan sistem yang dipimpin oleh seorang pengusaha Jepang yang
-                        berbasis di Jakarta.
+                        <span className="font-novocento-bold">LOGIQUE Digital Indonesia</span> is a leading IT
+                        consultant and system development company owned by a Japanese entrepreneur based in Jakarta.
                     </HomeCardLink>
                     <HomeCardLink title="Hasil Kerja Kami" bg={bgLinkWork}>
-                        <span className="font-novocento-bold">LOGIQUE</span> telah mengembangkan banyak Situs Web,
-                        Sistem dan Aplikasi, Kampanye Pemasaran Digital yang terbukti sukses menjawab setiap kebutuhan
-                        klien kami.
+                        <span className="font-novocento-bold">LOGIQUE</span> has developed many Websites, Systems and
+                        Apps, Digital Marketing Campaign and delivered them successfully to our clients.
                     </HomeCardLink>
                     <HomeCardLink title="Hubungi Kami" bg={bgLinkContact}>
-                        Hubungi Kami sekarang, kami akan berikan solusi terbaik.
+                        Contact us now, we will provide the best solution.
                     </HomeCardLink>
                 </div>
             </Container>
 
             <Container className="pb-10">
-                <h2 className="text-2xl text-center">Layanan Lainnya</h2>
+                <h2 className="text-2xl text-center">Other Services</h2>
                 <div className="flex flex-wrap -mx-15px mb-8">
                     <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Website</h4>
+                        <h4 className="text-xl font-semibold">Website Production Service</h4>
                         <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> adalah perusahaan pengembangan situs
-                            web yang berupaya meningkatkan bisnis Anda.
+                            <span className="font-novocento-bold">LOGIQUE</span> is a website development company that
+                            strives to raise your business.
                         </p>
                     </HomeCard>
                     <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Aplikasi</h4>
+                        <h4 className="text-xl font-semibold">Apps Development Service</h4>
                         <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> memberikan solusi yang efisien dalam
-                            pengembangan Mobile App untuk iOS &amp; Android.
+                            <span className="font-novocento-bold">LOGIQUE</span> provide efficient solutions to your
+                            Mobile App for iOS &amp; Android.
                         </p>
                     </HomeCard>
                     <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Sistem Web</h4>
+                        <h4 className="text-xl font-semibold">Web System Development Service</h4>
                         <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> membantu mencapai tujuan bisnis Anda
-                            melalui kemajuan terbaru dalam teknologi berbasis web.
+                            <span className="font-novocento-bold">LOGIQUE</span> assist business goals through latest
+                            advance in web base technology.
                         </p>
                     </HomeCard>
                     <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Penetration Testing</h4>
+                        <h4 className="text-xl font-semibold">Penetration Testing Service</h4>
                         <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> akan melakukan berbagai uji coba
-                            keamanan di situs web Anda.
+                            <span className="font-novocento-bold">LOGIQUE</span> will perform various security
+                            assessment to your website.
                         </p>
                     </HomeCard>
                 </div>

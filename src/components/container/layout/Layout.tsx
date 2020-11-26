@@ -70,7 +70,7 @@ const Layout = ({
             />
             <Header pageLang={pageLang} langs={langs} />
             <Sidebar pageLang={pageLang} />
-            <div className={`mt-16 ${pageLang === 'jp' && 'font-mplus'}`}>{children}</div>
+            <div className={`mt-24 md:mt-16 ${pageLang === 'jp' && 'font-mplus'}`}>{children}</div>
             <Footer pageLang={pageLang} />
         </>
     );

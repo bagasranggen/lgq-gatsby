@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from 'components/container/layout/Layout';
 import Container from 'components/common/container/Container';
 import HomeCard from 'components/home/homeCard/HomeCard';
-import HomeCardLink from 'components/home/homeCardLink/HomeCardLink';
 import TitleHeadline from 'components/common/titleHeadline/TitleHeadline';
 import Button from 'components/common/button/Button';
 // import Breadcrumbs from 'components/common/breadcrumbs/Breadcrumbs';
@@ -38,9 +37,6 @@ import bgService from 'assets/img/bg/home/bg-service.png';
 import bgProduct from 'assets/img/bg/home/bg-product.png';
 import bgCareer from 'assets/img/bg/home/bg-career.png';
 import bgContact from 'assets/img/bg/home/bg-contact.png';
-import bgLinkAbout from 'assets/img/jpg/home/bg-links-about.jpg';
-import bgLinkContact from 'assets/img/jpg/home/bg-links-contact.jpg';
-import bgLinkWork from 'assets/img/jpg/home/bg-links-ourwork.jpg';
 
 const Index = (): React.ReactElement => {
     const indexLink = [
@@ -85,35 +81,29 @@ const Index = (): React.ReactElement => {
                 </div>
                 <div className="flex flex-wrap -mx-15px mb-8">
                     <HomeCard link="/" width="4-col" icon={iconWebsite} iconAlt="Jasa Pembuatan Website">
-                        Website Production <br /> Service
+                        Webサイト / ホームページ制作
                     </HomeCard>
                     <HomeCard link="/" width="4-col" icon={iconMobile} iconAlt="Jasa Pembuatan Website">
-                        Apps Development <br /> Service
+                        スマホ / モバイルApp開発
                     </HomeCard>
                     <HomeCard link="/" width="4-col" icon={iconSystem} iconAlt="Jasa Pembuatan Website">
-                        Web System <br /> Development Service
+                        Webシステム開発
                     </HomeCard>
                     <HomeCard link="/" width="4-col" icon={iconPentest} iconAlt="Jasa Pembuatan Website">
-                        Penetration esting <br /> Service
+                        Webセキュリティ脆弱性テスト
                     </HomeCard>
                 </div>
             </Container>
 
             <Container className="py-10 bg-white">
                 <TitleHeadline textPosition="left" borderLength="lg" borderWidth="md" fontSize="md">
-                    Our Portfolio
+                    制作開発実績
                 </TitleHeadline>
                 <div className="flex flex-wrap -mx-15px">
                     <div className="w-1/2 px-15px">
                         <p>
-                            <span className="font-novocento-bold">LOGIQUE DIGITAL INDONESIA</span> We are committed to
-                            producing a variety of high quality digital products for our clients which conform to an
-                            international standard of excellence.
-                            <br />
-                            <br />
-                            We are trustworthy experts and can work flexibly according to your specific requests.
-                            Working with us and utilizing the best solutions provided by our team is an opportunity to
-                            grow and improve your business’s overall profits in a digitalized age.
+                            Web・ホームページ制作、ECサイト構築、自動車産業向けWebシステム開発、採用管理システムやCRMシステムなどインドネシア内でのWeb制作、システム開発を数多く経験しています。今後もインドネシア、ASEAN諸国や日本のお客様のビジネス発展にデジタル
+                            / ITを活用して貢献します。
                         </p>
                         <img src={iconArrowRight} alt="Portofolio Kami" className="mt-6" />
                     </div>
@@ -128,15 +118,14 @@ const Index = (): React.ReactElement => {
 
             <Container className="py-10">
                 <TitleHeadline textPosition="left" borderLength="lg" borderWidth="md" fontSize="md">
-                    We Provide <b>HR-Tech Solutions</b> In Indonesia
+                    インドネシアで<b>HRテック</b>ソリューションを提供しています。
                 </TitleHeadline>
                 <p className="mb-4">
-                    <span className="font-novocento-bold">LOGIQUE</span> is committed to contributing to
-                    Indonesia&apos;s rapidly growing IT industry (SI, Web system development, digital marketing, etc.),
-                    having developed three internal systems to assist with increasing employee productivity &amp;
-                    efficiency, and to simplify the recruitment process in regards to potential candidate evaluation.
-                    Upon integrating these products within our own company, we have found a very apparent &amp;
-                    significant improvement, resulting in our decision to put these products up for sale
+                    インドネシアのIT（SI、Web制作開発 · デジタルマーケティ ング）業界の発展に貢献したいと考えています。
+                    当社で働くデザイナー, プラグラマー, デジタルマーケッターが気持ちよく, 効率的に働けるように,
+                    また当社HR部門が効果的な採用活動と人事評価ができように、社内向けに3つのシステムツールの開発をして,
+                    実際に使ってきました. 大きな効果を出すことに成功しましたので
+                    この3つのシステムツールを製品として販売することにいたしました。
                 </p>
                 <div className="flex flex-wrap -mx-15px mb-8">
                     <HomeCard
@@ -149,9 +138,7 @@ const Index = (): React.ReactElement => {
                     >
                         <p>Dokodemo Kerja</p>
                         <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> menawarkan kepada Anda sebuah sistem
-                            web untuk bekerja remote bernama Dokodemo-Kerja. Sistem ini mampu memonitor dan
-                            mengkalkulasi jam kerja karyawan secara akurat.
+                            ドコデモクルジャは、リモートワーク｜テレワークを可能とするクラウドツールです。管理者にとっても効果的に社員の勤怠管理、勤務状況コントロールができるので双方にとってメリットのあるツールです。
                         </p>
                     </HomeCard>
                     <HomeCard
@@ -164,10 +151,7 @@ const Index = (): React.ReactElement => {
                     >
                         <p>Nippo</p>
                         <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> menawarkan sistem manajemen pelaporan
-                            harian untuk karyawan yang bernama Nippo. Sistem ini memberikan solusi bagi perusahaan,
-                            dimana perusahaan dapat dengan mudah melakukan monitoring, penilaian, dan evaluasi kinerja
-                            karyawan setiap bulan.
+                            スタッフの日々の勤務状況・内容を管理しつつ管理会計に利用可能なデータの集計を行う日報管理システム、正確でフェアな人事評価に有効です。
                         </p>
                     </HomeCard>
                     <HomeCard
@@ -180,9 +164,7 @@ const Index = (): React.ReactElement => {
                     >
                         <p>Sugoi Saiyo</p>
                         <p className="text-base mt-3">
-                            Sugoi Saiyo adalah sebuah sistem manajemen yang dapat membantu aktivitas rekrutmen menjadi
-                            lebih efektif dan efisien bagi tim HRD atau para pencari kerja. Sistem ini akan menentukan
-                            kapan dan dimana proses interview akan dilaksanakan.
+                            スゴイ採用は、採用企業と求職者の両者にメリットのある、ITの力で応募・採用プロセスの無駄を排除した、効率的な採用活動をするためのクラウドツールです。
                         </p>
                     </HomeCard>
                 </div>
@@ -190,12 +172,10 @@ const Index = (): React.ReactElement => {
 
             <Container className="py-10">
                 <TitleHeadline textPosition="left" borderLength="lg" borderWidth="md" fontSize="md">
-                    Case Study
+                    ケーススタディ
                 </TitleHeadline>
                 <p className="mb-4">
-                    For more than 7 years, <span className="font-novocento-bold">LOGIQUE</span> has helped many high-end
-                    clients, ranging from the local startups to international enterprise, by developing various
-                    Websites, System, Web Apps and Mobile Apps.
+                    インドネシアで多くのお客様のご支援をしてきました。自動車関連企業や金融機関など大企業から政府系期間、スタートアップ企業まで幅広く様々なサービスのご提供をしてインドネシアでプロジェクトを成功させるためのノウハウを得ました。幾つかのケーススタディをご紹介します。
                 </p>
                 <div className="flex flex-wrap -mx-15px mb-4">
                     <HomeCard
@@ -231,22 +211,22 @@ const Index = (): React.ReactElement => {
                         iconWebp={imgWebpCaseStudyJbaInterview}
                         iconStyle="w-full h-48 object-cover"
                     >
-                        <h6 className="text-xs uppercase">Interview</h6>
-                        <h4 className="text-lg">PT JBA Indonesia: Standardisasi dan DX dalam industri lelang mobil </h4>
+                        <h6 className="text-xs uppercase">インタビュー</h6>
+                        <h4 className="text-lg">
+                            PT JBA Indonesia 自動車＆バイクオークション業界におけるDXの重要性と業界標準化について
+                        </h4>
                     </HomeCard>
                 </div>
 
                 <div className="flex justify-center -mx-15px">
                     <div className="md:w-3/12 w-full px-15px">
                         <Button type="anchor" link="/" color="yellow" className="text-center mt-5 mb-6">
-                            View More
+                            続きを見る
                         </Button>
                     </div>
                 </div>
                 <p className="">
-                    <span className="font-novocento-bold">LOGIQUE</span> LOGIQUE commits to providing the best solutions
-                    to our clients; having worked successfully on many projects such as e-commerce, car/motorcycle
-                    auction management system, CRM development, e-learning App, PWA, Recruitment system and more.
+                    インドネシア進出時のマーケティング支援、Webサイトやモバイルアプリのセキュリティ脆弱性診断などの実績も豊富にあります。当社の実績や経験をもっとご紹介することも可能ですのでお気軽にお問い合わせください。
                 </p>
             </Container>
 
@@ -259,7 +239,7 @@ const Index = (): React.ReactElement => {
                         iconAlt="Jasa Pembuatan Website"
                         bgImage={bgService}
                     >
-                        <div className="text-2xl -mb-3">See Service List</div>
+                        <div className="text-2xl -mb-3">サービスを詳しくみる</div>
                     </HomeCard>
                     <HomeCard
                         link="/"
@@ -268,7 +248,7 @@ const Index = (): React.ReactElement => {
                         iconAlt="Jasa Pembuatan Website"
                         bgImage={bgProduct}
                     >
-                        <div className="text-2xl -mb-3">See Product List</div>
+                        <div className="text-2xl -mb-3">製品について確認する</div>
                     </HomeCard>
                     <HomeCard
                         link="/"
@@ -277,7 +257,7 @@ const Index = (): React.ReactElement => {
                         iconAlt="Jasa Pembuatan Website"
                         bgImage={bgContact}
                     >
-                        <div className="text-2xl -mb-3">Contact Us</div>
+                        <div className="text-2xl -mb-3">お問い合わせ</div>
                     </HomeCard>
                     <HomeCard
                         link="/"
@@ -286,59 +266,7 @@ const Index = (): React.ReactElement => {
                         iconAlt="Jasa Pembuatan Website"
                         bgImage={bgCareer}
                     >
-                        <div className="text-2xl -mb-3">Career</div>
-                    </HomeCard>
-                </div>
-            </Container>
-
-            <Container className="pb-10">
-                <div className="flex flex-wrap -mx-15px">
-                    <HomeCardLink title="Tentang Kami" bg={bgLinkAbout}>
-                        <span className="font-novocento-bold">LOGIQUE Digital Indonesia</span> adalah konsultan IT
-                        terkemuka dan perusahaan pengembangan sistem yang dipimpin oleh seorang pengusaha Jepang yang
-                        berbasis di Jakarta.
-                    </HomeCardLink>
-                    <HomeCardLink title="Hasil Kerja Kami" bg={bgLinkWork}>
-                        <span className="font-novocento-bold">LOGIQUE</span> telah mengembangkan banyak Situs Web,
-                        Sistem dan Aplikasi, Kampanye Pemasaran Digital yang terbukti sukses menjawab setiap kebutuhan
-                        klien kami.
-                    </HomeCardLink>
-                    <HomeCardLink title="Hubungi Kami" bg={bgLinkContact}>
-                        Hubungi Kami sekarang, kami akan berikan solusi terbaik.
-                    </HomeCardLink>
-                </div>
-            </Container>
-
-            <Container className="pb-10">
-                <h2 className="text-2xl text-center">Layanan Lainnya</h2>
-                <div className="flex flex-wrap -mx-15px mb-8">
-                    <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Website</h4>
-                        <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> adalah perusahaan pengembangan situs
-                            web yang berupaya meningkatkan bisnis Anda.
-                        </p>
-                    </HomeCard>
-                    <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Aplikasi</h4>
-                        <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> memberikan solusi yang efisien dalam
-                            pengembangan Mobile App untuk iOS &amp; Android.
-                        </p>
-                    </HomeCard>
-                    <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Sistem Web</h4>
-                        <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> membantu mencapai tujuan bisnis Anda
-                            melalui kemajuan terbaru dalam teknologi berbasis web.
-                        </p>
-                    </HomeCard>
-                    <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Penetration Testing</h4>
-                        <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> akan melakukan berbagai uji coba
-                            keamanan di situs web Anda.
-                        </p>
+                        <div className="text-2xl -mb-3">採用/パートナー</div>
                     </HomeCard>
                 </div>
             </Container>

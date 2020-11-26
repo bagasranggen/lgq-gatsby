@@ -3,6 +3,8 @@ import React from 'react';
 // import { Link } from 'gatsby';
 import Link from 'gatsby-link';
 
+import Hamburger from 'components/common/hamburger/Hamburger';
+
 export type SidebarProps = {
     pageLang: 'id' | 'en' | 'jp';
 };
@@ -712,7 +714,13 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
         ],
     };
 
+    const [hamburgerClick, setHamburgerClick] = React.useState<boolean>(false);
+
     let sidebarLang;
+
+    const hamburgerHandler = () => {
+        setHamburgerClick(!hamburgerClick);
+    };
 
     if (pageLang === 'id') {
         sidebarLang = sidebarLink.id;
@@ -723,16 +731,23 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
     }
 
     return (
-        <div className="fixed top-0 left-0 ml-4 z-10">
-            <nav className="w-24 py-8 px-15px bg-yellow-500 min-h-screen rounded-20px flex flex-col items-center">
-                {sidebarLang?.map((sidebar) => (
-                    <Link to={sidebar.link} key={sidebar.label} className="group text-center text-black mb-5">
-                        {sidebar.icon}
-                        <div className="mt-1 text-xs leading-3">{sidebar.label}</div>
-                    </Link>
-                ))}
-            </nav>
-        </div>
+        <>
+            <Hamburger onClick={hamburgerHandler} clicked={hamburgerClick} />
+            <div
+                className={`fixed top-0 left-0 ml-4 z-10 duration-300 transform ${
+                    hamburgerClick ? '' : '-translate-x-64 md:translate-x-0'
+                }`}
+            >
+                <nav className="w-24 py-8 px-15px bg-yellow-500 min-h-screen rounded-20px flex flex-col items-center">
+                    {sidebarLang?.map((sidebar) => (
+                        <Link to={sidebar.link} key={sidebar.label} className="group text-center text-black mb-5">
+                            {sidebar.icon}
+                            <div className="mt-1 text-xs leading-3">{sidebar.label}</div>
+                        </Link>
+                    ))}
+                </nav>
+            </div>
+        </>
     );
 };
 
