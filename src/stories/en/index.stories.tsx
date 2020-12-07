@@ -2,10 +2,10 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import Index from './index';
+import Index from '../../pages/en/index';
 
 export default {
-    title: 'Page/JP/Index',
+    title: 'Page/EN/Index',
     component: Index,
 } as Meta;
 
