@@ -44,6 +44,7 @@ const Seo = ({
             <meta property="og:image" content={ogImage} />
             <meta property="og:description" content={ogDescription} />
             <link rel="canonical" href={canonical} />
+            <meta name="google-site-verification" content="rdHgeMNE19n12zlkjsfSKFLDS23MuTFSHl8lQPesFHLk21oU" />
         </Helmet>
     );
 };
