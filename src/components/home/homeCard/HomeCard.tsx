@@ -55,7 +55,7 @@ const HomeCard = ({
         <Card
             target={target}
             link={link}
-            className={`${col} px-15px`}
+            className={`${col} px-15px group`}
             cardStyle={`block relative h-full bg-white duration-200 ${noShadow ? '' : 'shadow-md hover:shadow-xl'} ${
                 padding || 'p-5'
             }`}

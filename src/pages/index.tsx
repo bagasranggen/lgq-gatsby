@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { isMobileOnly } from 'react-device-detect';
+
 import Layout from 'components/container/layout/Layout';
 import Container from 'components/common/container/Container';
 import HomeCard from 'components/home/homeCard/HomeCard';
@@ -56,16 +58,19 @@ const Index = (): React.ReactElement => {
             canonical="https://www.logique.co.id/"
             ogUrl="https://www.logique.co.id/"
         >
-            <div className="">
-                <video poster={imgVideo} playsInline autoPlay muted loop className="absolute left-0 -z-10 w-full">
-                    <source src={videoWebm} type="video/webm" />
-                    <source src={videoMp4} type="video/mp4" />
-                </video>
-                <div className="bg-white bg-opacity-75 absolute left-0 h-full w-full -z-10" />
-            </div>
+            {!isMobileOnly && (
+                <div className="">
+                    <video poster={imgVideo} playsInline autoPlay muted loop className="absolute left-0 -z-10 w-full">
+                        <source src={videoWebm} type="video/webm" />
+                        <source src={videoMp4} type="video/mp4" />
+                    </video>
+                    <div className="bg-white bg-opacity-75 absolute left-0 h-full w-full -z-10" />
+                </div>
+            )}
+
             <Container>
                 {/* <Breadcrumbs breadcrumbLinks={breadcrumb} /> */}
-                <div className="w-10/12 py-12 mx-auto text-center">
+                <div className="w-full md:w-10/12 py-12 mx-auto text-center">
                     <h1 className="text-3xl mb-3">
                         Pengembang Sistem Web Terbaik di Jakarta, <br /> Menyediakan Solusi Digital untuk Bisnis Anda
                     </h1>
@@ -82,16 +87,16 @@ const Index = (): React.ReactElement => {
                 </div>
                 <div className="flex flex-wrap -mx-15px mb-8">
                     <HomeCard link="/" width="4-col" icon={iconWebsite} iconAlt="Jasa Pembuatan Website">
-                        Jasa Pembuatan <br /> Website
+                        Jasa Pembuatan <br className="hidden md:block" /> Website
                     </HomeCard>
                     <HomeCard link="/" width="4-col" icon={iconMobile} iconAlt="Jasa Pembuatan Website">
-                        Jasa Pembuatan <br /> Aplikasi
+                        Jasa Pembuatan <br className="hidden md:block" /> Aplikasi
                     </HomeCard>
                     <HomeCard link="/" width="4-col" icon={iconSystem} iconAlt="Jasa Pembuatan Website">
-                        Jasa Pembuatan <br /> Sistem Web
+                        Jasa Pembuatan <br className="hidden md:block" /> Sistem Web
                     </HomeCard>
                     <HomeCard link="/" width="4-col" icon={iconPentest} iconAlt="Jasa Pembuatan Website">
-                        Jasa Penetration <br /> Testing
+                        Jasa Penetration <br className="hidden md:block" /> Testing
                     </HomeCard>
                 </div>
             </Container>
@@ -101,7 +106,7 @@ const Index = (): React.ReactElement => {
                     Portofolio Kami
                 </TitleHeadline>
                 <div className="flex flex-wrap -mx-15px">
-                    <div className="w-1/2 px-15px">
+                    <div className="w-full md:w-1/2 px-15px mb-30px md:mb-0">
                         <p>
                             <span className="font-novocento-bold">LOGIQUE DIGITAL INDONESIA</span> adalah Developer Web
                             Application / Aplikasi Mobile profesional yang memiliki spesialisasi dalam pembuatan dan
@@ -114,7 +119,7 @@ const Index = (): React.ReactElement => {
                         </p>
                         <img src={iconArrowRight} alt="Portofolio Kami" className="mt-6" />
                     </div>
-                    <div className="w-1/2 px-15px">
+                    <div className="w-full md:w-1/2 px-15px">
                         <picture>
                             <source srcSet={imgPortoWebp} type="image/webp" />
                             <img src={imgPorto} alt="logique portfolio" className="w-full" />
@@ -247,7 +252,7 @@ const Index = (): React.ReactElement => {
             </Container>
 
             <Container className="py-10">
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap -mx-15px">
                     <HomeCard
                         link="/"
                         width="md:w-1/2 w-full mb-6"
@@ -309,28 +314,36 @@ const Index = (): React.ReactElement => {
                 <h2 className="text-2xl text-center">Layanan Lainnya</h2>
                 <div className="flex flex-wrap -mx-15px mb-8">
                     <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Website</h4>
+                        <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
+                            Jasa Pembuatan Website
+                        </h4>
                         <p className="text-base mt-3">
                             <span className="font-novocento-bold">LOGIQUE</span> adalah perusahaan pengembangan situs
                             web yang berupaya meningkatkan bisnis Anda.
                         </p>
                     </HomeCard>
                     <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Aplikasi</h4>
+                        <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
+                            Jasa Pembuatan Aplikasi
+                        </h4>
                         <p className="text-base mt-3">
                             <span className="font-novocento-bold">LOGIQUE</span> memberikan solusi yang efisien dalam
                             pengembangan Mobile App untuk iOS &amp; Android.
                         </p>
                     </HomeCard>
                     <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Pembuatan Sistem Web</h4>
+                        <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
+                            Jasa Pembuatan Sistem Web
+                        </h4>
                         <p className="text-base mt-3">
                             <span className="font-novocento-bold">LOGIQUE</span> membantu mencapai tujuan bisnis Anda
                             melalui kemajuan terbaru dalam teknologi berbasis web.
                         </p>
                     </HomeCard>
                     <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold">Jasa Penetration Testing</h4>
+                        <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
+                            Jasa Penetration Testing
+                        </h4>
                         <p className="text-base mt-3">
                             <span className="font-novocento-bold">LOGIQUE</span> akan melakukan berbagai uji coba
                             keamanan di situs web Anda.

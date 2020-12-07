@@ -21,7 +21,7 @@ const HomeCardLink = ({ link, title, children, bg }: HomeCardLinkProps): React.R
     return (
         <Card
             link={link}
-            className="md:w-4/12 w-full px-15px"
+            className="md:w-4/12 w-full px-15px mb-15px md:mb-0"
             cardStyle="block h-425px p-6 rounded-lg relative z-0 overflow-hidden duration-200 shadow-md hover:shadow-xl"
             bg={bg && style}
         >

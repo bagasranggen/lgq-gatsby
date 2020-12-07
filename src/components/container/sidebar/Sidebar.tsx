@@ -738,7 +738,7 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                     hamburgerClick ? '' : '-translate-x-64 md:translate-x-0'
                 }`}
             >
-                <nav className="w-24 py-8 px-15px bg-yellow-500 min-h-screen rounded-20px flex flex-col items-center">
+                <nav className="w-24 py-8 px-15px bg-yellow-500 h-screen overflow-y-auto rounded-20px flex flex-col items-center">
                     {sidebarLang?.map((sidebar) => (
                         <Link to={sidebar.link} key={sidebar.label} className="group text-center text-black mb-5">
                             {sidebar.icon}

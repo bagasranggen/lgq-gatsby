@@ -22,14 +22,16 @@ const Header = ({ pageLang, langs }: HeaderProps): React.ReactElement => {
     return (
         <header className="fixed top-0 left-0 w-full bg-white shadow-md z-10">
             <Container type="header">
-                <div className="h-24 md:h-16 flex flex-wrap justify-between items-center">
+                <div className="h-28 md:h-16 flex flex-wrap justify-between items-center">
                     <Link
                         to={`/${pageLang === 'id' ? '' : pageLang}`}
                         className="w-full md:w-auto text-center md:text-left"
                     >
-                        <h2 className="font-novocento-bold text-4xl text-yellow-500 leading-none">LOGIQUE</h2>
+                        <h2 className="font-novocento-bold text-4xl mt-1 md:mt-0 text-yellow-500 leading-none">
+                            LOGIQUE
+                        </h2>
                     </Link>
-                    <ul className="flex my-0 py-2 md:py-0 -mb-5px md:mb-0 w-full md:w-auto justify-center md:justify-end bg-blue-800 md:bg-transparent">
+                    <ul className="flex my-0 py-3 md:py-0 -mb-10px md:mb-0 w-full md:w-auto justify-center md:justify-end bg-blue-800 md:bg-transparent">
                         {langs.map((datum) => (
                             <Link
                                 key={datum.lang}
