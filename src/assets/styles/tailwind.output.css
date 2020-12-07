@@ -20389,7 +20389,7 @@ video {
 }
 
 .fill-blue-300 {
-  fill: #9ab6cb;
+  fill: #50abf1;
 }
 
 .fill-blue-400 {
@@ -20398,6 +20398,10 @@ video {
 
 .fill-blue-500 {
   fill: #34495e;
+}
+
+.fill-blue-550 {
+  fill: #2a67b2;
 }
 
 .fill-blue-600 {
@@ -20749,7 +20753,7 @@ video {
 }
 
 .hover\:fill-blue-300:hover {
-  fill: #9ab6cb;
+  fill: #50abf1;
 }
 
 .hover\:fill-blue-400:hover {
@@ -20758,6 +20762,10 @@ video {
 
 .hover\:fill-blue-500:hover {
   fill: #34495e;
+}
+
+.hover\:fill-blue-550:hover {
+  fill: #2a67b2;
 }
 
 .hover\:fill-blue-600:hover {
@@ -21109,7 +21117,7 @@ video {
 }
 
 .group:hover .group-hover\:fill-blue-300 {
-  fill: #9ab6cb;
+  fill: #50abf1;
 }
 
 .group:hover .group-hover\:fill-blue-400 {
@@ -21118,6 +21126,10 @@ video {
 
 .group:hover .group-hover\:fill-blue-500 {
   fill: #34495e;
+}
+
+.group:hover .group-hover\:fill-blue-550 {
+  fill: #2a67b2;
 }
 
 .group:hover .group-hover\:fill-blue-600 {
@@ -21469,7 +21481,7 @@ video {
 }
 
 .stroke-blue-300 {
-  stroke: #9ab6cb;
+  stroke: #50abf1;
 }
 
 .stroke-blue-400 {
@@ -21478,6 +21490,10 @@ video {
 
 .stroke-blue-500 {
   stroke: #34495e;
+}
+
+.stroke-blue-550 {
+  stroke: #2a67b2;
 }
 
 .stroke-blue-600 {
@@ -21829,7 +21845,7 @@ video {
 }
 
 .hover\:stroke-blue-300:hover {
-  stroke: #9ab6cb;
+  stroke: #50abf1;
 }
 
 .hover\:stroke-blue-400:hover {
@@ -21838,6 +21854,10 @@ video {
 
 .hover\:stroke-blue-500:hover {
   stroke: #34495e;
+}
+
+.hover\:stroke-blue-550:hover {
+  stroke: #2a67b2;
 }
 
 .hover\:stroke-blue-600:hover {
@@ -22189,7 +22209,7 @@ video {
 }
 
 .group:hover .group-hover\:stroke-blue-300 {
-  stroke: #9ab6cb;
+  stroke: #50abf1;
 }
 
 .group:hover .group-hover\:stroke-blue-400 {
@@ -22198,6 +22218,10 @@ video {
 
 .group:hover .group-hover\:stroke-blue-500 {
   stroke: #34495e;
+}
+
+.group:hover .group-hover\:stroke-blue-550 {
+  stroke: #2a67b2;
 }
 
 .group:hover .group-hover\:stroke-blue-600 {
@@ -48183,7 +48207,7 @@ video {
   }
 
   .sm\:fill-blue-300 {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .sm\:fill-blue-400 {
@@ -48192,6 +48216,10 @@ video {
 
   .sm\:fill-blue-500 {
     fill: #34495e;
+  }
+
+  .sm\:fill-blue-550 {
+    fill: #2a67b2;
   }
 
   .sm\:fill-blue-600 {
@@ -48543,7 +48571,7 @@ video {
   }
 
   .sm\:hover\:fill-blue-300:hover {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .sm\:hover\:fill-blue-400:hover {
@@ -48552,6 +48580,10 @@ video {
 
   .sm\:hover\:fill-blue-500:hover {
     fill: #34495e;
+  }
+
+  .sm\:hover\:fill-blue-550:hover {
+    fill: #2a67b2;
   }
 
   .sm\:hover\:fill-blue-600:hover {
@@ -48903,7 +48935,7 @@ video {
   }
 
   .group:hover .sm\:group-hover\:fill-blue-300 {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .group:hover .sm\:group-hover\:fill-blue-400 {
@@ -48912,6 +48944,10 @@ video {
 
   .group:hover .sm\:group-hover\:fill-blue-500 {
     fill: #34495e;
+  }
+
+  .group:hover .sm\:group-hover\:fill-blue-550 {
+    fill: #2a67b2;
   }
 
   .group:hover .sm\:group-hover\:fill-blue-600 {
@@ -49263,7 +49299,7 @@ video {
   }
 
   .sm\:stroke-blue-300 {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .sm\:stroke-blue-400 {
@@ -49272,6 +49308,10 @@ video {
 
   .sm\:stroke-blue-500 {
     stroke: #34495e;
+  }
+
+  .sm\:stroke-blue-550 {
+    stroke: #2a67b2;
   }
 
   .sm\:stroke-blue-600 {
@@ -49623,7 +49663,7 @@ video {
   }
 
   .sm\:hover\:stroke-blue-300:hover {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .sm\:hover\:stroke-blue-400:hover {
@@ -49632,6 +49672,10 @@ video {
 
   .sm\:hover\:stroke-blue-500:hover {
     stroke: #34495e;
+  }
+
+  .sm\:hover\:stroke-blue-550:hover {
+    stroke: #2a67b2;
   }
 
   .sm\:hover\:stroke-blue-600:hover {
@@ -49983,7 +50027,7 @@ video {
   }
 
   .group:hover .sm\:group-hover\:stroke-blue-300 {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .group:hover .sm\:group-hover\:stroke-blue-400 {
@@ -49992,6 +50036,10 @@ video {
 
   .group:hover .sm\:group-hover\:stroke-blue-500 {
     stroke: #34495e;
+  }
+
+  .group:hover .sm\:group-hover\:stroke-blue-550 {
+    stroke: #2a67b2;
   }
 
   .group:hover .sm\:group-hover\:stroke-blue-600 {
@@ -75947,7 +75995,7 @@ video {
   }
 
   .md\:fill-blue-300 {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .md\:fill-blue-400 {
@@ -75956,6 +76004,10 @@ video {
 
   .md\:fill-blue-500 {
     fill: #34495e;
+  }
+
+  .md\:fill-blue-550 {
+    fill: #2a67b2;
   }
 
   .md\:fill-blue-600 {
@@ -76307,7 +76359,7 @@ video {
   }
 
   .md\:hover\:fill-blue-300:hover {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .md\:hover\:fill-blue-400:hover {
@@ -76316,6 +76368,10 @@ video {
 
   .md\:hover\:fill-blue-500:hover {
     fill: #34495e;
+  }
+
+  .md\:hover\:fill-blue-550:hover {
+    fill: #2a67b2;
   }
 
   .md\:hover\:fill-blue-600:hover {
@@ -76667,7 +76723,7 @@ video {
   }
 
   .group:hover .md\:group-hover\:fill-blue-300 {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .group:hover .md\:group-hover\:fill-blue-400 {
@@ -76676,6 +76732,10 @@ video {
 
   .group:hover .md\:group-hover\:fill-blue-500 {
     fill: #34495e;
+  }
+
+  .group:hover .md\:group-hover\:fill-blue-550 {
+    fill: #2a67b2;
   }
 
   .group:hover .md\:group-hover\:fill-blue-600 {
@@ -77027,7 +77087,7 @@ video {
   }
 
   .md\:stroke-blue-300 {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .md\:stroke-blue-400 {
@@ -77036,6 +77096,10 @@ video {
 
   .md\:stroke-blue-500 {
     stroke: #34495e;
+  }
+
+  .md\:stroke-blue-550 {
+    stroke: #2a67b2;
   }
 
   .md\:stroke-blue-600 {
@@ -77387,7 +77451,7 @@ video {
   }
 
   .md\:hover\:stroke-blue-300:hover {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .md\:hover\:stroke-blue-400:hover {
@@ -77396,6 +77460,10 @@ video {
 
   .md\:hover\:stroke-blue-500:hover {
     stroke: #34495e;
+  }
+
+  .md\:hover\:stroke-blue-550:hover {
+    stroke: #2a67b2;
   }
 
   .md\:hover\:stroke-blue-600:hover {
@@ -77747,7 +77815,7 @@ video {
   }
 
   .group:hover .md\:group-hover\:stroke-blue-300 {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .group:hover .md\:group-hover\:stroke-blue-400 {
@@ -77756,6 +77824,10 @@ video {
 
   .group:hover .md\:group-hover\:stroke-blue-500 {
     stroke: #34495e;
+  }
+
+  .group:hover .md\:group-hover\:stroke-blue-550 {
+    stroke: #2a67b2;
   }
 
   .group:hover .md\:group-hover\:stroke-blue-600 {
@@ -103711,7 +103783,7 @@ video {
   }
 
   .lg\:fill-blue-300 {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .lg\:fill-blue-400 {
@@ -103720,6 +103792,10 @@ video {
 
   .lg\:fill-blue-500 {
     fill: #34495e;
+  }
+
+  .lg\:fill-blue-550 {
+    fill: #2a67b2;
   }
 
   .lg\:fill-blue-600 {
@@ -104071,7 +104147,7 @@ video {
   }
 
   .lg\:hover\:fill-blue-300:hover {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .lg\:hover\:fill-blue-400:hover {
@@ -104080,6 +104156,10 @@ video {
 
   .lg\:hover\:fill-blue-500:hover {
     fill: #34495e;
+  }
+
+  .lg\:hover\:fill-blue-550:hover {
+    fill: #2a67b2;
   }
 
   .lg\:hover\:fill-blue-600:hover {
@@ -104431,7 +104511,7 @@ video {
   }
 
   .group:hover .lg\:group-hover\:fill-blue-300 {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .group:hover .lg\:group-hover\:fill-blue-400 {
@@ -104440,6 +104520,10 @@ video {
 
   .group:hover .lg\:group-hover\:fill-blue-500 {
     fill: #34495e;
+  }
+
+  .group:hover .lg\:group-hover\:fill-blue-550 {
+    fill: #2a67b2;
   }
 
   .group:hover .lg\:group-hover\:fill-blue-600 {
@@ -104791,7 +104875,7 @@ video {
   }
 
   .lg\:stroke-blue-300 {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .lg\:stroke-blue-400 {
@@ -104800,6 +104884,10 @@ video {
 
   .lg\:stroke-blue-500 {
     stroke: #34495e;
+  }
+
+  .lg\:stroke-blue-550 {
+    stroke: #2a67b2;
   }
 
   .lg\:stroke-blue-600 {
@@ -105151,7 +105239,7 @@ video {
   }
 
   .lg\:hover\:stroke-blue-300:hover {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .lg\:hover\:stroke-blue-400:hover {
@@ -105160,6 +105248,10 @@ video {
 
   .lg\:hover\:stroke-blue-500:hover {
     stroke: #34495e;
+  }
+
+  .lg\:hover\:stroke-blue-550:hover {
+    stroke: #2a67b2;
   }
 
   .lg\:hover\:stroke-blue-600:hover {
@@ -105511,7 +105603,7 @@ video {
   }
 
   .group:hover .lg\:group-hover\:stroke-blue-300 {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .group:hover .lg\:group-hover\:stroke-blue-400 {
@@ -105520,6 +105612,10 @@ video {
 
   .group:hover .lg\:group-hover\:stroke-blue-500 {
     stroke: #34495e;
+  }
+
+  .group:hover .lg\:group-hover\:stroke-blue-550 {
+    stroke: #2a67b2;
   }
 
   .group:hover .lg\:group-hover\:stroke-blue-600 {
@@ -131475,7 +131571,7 @@ video {
   }
 
   .xl\:fill-blue-300 {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .xl\:fill-blue-400 {
@@ -131484,6 +131580,10 @@ video {
 
   .xl\:fill-blue-500 {
     fill: #34495e;
+  }
+
+  .xl\:fill-blue-550 {
+    fill: #2a67b2;
   }
 
   .xl\:fill-blue-600 {
@@ -131835,7 +131935,7 @@ video {
   }
 
   .xl\:hover\:fill-blue-300:hover {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .xl\:hover\:fill-blue-400:hover {
@@ -131844,6 +131944,10 @@ video {
 
   .xl\:hover\:fill-blue-500:hover {
     fill: #34495e;
+  }
+
+  .xl\:hover\:fill-blue-550:hover {
+    fill: #2a67b2;
   }
 
   .xl\:hover\:fill-blue-600:hover {
@@ -132195,7 +132299,7 @@ video {
   }
 
   .group:hover .xl\:group-hover\:fill-blue-300 {
-    fill: #9ab6cb;
+    fill: #50abf1;
   }
 
   .group:hover .xl\:group-hover\:fill-blue-400 {
@@ -132204,6 +132308,10 @@ video {
 
   .group:hover .xl\:group-hover\:fill-blue-500 {
     fill: #34495e;
+  }
+
+  .group:hover .xl\:group-hover\:fill-blue-550 {
+    fill: #2a67b2;
   }
 
   .group:hover .xl\:group-hover\:fill-blue-600 {
@@ -132555,7 +132663,7 @@ video {
   }
 
   .xl\:stroke-blue-300 {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .xl\:stroke-blue-400 {
@@ -132564,6 +132672,10 @@ video {
 
   .xl\:stroke-blue-500 {
     stroke: #34495e;
+  }
+
+  .xl\:stroke-blue-550 {
+    stroke: #2a67b2;
   }
 
   .xl\:stroke-blue-600 {
@@ -132915,7 +133027,7 @@ video {
   }
 
   .xl\:hover\:stroke-blue-300:hover {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .xl\:hover\:stroke-blue-400:hover {
@@ -132924,6 +133036,10 @@ video {
 
   .xl\:hover\:stroke-blue-500:hover {
     stroke: #34495e;
+  }
+
+  .xl\:hover\:stroke-blue-550:hover {
+    stroke: #2a67b2;
   }
 
   .xl\:hover\:stroke-blue-600:hover {
@@ -133275,7 +133391,7 @@ video {
   }
 
   .group:hover .xl\:group-hover\:stroke-blue-300 {
-    stroke: #9ab6cb;
+    stroke: #50abf1;
   }
 
   .group:hover .xl\:group-hover\:stroke-blue-400 {
@@ -133284,6 +133400,10 @@ video {
 
   .group:hover .xl\:group-hover\:stroke-blue-500 {
     stroke: #34495e;
+  }
+
+  .group:hover .xl\:group-hover\:stroke-blue-550 {
+    stroke: #2a67b2;
   }
 
   .group:hover .xl\:group-hover\:stroke-blue-600 {

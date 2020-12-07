@@ -318,9 +318,10 @@ module.exports = {
                 150: '#e5f1fc',
                 200: '#d0dde9',
                 250: '#d7e4f1',
-                300: '#9ab6cb',
+                300: '#50abf1', // twitter light blue
                 400: '#31658c',
                 500: '#34495e',
+                550: '#2a67b2', // linkedin blue
                 600: '#3a559f', // facebook blue
             },
             indigo: {
@@ -616,9 +617,10 @@ module.exports = {
                 150: '#e5f1fc',
                 200: '#d0dde9',
                 250: '#d7e4f1',
-                300: '#9ab6cb',
+                300: '#50abf1', // twitter light blue
                 400: '#31658c',
                 500: '#34495e',
+                550: '#2a67b2', // linkedin blue
                 600: '#3a559f', // facebook blue
             },
             indigo: {
