@@ -12,4 +12,6 @@ export default {
 const Template: Story<TitleHeadlineProps> = (args) => <TitleHeadline {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = {
+    children: 'Title',
+};

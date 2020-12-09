@@ -38,9 +38,9 @@ const HomeCard = ({
     let col;
 
     if (width === '4-col') {
-        col = 'lg:w-3/12 md:w-6/12 w-full lg:mb-0 mb-4';
+        col = 'lg:w-3/12 md:w-6/12 w-full lg:mb-0 mb-2';
     } else if (width === '3-col') {
-        col = 'md:w-4/12 w-full md:mb-0 mb-4';
+        col = 'md:w-4/12 w-full md:mb-0 mb-2';
     } else {
         col = width;
     }
@@ -61,20 +61,24 @@ const HomeCard = ({
             }`}
             bg={bgImage && style}
         >
-            {icon && iconWebp ? (
-                <picture>
-                    <source srcSet={iconWebp} type="image/webp" />
-                    <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
-                </picture>
-            ) : (
-                <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
+            {icon && (
+                <>
+                    {icon && iconWebp ? (
+                        <picture>
+                            <source srcSet={iconWebp} type="image/webp" />
+                            <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
+                        </picture>
+                    ) : (
+                        <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
+                    )}
+                </>
             )}
             {label && (
                 <div className="uppercase absolute top-0 left-0 mt-10px ml-10px bg-yellow-500 text-xs px-10px py-1">
                     {label}
                 </div>
             )}
-            <p className="mb-6 text-lg">{children}</p>
+            <p className="mb-3 md:mb-6 text-lg">{children}</p>
             {!noArrow && <img src={iconArrowRight} className="mb-3" alt="go to website page" />}
         </Card>
     );

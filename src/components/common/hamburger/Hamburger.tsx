@@ -9,7 +9,7 @@ const Hamburger = ({ clicked, onClick }: HamburgerProps): React.ReactElement => 
     const burgerStyle = 'w-full py-px border-b border-black bg-black duration-300';
 
     return (
-        <div className="block md:hidden fixed top-0 z-20">
+        <div className="block lg:hidden fixed top-0 z-20">
             <button
                 type="button"
                 onClick={onClick}

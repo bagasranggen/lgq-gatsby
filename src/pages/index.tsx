@@ -5,7 +5,8 @@ import { isMobileOnly } from 'react-device-detect';
 import Layout from 'components/container/layout/Layout';
 import Container from 'components/common/container/Container';
 import HomeCard from 'components/home/homeCard/HomeCard';
-import HomeCardLink from 'components/home/homeCardLink/HomeCardLink';
+import HomeLinks from 'components/home/homeLinks/HomeLinks';
+import HomeOtherLink from 'components/home/homeOtherLink/HomeOtherLink';
 import TitleHeadline from 'components/common/titleHeadline/TitleHeadline';
 import Button from 'components/common/button/Button';
 // import Breadcrumbs from 'components/common/breadcrumbs/Breadcrumbs';
@@ -40,9 +41,6 @@ import bgService from 'assets/img/bg/home/bg-service.png';
 import bgProduct from 'assets/img/bg/home/bg-product.png';
 import bgCareer from 'assets/img/bg/home/bg-career.png';
 import bgContact from 'assets/img/bg/home/bg-contact.png';
-import bgLinkAbout from 'assets/img/jpg/home/bg-links-about.jpg';
-import bgLinkContact from 'assets/img/jpg/home/bg-links-contact.jpg';
-import bgLinkWork from 'assets/img/jpg/home/bg-links-ourwork.jpg';
 
 const Index = (): React.ReactElement => {
     const indexLink = [
@@ -54,13 +52,21 @@ const Index = (): React.ReactElement => {
     return (
         <Layout
             pageLang="id"
+            sidebarActive="home"
             langs={indexLink}
             canonical="https://www.logique.co.id/"
             ogUrl="https://www.logique.co.id/"
         >
             {!isMobileOnly && (
                 <div className="">
-                    <video poster={imgVideo} playsInline autoPlay muted loop className="absolute left-0 -z-10 w-full">
+                    <video
+                        poster={imgVideo}
+                        playsInline
+                        autoPlay
+                        muted
+                        loop
+                        className="absolute left-0 -z-10 w-full h-full object-cover"
+                    >
                         <source src={videoWebm} type="video/webm" />
                         <source src={videoMp4} type="video/mp4" />
                     </video>
@@ -292,65 +298,9 @@ const Index = (): React.ReactElement => {
                 </div>
             </Container>
 
-            <Container className="pb-10">
-                <div className="flex flex-wrap -mx-15px">
-                    <HomeCardLink title="Tentang Kami" bg={bgLinkAbout}>
-                        <span className="font-novocento-bold">LOGIQUE Digital Indonesia</span> adalah konsultan IT
-                        terkemuka dan perusahaan pengembangan sistem yang dipimpin oleh seorang pengusaha Jepang yang
-                        berbasis di Jakarta.
-                    </HomeCardLink>
-                    <HomeCardLink title="Hasil Kerja Kami" bg={bgLinkWork}>
-                        <span className="font-novocento-bold">LOGIQUE</span> telah mengembangkan banyak Situs Web,
-                        Sistem dan Aplikasi, Kampanye Pemasaran Digital yang terbukti sukses menjawab setiap kebutuhan
-                        klien kami.
-                    </HomeCardLink>
-                    <HomeCardLink title="Hubungi Kami" bg={bgLinkContact}>
-                        Hubungi Kami sekarang, kami akan berikan solusi terbaik.
-                    </HomeCardLink>
-                </div>
-            </Container>
+            <HomeLinks lang="id" />
 
-            <Container className="pb-10">
-                <h2 className="text-2xl text-center">Layanan Lainnya</h2>
-                <div className="flex flex-wrap -mx-15px mb-8">
-                    <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
-                            Jasa Pembuatan Website
-                        </h4>
-                        <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> adalah perusahaan pengembangan situs
-                            web yang berupaya meningkatkan bisnis Anda.
-                        </p>
-                    </HomeCard>
-                    <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
-                            Jasa Pembuatan Aplikasi
-                        </h4>
-                        <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> memberikan solusi yang efisien dalam
-                            pengembangan Mobile App untuk iOS &amp; Android.
-                        </p>
-                    </HomeCard>
-                    <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
-                            Jasa Pembuatan Sistem Web
-                        </h4>
-                        <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> membantu mencapai tujuan bisnis Anda
-                            melalui kemajuan terbaru dalam teknologi berbasis web.
-                        </p>
-                    </HomeCard>
-                    <HomeCard link="/" width="4-col" noShadow noArrow>
-                        <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
-                            Jasa Penetration Testing
-                        </h4>
-                        <p className="text-base mt-3">
-                            <span className="font-novocento-bold">LOGIQUE</span> akan melakukan berbagai uji coba
-                            keamanan di situs web Anda.
-                        </p>
-                    </HomeCard>
-                </div>
-            </Container>
+            <HomeOtherLink lang="id" />
         </Layout>
     );
 };
