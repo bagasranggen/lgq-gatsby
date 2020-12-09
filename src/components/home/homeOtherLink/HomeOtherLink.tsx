@@ -107,7 +107,7 @@ const HomeOtherLink = ({ lang }: HomeOtherLinkProps): React.ReactElement => {
                         <h4 className="text-xl font-semibold duration-200 group-hover:text-yellow-500">
                             {content.title}
                         </h4>
-                        <p className="text-base mt-3">{content.content}</p>
+                        <p className="text-base mt-3 -mb-5 md:mb-0">{content.content}</p>
                     </HomeCard>
                 ))}
             </div>

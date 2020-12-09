@@ -57,7 +57,7 @@ const HomeCard = ({
             link={link}
             className={`${col} px-15px group`}
             cardStyle={`block relative h-full bg-white duration-200 ${noShadow ? '' : 'shadow-md hover:shadow-xl'} ${
-                padding || 'px-2 pt-2 md:p-5'
+                padding || 'p-5'
             }`}
             bg={bgImage && style}
         >
