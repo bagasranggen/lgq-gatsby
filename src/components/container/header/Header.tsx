@@ -27,7 +27,7 @@ const Header = ({ pageLang, langs }: HeaderProps): React.ReactElement => {
                         to={`/${pageLang === 'id' ? '' : pageLang}`}
                         className="w-full md:w-auto text-center md:text-left"
                     >
-                        <h2 className="font-novocento-bold text-4xl mt-1 md:mt-0 text-yellow-500 leading-none">
+                        <h2 className="font-novocento-bold text-4xl mt-1 md:mt-0 ml-0 md:ml-16 lg:ml-0 text-yellow-500 leading-none">
                             LOGIQUE
                         </h2>
                     </Link>

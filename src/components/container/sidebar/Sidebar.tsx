@@ -816,13 +816,13 @@ const Sidebar = ({ pageLang, active }: SidebarProps): React.ReactElement => {
         <>
             <Hamburger onClick={hamburgerHandler} clicked={hamburgerClick} />
             <div
-                className={`fixed top-0 left-0 bg-black w-full h-full z-10 duration-300 transform block md:hidden ${
+                className={`fixed top-0 left-0 bg-black w-full h-full z-10 duration-300 transform block lg:hidden ${
                     hamburgerClick ? ' opacity-25' : '-translate-x-full opacity-0'
                 }`}
             />
             <div
                 className={`fixed top-0 left-0 ml-4 z-20 duration-300 transform ${
-                    hamburgerClick ? '' : '-translate-x-64 md:translate-x-0'
+                    hamburgerClick ? '' : '-translate-x-64 lg:translate-x-0'
                 }`}
             >
                 <div className="w-24 py-4 md:py-8 bg-yellow-500 rounded-20px h-screen">
