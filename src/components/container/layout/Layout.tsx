@@ -8,6 +8,7 @@ import Footer from 'components/container/footer/Footer';
 export type LayoutProps = {
     children: React.ReactNode;
     pageLang: 'en' | 'id' | 'jp';
+    sidebarActive: 'home' | 'about' | 'portfolio' | 'services' | 'product' | 'career' | 'contact' | 'blog';
     langs: Array<{
         lang: string;
         link: string;
@@ -29,6 +30,7 @@ export type LayoutProps = {
 const Layout = ({
     children,
     pageLang,
+    sidebarActive,
     langs,
     title,
     author,
@@ -69,7 +71,7 @@ const Layout = ({
                 canonical={canonical}
             />
             <Header pageLang={pageLang} langs={langs} />
-            <Sidebar pageLang={pageLang} />
+            <Sidebar pageLang={pageLang} active={sidebarActive} />
             <div className={`mt-28 md:mt-16 ${pageLang === 'jp' && 'font-mplus'}`}>{children}</div>
             <Footer pageLang={pageLang} />
         </>

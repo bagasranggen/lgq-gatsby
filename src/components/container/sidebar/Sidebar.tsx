@@ -5,29 +5,32 @@ import Link from 'gatsby-link';
 
 import Hamburger from 'components/common/hamburger/Hamburger';
 
+import BgLinkActive from 'assets/img/icon/sidebar/icon-active.png';
+
 export type SidebarProps = {
     pageLang: 'id' | 'en' | 'jp';
+    active: 'home' | 'about' | 'portfolio' | 'services' | 'product' | 'career' | 'contact' | 'blog';
 };
 
-const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
+const Sidebar = ({ pageLang, active }: SidebarProps): React.ReactElement => {
     const linkAnimation = 'duration-300 ease-in-out';
 
     const homeIcon = (
         <svg className="mx-auto" width="43" height="40" xmlns="http://www.w3.org/2000/svg">
             <g fillRule="nonzero" fill="none">
                 <path
-                    className={`${linkAnimation} group-hover:fill-black`}
+                    className={`${linkAnimation} ${active === 'home' && 'fill-black'} group-hover:fill-black`}
                     d="M37.239 16.188v19.12a2.37 2.37 0 01-2.37 2.37H8.008a2.37 2.37 0 01-2.37-2.37v-19.12l9.48-9.48 3.08-3.08a4.582 4.582 0 016.48 0l3.08 3.08 9.48 9.48z"
                     fill="transparent"
                 />
                 <path
                     d="M19.068 23.774h4.74a2.686 2.686 0 012.686 2.686v11.218H16.382V26.46a2.686 2.686 0 012.686-2.686z"
-                    className={`${linkAnimation} group-hover:fill-yellow-500`}
+                    className={`${linkAnimation} ${active === 'home' && 'fill-yellow-500'} group-hover:fill-yellow-500`}
                     fill="transparent"
                 />
                 <path
                     d="M41.293 18.454L25.572 2.734a5.853 5.853 0 00-8.268 0l-15.72 15.72a1.264 1.264 0 101.787 1.788l1.003-1.003v16.07a3.638 3.638 0 003.634 3.633h26.861a3.638 3.638 0 003.634-3.634V19.24l1.002 1.003a1.26 1.26 0 001.788 0 1.264 1.264 0 000-1.788zm-23.647 17.96V26.46c0-.784.638-1.422 1.422-1.422h4.74c.784 0 1.422.638 1.422 1.422v9.954h-7.584zm18.329-1.106c0 .61-.496 1.106-1.106 1.106h-7.11V26.46a3.955 3.955 0 00-3.95-3.95h-4.74a3.955 3.955 0 00-3.951 3.95v9.954h-7.11c-.61 0-1.106-.496-1.106-1.106V16.711l12.19-12.19a3.322 3.322 0 014.692 0l12.19 12.19v18.597z"
-                    className={`${linkAnimation} group-hover:fill-yellow-500`}
+                    className={`${linkAnimation} ${active === 'home' && 'fill-yellow-500'} group-hover:fill-yellow-500`}
                     strokeWidth="1.5"
                     stroke="#000"
                     fill="transparent"
@@ -38,13 +41,22 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
 
     const aboutIcon = (
         <svg className="mx-auto" width="35" height="35" xmlns="http://www.w3.org/2000/svg">
-            <g className={`${linkAnimation} group-hover:fill-black`} fill="transparent" fillRule="evenodd">
+            <g
+                className={`${linkAnimation} ${active === 'about' && 'fill-black'} group-hover:fill-black`}
+                fill="transparent"
+                fillRule="evenodd"
+            >
                 <path
                     d="M29.016 1.1H4.984C2.787 1.1 1 2.87 1 5.047v27.006c0 .24.06.45.179.626.179.264.479.421.803.421h0c.732 0 1.406-.656 3.972-3.462 1.312-1.435 3.747-4.096 4.482-4.3h18.58c2.197 0 3.984-1.77 3.984-3.947V5.047C33 2.871 31.213 1.1 29.016 1.1z"
                     stroke="#000"
                     strokeWidth="1.5"
                 />
-                <g className={`${linkAnimation} group-hover:fill-yellow-500`} fill="#000">
+                <g
+                    className={`${linkAnimation} ${
+                        active === 'about' && 'fill-yellow-500'
+                    } group-hover:fill-yellow-500`}
+                    fill="#000"
+                >
                     <path d="M13.3 6.1h2.3v14.1h-2.3z" />
                     <path d="M13.6 18h9v2.2h-9z" />
                 </g>
@@ -56,19 +68,21 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
         <svg className="mx-auto" width="36" height="36" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fillRule="evenodd">
                 <path
-                    className={`${linkAnimation} group-hover:fill-black`}
+                    className={`${linkAnimation} ${active === 'portfolio' && 'fill-black'} group-hover:fill-black`}
                     fill="transparent"
                     d="M5.4.9h25.2v24.3H5.4z"
                 />
                 <path
-                    className={`${linkAnimation} group-hover:fill-white`}
+                    className={`${linkAnimation} ${active === 'portfolio' && 'fill-white'} group-hover:fill-white`}
                     fill="transparent"
                     d="M28.8 13.5h2.7V18h-2.7zM27.871 15.097H16.258v-1.162h11.613zM15.097 17.06L12.973 16a.357.357 0 010-.643l2.124-1.062v2.767zM16.258 16.258h11.613v1.161H16.258z"
                 />
                 <g fillRule="nonzero">
                     <path
                         d="M12.194 15.677c0-.356.2-.68.519-.84l2.964-1.482h3.027a6.355 6.355 0 001.038-3.484 6.387 6.387 0 00-12.774 0 6.383 6.383 0 005.365 6.298.935.935 0 01-.14-.492z"
-                        className={`${linkAnimation} group-hover:fill-white group-hover:stroke-white`}
+                        className={`${linkAnimation} ${
+                            active === 'portfolio' && 'fill-white'
+                        } group-hover:fill-white group-hover:stroke-white`}
                         fill="transparent"
                         stroke="#000"
                     />
@@ -79,7 +93,7 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                     <path fill="#000" d="M19.649 3.219l-.975-.631-6.05 9.348-1.824-1.368-.697.929 2.821 2.115z" />
                     <path
                         d="M9.29 19.742c-.96 0-1.742.781-1.742 1.742 0 .96.782 1.742 1.742 1.742s1.742-.782 1.742-1.742-.781-1.742-1.742-1.742zm0 2.323a.58.58 0 110-1.162.58.58 0 010 1.162zM15.097 19.742c-.96 0-1.742.781-1.742 1.742 0 .96.781 1.742 1.742 1.742.96 0 1.742-.782 1.742-1.742s-.782-1.742-1.742-1.742zm0 2.323a.58.58 0 110-1.162.58.58 0 010 1.162zM20.903 19.742c-.96 0-1.742.781-1.742 1.742 0 .96.782 1.742 1.742 1.742s1.742-.782 1.742-1.742-.781-1.742-1.742-1.742zm0 2.323a.58.58 0 110-1.162.58.58 0 010 1.162zM26.71 19.742c-.96 0-1.742.781-1.742 1.742 0 .96.781 1.742 1.742 1.742.96 0 1.742-.782 1.742-1.742s-.782-1.742-1.742-1.742zm0 2.323a.58.58 0 110-1.162.58.58 0 010 1.162z"
-                        className={`${linkAnimation} group-hover:fill-white`}
+                        className={`${linkAnimation} ${active === 'portfolio' && 'fill-white'} group-hover:fill-white`}
                         fill="#000"
                     />
                 </g>
@@ -106,7 +120,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 id="Path"
                                 stroke="#000000"
                                 fill="transparent"
-                                className={`${linkAnimation} group-hover:fill-black`}
+                                className={`${linkAnimation} ${
+                                    active === 'services' && 'fill-black'
+                                } group-hover:fill-black`}
                             />
                             <g id="Group" fill="#000000">
                                 <path
@@ -205,12 +221,16 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 d="M9.03225806,1.29032258 L24.516129,1.29032258 L24.516129,7.74193548 L30.9677419,7.74193548 L30.9677419,30.9677419 L28.3870968,30.9677419 L28.3870968,26.4516129 C28.3870968,22.0451613 24.9683871,18.4290323 20.6451613,18.0974194 L20.6451613,16.6554839 C21.3941935,16.3883871 21.9354839,15.6787097 21.9354839,14.8387097 C21.9354839,13.7716129 21.0670968,12.9032258 20,12.9032258 C18.9329032,12.9032258 18.0645161,13.7716129 18.0645161,14.8387097 C18.0645161,15.6787097 18.6058065,16.3883871 19.3548387,16.6554839 L19.3548387,18.0974194 C15.0316129,18.4290323 11.6129032,22.0451613 11.6129032,26.4516129 L11.6129032,30.9677419 L9.03225806,30.9677419 L9.03225806,1.29032258 Z"
                                 id="Path"
                                 fill="transparent"
-                                className={`${linkAnimation} group-hover:fill-black`}
+                                className={`${linkAnimation} ${
+                                    active === 'product' && 'fill-black'
+                                } group-hover:fill-black`}
                             />
                             <polygon
                                 id="Path"
                                 stroke="#000"
-                                className={`${linkAnimation} group-hover:stroke-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'product' && 'stroke-white'
+                                } group-hover:stroke-white`}
                                 fillRule="nonzero"
                                 points="19.3548387 11.6129032 10.3225806 11.6129032 10.3225806 2.58064516 19.3548387 2.58064516"
                             />
@@ -223,7 +243,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 <rect
                                     id="Rectangle"
                                     fill="#000"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'product' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     x="11.6129032"
                                     y="5.16129032"
                                     width="6.4516129"
@@ -232,7 +254,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 <rect
                                     id="Rectangle"
                                     fill="#000"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'product' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     x="11.6129032"
                                     y="7.74193548"
                                     width="6.4516129"
@@ -241,7 +265,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 <rect
                                     id="Rectangle"
                                     fill="#000"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'product' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     x="11.6129032"
                                     y="12.9032258"
                                     width="5.16129032"
@@ -250,7 +276,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 <rect
                                     id="Rectangle"
                                     fill="#000"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'product' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     x="11.6129032"
                                     y="15.483871"
                                     width="5.16129032"
@@ -259,7 +287,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 <rect
                                     id="Rectangle"
                                     fill="#000"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'product' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     x="24.516129"
                                     y="10.3225806"
                                     width="5.16129032"
@@ -268,7 +298,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 <rect
                                     id="Rectangle"
                                     fill="#000"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'product' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     x="24.516129"
                                     y="15.483871"
                                     width="5.16129032"
@@ -277,7 +309,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 <rect
                                     id="Rectangle"
                                     fill="#000"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'product' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     x="24.516129"
                                     y="12.9032258"
                                     width="5.16129032"
@@ -324,7 +358,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="6.71032258"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -334,13 +370,17 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <path
-                                className={`${linkAnimation} group-hover:fill-black`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-black'
+                                } group-hover:fill-black`}
                                 d="M7.70458611,11.007725 L33.543225,11.007725 L33.543225,37.876975 L3.10119343,37.876975 C2.38717023,37.8353994 1.94462989,37.7168409 1.77357242,37.5212993 C-0.00536655624,35.4877347 0.982125234,33.6492426 3.91435484,33.1501119 C4.69683597,33.0169163 7.42584813,33.1501119 7.42584813,32.2934274 C7.42584813,30.1321328 7.51876079,23.0368987 7.70458611,11.007725 Z"
                                 id="Rectangle"
                                 fill="transparent"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -350,7 +390,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -360,7 +402,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -370,7 +414,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -396,7 +442,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 fontFamily="Helvetica"
                                 fontSize="18.5"
                                 fontWeight="normal"
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 fill="#ffca13"
                             >
                                 <tspan x="10.6330195" y="16.53425">
@@ -404,7 +452,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 </tspan>
                             </text>
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -414,7 +464,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -424,7 +476,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -434,7 +488,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -444,7 +500,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -454,7 +512,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -464,7 +524,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <g
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Group-33"
                                 transform="translate(17.335000, 21.668750)"
                                 fill="#000"
@@ -480,7 +542,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 />
                             </g>
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -490,7 +554,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -500,7 +566,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 height="1.1183871"
                             />
                             <rect
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'career' && 'fill-white'
+                                } group-hover:fill-white`}
                                 id="Rectangle"
                                 fill="#000"
                                 fillRule="nonzero"
@@ -533,19 +601,25 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                             <path
                                 d="M32.9990571,14.9813391 L18.7791063,0.752815618 C17.6851135,0.752514823 17.0717166,0.751988431 15.9777238,0.751988431 L1.74002603,14.9811135 C1.15422704,15.5665365 0.825081706,16.3607867 0.825081706,17.1889516 L0.825081706,34.6242545 C0.825081706,36.348188 2.22257701,37.7456833 3.94651048,37.7456833 L30.7910687,37.7456833 C32.5150022,37.7456833 33.9124975,36.348188 33.9124975,34.6242545 L33.9124975,17.1878988 C33.9124975,16.3603355 33.5840289,15.5666869 32.9990571,14.9813391 Z"
                                 id="XMLID_1037_"
-                                className={`${linkAnimation} group-hover:fill-black`}
+                                className={`${linkAnimation} ${
+                                    active === 'contact' && 'fill-black'
+                                } group-hover:fill-black`}
                                 fill="transparent"
                             />
                             <path
                                 d="M4.43470137,19.4930441 L4.43470137,7.0720752 C4.43470137,5.82196963 5.44808098,4.80859002 6.69818655,4.80859002 L28.0396182,4.80859002 C29.2897238,4.80859002 30.3031034,5.82196963 30.3031034,7.0720752 L30.3031034,19.5036471 L19.5774172,30.1377411 C18.3163326,31.3880723 16.2811511,31.381906 15.0276616,30.1239046 L4.43470137,19.4930441 Z"
                                 id="XMLID_1029_"
-                                className={`${linkAnimation} group-hover:fill-white`}
+                                className={`${linkAnimation} ${
+                                    active === 'contact' && 'fill-white'
+                                } group-hover:fill-white`}
                                 fill="#ffca13"
                             />
                             <path
                                 d="M19.5853883,30.2313637 C18.3667158,31.4507129 16.3903398,31.4513145 15.1709906,30.2327173 L1.02548662,16.0909732 C0.894715835,16.4387679 0.825156905,16.810175 0.825156905,17.1889516 L0.825156905,34.6241793 C0.825156905,36.3481128 2.22265221,37.7456833 3.94666088,37.7456833 L30.7912191,37.7456833 C32.5151526,37.7456833 33.9127231,36.348188 33.9127231,34.6241793 L33.9127231,17.1878236 C33.9127231,16.8118294 33.8442169,16.4431294 33.7153261,16.0975155 L19.5853883,30.2313637 Z"
                                 id="XMLID_1311_"
-                                className={`${linkAnimation} group-hover:fill-black`}
+                                className={`${linkAnimation} ${
+                                    active === 'contact' && 'fill-black'
+                                } group-hover:fill-black`}
                                 fill="#ffca13"
                             />
                             <g id="XMLID_80_" fill="#000000">
@@ -586,7 +660,9 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                             />
                             <rect
                                 id="Rectangle"
-                                className={`${linkAnimation} group-hover:fill-black`}
+                                className={`${linkAnimation} ${
+                                    active === 'blog' && 'fill-black'
+                                } group-hover:fill-black`}
                                 fill="transparent"
                                 x="3.04"
                                 y="4.75"
@@ -613,19 +689,25 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
                                 <path
                                     d="M14.7096774,13.483871 C13.8957419,13.483871 13.0885484,13.6879677 12.3763548,14.0734839 L12.9604516,15.1515806 C13.4942903,14.8629032 14.0992258,14.7096774 14.7096774,14.7096774 C16.7377742,14.7096774 18.3870968,16.359 18.3870968,18.3870968 C18.3870968,18.9981613 18.2344839,19.6030968 17.9451935,20.1363226 L19.0226774,20.7204194 C19.4088065,20.0088387 19.6129032,19.2016452 19.6129032,18.3870968 C19.6129032,15.6835806 17.4131935,13.483871 14.7096774,13.483871 Z"
                                     id="Path"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'blog' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     fill="#000"
                                 />
                                 <path
                                     d="M14.7096774,22.0645161 C12.6815806,22.0645161 11.0322581,20.4151935 11.0322581,18.3870968 C11.0322581,17.7760323 11.184871,17.1710968 11.4741613,16.637871 L10.3966774,16.0537742 C10.0105484,16.7653548 9.80645161,17.5725484 9.80645161,18.3870968 C9.80645161,21.0906129 12.0061613,23.2903226 14.7096774,23.2903226 C15.5242258,23.2903226 16.3314194,23.0862258 17.043,22.7000968 L16.4589032,21.6226129 C15.9256774,21.9119032 15.3207419,22.0645161 14.7096774,22.0645161 Z"
                                     id="Path"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'blog' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     fill="#000"
                                 />
                                 <path
                                     d="M14.7096774,15.9354839 C13.3576129,15.9354839 12.2580645,17.0350323 12.2580645,18.3870968 C12.2580645,19.7391613 13.3576129,20.8387097 14.7096774,20.8387097 C16.0617419,20.8387097 17.1612903,19.7391613 17.1612903,18.3870968 C17.1612903,17.0350323 16.0617419,15.9354839 14.7096774,15.9354839 Z M14.7096774,19.6129032 C14.0336452,19.6129032 13.483871,19.063129 13.483871,18.3870968 C13.483871,17.7110645 14.0336452,17.1612903 14.7096774,17.1612903 C15.3857097,17.1612903 15.9354839,17.7110645 15.9354839,18.3870968 C15.9354839,19.063129 15.3857097,19.6129032 14.7096774,19.6129032 Z"
                                     id="Shape"
-                                    className={`${linkAnimation} group-hover:fill-white`}
+                                    className={`${linkAnimation} ${
+                                        active === 'blog' && 'fill-white'
+                                    } group-hover:fill-white`}
                                     fill="#000"
                                 />
                                 <path
@@ -683,34 +765,34 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
 
     const sidebarLink = {
         id: [
-            { label: 'Beranda', icon: homeIcon, link: '/' },
-            { label: 'Tentang Kami', icon: aboutIcon, link: '/' },
-            { label: 'Portfolio', icon: portoIcon, link: '/' },
-            { label: 'Layanan', icon: serviceIcon, link: '/' },
-            { label: 'Produk', icon: productIcon, link: '/' },
-            { label: 'Karir', icon: careerIcon, link: '/' },
-            { label: 'Hubungi Kami', icon: contactIcon, link: '/' },
-            { label: 'Blog', icon: blogIcon, link: '/' },
+            { id: 'home', label: 'Beranda', icon: homeIcon, link: '/' },
+            { id: 'about', label: 'Tentang Kami', icon: aboutIcon, link: '/' },
+            { id: 'portfolio', label: 'Portfolio', icon: portoIcon, link: '/' },
+            { id: 'services', label: 'Layanan', icon: serviceIcon, link: '/' },
+            { id: 'product', label: 'Produk', icon: productIcon, link: '/' },
+            { id: 'career', label: 'Karir', icon: careerIcon, link: '/' },
+            { id: 'contact', label: 'Hubungi Kami', icon: contactIcon, link: '/' },
+            { id: 'blog', label: 'Blog', icon: blogIcon, link: '/' },
         ],
         en: [
-            { label: 'Home', icon: homeIcon, link: '/' },
-            { label: 'About', icon: aboutIcon, link: '/' },
-            { label: 'Portfolio', icon: portoIcon, link: '/' },
-            { label: 'Services', icon: serviceIcon, link: '/' },
-            { label: 'Product', icon: productIcon, link: '/' },
-            { label: 'Career', icon: careerIcon, link: '/' },
-            { label: 'Contact Us', icon: contactIcon, link: '/' },
-            { label: 'Blog', icon: blogIcon, link: '/' },
+            { id: 'home', label: 'Home', icon: homeIcon, link: '/' },
+            { id: 'about', label: 'About', icon: aboutIcon, link: '/' },
+            { id: 'portfolio', label: 'Portfolio', icon: portoIcon, link: '/' },
+            { id: 'services', label: 'Services', icon: serviceIcon, link: '/' },
+            { id: 'product', label: 'Product', icon: productIcon, link: '/' },
+            { id: 'career', label: 'Career', icon: careerIcon, link: '/' },
+            { id: 'contact', label: 'Contact Us', icon: contactIcon, link: '/' },
+            { id: 'blog', label: 'Blog', icon: blogIcon, link: '/' },
         ],
         jp: [
-            { label: 'Home', icon: homeIcon, link: '/' },
-            { label: '会社概要', icon: aboutIcon, link: '/' },
-            { label: '制作実績', icon: portoIcon, link: '/' },
-            { label: 'サービス', icon: serviceIcon, link: '/' },
-            { label: 'プロダクト', icon: productIcon, link: '/' },
-            { label: '採用/', icon: careerIcon, link: '/' },
-            { label: 'お問い合わせ', icon: contactIcon, link: '/' },
-            { label: 'Blog', icon: blogIcon, link: '/' },
+            { id: 'home', label: 'Home', icon: homeIcon, link: '/' },
+            { id: 'about', label: '会社概要', icon: aboutIcon, link: '/' },
+            { id: 'portfolio', label: '制作実績', icon: portoIcon, link: '/' },
+            { id: 'services', label: 'サービス', icon: serviceIcon, link: '/' },
+            { id: 'product', label: 'プロダクト', icon: productIcon, link: '/' },
+            { id: 'career', label: '採用/', icon: careerIcon, link: '/' },
+            { id: 'contact', label: 'お問い合わせ', icon: contactIcon, link: '/' },
+            { id: 'blog', label: 'Blog', icon: blogIcon, link: '/' },
         ],
     };
 
@@ -734,18 +816,36 @@ const Sidebar = ({ pageLang }: SidebarProps): React.ReactElement => {
         <>
             <Hamburger onClick={hamburgerHandler} clicked={hamburgerClick} />
             <div
-                className={`fixed top-0 left-0 ml-4 z-10 duration-300 transform ${
+                className={`fixed top-0 left-0 bg-black w-full h-full z-10 duration-300 transform block md:hidden ${
+                    hamburgerClick ? ' opacity-25' : '-translate-x-full opacity-0'
+                }`}
+            />
+            <div
+                className={`fixed top-0 left-0 ml-4 z-20 duration-300 transform ${
                     hamburgerClick ? '' : '-translate-x-64 md:translate-x-0'
                 }`}
             >
-                <nav className="w-24 py-8 px-15px bg-yellow-500 h-screen overflow-y-auto rounded-20px flex flex-col items-center">
-                    {sidebarLang?.map((sidebar) => (
-                        <Link to={sidebar.link} key={sidebar.label} className="group text-center text-black mb-5">
-                            {sidebar.icon}
-                            <div className="mt-1 text-xs leading-3">{sidebar.label}</div>
-                        </Link>
-                    ))}
-                </nav>
+                <div className="w-24 py-4 md:py-8 bg-yellow-500 rounded-20px h-screen">
+                    <nav className="px-15px flex flex-col items-center h-screen overflow-y-auto">
+                        {sidebarLang?.map((sidebar) => (
+                            <Link
+                                to={sidebar.link}
+                                key={sidebar.label}
+                                className="w-full group text-center text-black py-5 -mb-4 relative z-10 flex flex-col items-center"
+                            >
+                                {sidebar.icon}
+                                <div className="mt-1 text-xs leading-3">{sidebar.label}</div>
+                                {sidebar.id === active && (
+                                    <img
+                                        src={BgLinkActive}
+                                        alt=""
+                                        className="absolute h-24 min-w-24 top-1/2 right-0 -mr-4 transform -translate-y-1/2 -z-10"
+                                    />
+                                )}
+                            </Link>
+                        ))}
+                    </nav>
+                </div>
             </div>
         </>
     );

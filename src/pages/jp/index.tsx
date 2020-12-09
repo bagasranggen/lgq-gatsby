@@ -55,6 +55,7 @@ const Index = (): React.ReactElement => {
     return (
         <Layout
             pageLang="jp"
+            sidebarActive="home"
             langs={indexLink}
             title="ジャカルタのWebサイト/ホームページ制作会社 | LOGIQUE デジタルインドネシア"
             canonical="https://www.logique.co.id/en/"
@@ -62,7 +63,14 @@ const Index = (): React.ReactElement => {
         >
             {!isMobileOnly && (
                 <div className="">
-                    <video poster={imgVideo} playsInline autoPlay muted loop className="absolute left-0 -z-10 w-full">
+                    <video
+                        poster={imgVideo}
+                        playsInline
+                        autoPlay
+                        muted
+                        loop
+                        className="absolute left-0 -z-10 w-full h-full object-cover"
+                    >
                         <source src={videoWebm} type="video/webm" />
                         <source src={videoMp4} type="video/mp4" />
                     </video>
