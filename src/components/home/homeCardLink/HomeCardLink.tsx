@@ -27,7 +27,7 @@ const HomeCardLink = ({ link, title, children, bg }: HomeCardLinkProps): React.R
         >
             <div className="z-10">
                 <div
-                    className="flex flex-wrap text-xl lg:text-2xl font-semibold mt-6 md:mt-12 lg:mt-6 mb-2"
+                    className="flex flex-wrap text-xl lg:text-2xl font-semibold mt-12 lg:mt-6 mb-2"
                     style={{ paddingTop: '60%' }}
                 >
                     {title}
