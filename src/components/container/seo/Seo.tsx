@@ -45,6 +45,10 @@ const Seo = ({
             <meta property="og:description" content={ogDescription} />
             <link rel="canonical" href={canonical} />
             <meta name="google-site-verification" content="rdHgeMNE19n12zlkjsfSKFLDS23MuTFSHl8lQPesFHLk21oU" />
+            <link
+                href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+                rel="stylesheet"
+            />
         </Helmet>
     );
 };
