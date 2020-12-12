@@ -6,14 +6,14 @@ export type HamburgerProps = {
 };
 
 const Hamburger = ({ clicked, onClick }: HamburgerProps): React.ReactElement => {
-    const burgerStyle = 'w-full py-px border-b border-black bg-black duration-300';
+    const burgerStyle = 'w-full py-px border-b border-black bg-black rounded-sm duration-300';
 
     return (
         <div className="block lg:hidden fixed top-0 z-20">
             <button
                 type="button"
                 onClick={onClick}
-                className={`bg-yellow-500 p-10px flex flex-col justify-between w-12 h-10 mt-10px focus:outline-none duration-300 ${
+                className={`bg-yellow-500 p-10px flex flex-col justify-between w-12 h-10 mt-10px rounded-sm focus:outline-none duration-300 ${
                     clicked ? 'ml-32' : 'ml-10px'
                 }`}
             >
