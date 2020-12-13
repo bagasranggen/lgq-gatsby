@@ -837,9 +837,9 @@ const Sidebar = ({ pageLang, active }: SidebarProps): React.ReactElement => {
                                 <div className="mt-1 text-xs leading-3">{sidebar.label}</div>
                                 {sidebar.id === active && (
                                     <img
-                                        src={BgLinkActive}
+                                        data-src={BgLinkActive}
                                         alt=""
-                                        className="absolute h-24 min-w-24 top-1/2 right-0 -mr-4 transform -translate-y-1/2 -z-10"
+                                        className="absolute h-24 min-w-24 top-1/2 right-0 -mr-4 transform -translate-y-1/2 -z-10 lazyload"
                                     />
                                 )}
                             </Link>

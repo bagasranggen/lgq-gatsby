@@ -165,9 +165,9 @@ const Product = (): React.ReactElement => {
                                     <picture>
                                         {/* <source srcset="" type="image/"/> */}
                                         <img
-                                            src={iconDokodemo}
+                                            data-src={iconDokodemo}
                                             alt="dokodemo"
-                                            className="object-contain mx-auto w-6/12 md:w-full h-24 mb-4 md:mb-0"
+                                            className="object-contain mx-auto w-6/12 md:w-full h-24 mb-4 md:mb-0 lazyload"
                                         />
                                     </picture>
                                 </a>
@@ -175,11 +175,11 @@ const Product = (): React.ReactElement => {
                             <div className="w-full md:w-1/3">
                                 <a href="#product_sugoi">
                                     <picture>
-                                        <source srcSet={iconSugoiWebp} type="image/webp" />
+                                        <source data-srcSet={iconSugoiWebp} type="image/webp" />
                                         <img
-                                            src={iconSugoi}
+                                            data-src={iconSugoi}
                                             alt="sugoisaiyo"
-                                            className="object-contain mx-auto w-6/12 md:w-full h-24 mb-4 md:mb-0"
+                                            className="object-contain mx-auto w-6/12 md:w-full h-24 mb-4 md:mb-0 lazyload"
                                         />
                                     </picture>
                                 </a>
@@ -187,11 +187,11 @@ const Product = (): React.ReactElement => {
                             <div className="w-full md:w-1/3">
                                 <a href="product_nippo">
                                     <picture>
-                                        <source srcSet={iconNippoWebp} type="image/webp" />
+                                        <source data-srcSet={iconNippoWebp} type="image/webp" />
                                         <img
-                                            src={iconNippo}
+                                            data-src={iconNippo}
                                             alt="nippo"
-                                            className="object-contain mx-auto w-6/12 md:w-full h-24 mb-4 md:mb-0"
+                                            className="object-contain mx-auto w-6/12 md:w-full h-24 mb-4 md:mb-0 lazyload"
                                         />
                                     </picture>
                                 </a>
@@ -212,11 +212,11 @@ const Product = (): React.ReactElement => {
                     <div className="w-6/12 md:w-3/12 px-15px">
                         <div className="relative">
                             <picture>
-                                <source srcSet={imgProductWebp} type="image/webp" />
+                                <source data-srcSet={imgProductWebp} type="image/webp" />
                                 <img
-                                    src={imgProduct}
+                                    data-src={imgProduct}
                                     alt="our products"
-                                    className="w-full md:absolute top-0 left-0 mb-5 sm:mb-0"
+                                    className="w-full md:absolute top-0 left-0 mb-5 sm:mb-0 lazyload"
                                 />
                             </picture>
                         </div>

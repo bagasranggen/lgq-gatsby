@@ -31,7 +31,7 @@ const HomeCardLink = ({ link, title, children, bg }: HomeCardLinkProps): React.R
                     style={{ paddingTop: '60%' }}
                 >
                     {title}
-                    <img src={iconArrowRight} alt="" className="ml-4" />
+                    <img data-src={iconArrowRight} alt="" className="ml-4 lazyload" />
                 </div>
                 <p className="text-sm pr-4">{children}</p>
             </div>
