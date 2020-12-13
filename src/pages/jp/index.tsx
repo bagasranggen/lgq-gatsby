@@ -7,7 +7,6 @@ import Container from 'components/common/container/Container';
 import HomeCard from 'components/home/homeCard/HomeCard';
 import TitleHeadline from 'components/common/titleHeadline/TitleHeadline';
 import Button from 'components/common/button/Button';
-// import Breadcrumbs from 'components/common/breadcrumbs/Breadcrumbs';
 
 import imgVideo from 'assets/img/jpg/img-video-banner.jpg';
 import videoMp4 from 'assets/vid/mainbanner-video.mp4';
@@ -46,11 +45,6 @@ const Index = (): React.ReactElement => {
         { lang: 'id', link: '/' },
         { lang: 'jp', link: '#', active: true },
     ];
-
-    // const breadcrumb = [
-    //     { label: 'Home', link: '/' },
-    //     { label: 'About', link: '#' },
-    // ];
 
     return (
         <Layout
@@ -117,12 +111,12 @@ const Index = (): React.ReactElement => {
                             Web・ホームページ制作、ECサイト構築、自動車産業向けWebシステム開発、採用管理システムやCRMシステムなどインドネシア内でのWeb制作、システム開発を数多く経験しています。今後もインドネシア、ASEAN諸国や日本のお客様のビジネス発展にデジタル
                             / ITを活用して貢献します。
                         </p>
-                        <img src={iconArrowRight} alt="Portofolio Kami" className="mt-6" />
+                        <img data-src={iconArrowRight} alt="Portofolio Kami" className="mt-6 lazyload" />
                     </div>
                     <div className="w-full md:w-1/2 px-15px">
                         <picture>
-                            <source srcSet={imgPortoWebp} type="image/webp" />
-                            <img src={imgPorto} alt="logique portfolio" className="w-full" />
+                            <source data-srcSet={imgPortoWebp} type="image/webp" />
+                            <img data-src={imgPorto} alt="logique portfolio" className="w-full lazyload" />
                         </picture>
                     </div>
                 </div>

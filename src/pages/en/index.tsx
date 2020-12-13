@@ -9,7 +9,6 @@ import HomeLinks from 'components/home/homeLinks/HomeLinks';
 import HomeOtherLink from 'components/home/homeOtherLink/HomeOtherLink';
 import TitleHeadline from 'components/common/titleHeadline/TitleHeadline';
 import Button from 'components/common/button/Button';
-// import Breadcrumbs from 'components/common/breadcrumbs/Breadcrumbs';
 
 import imgVideo from 'assets/img/jpg/img-video-banner.jpg';
 import videoMp4 from 'assets/vid/mainbanner-video.mp4';
@@ -48,11 +47,6 @@ const Index = (): React.ReactElement => {
         { lang: 'id', link: '/' },
         { lang: 'jp', link: '/jp/' },
     ];
-
-    // const breadcrumb = [
-    //     { label: 'Home', link: '/' },
-    //     { label: 'About', link: '#' },
-    // ];
 
     return (
         <Layout
@@ -127,12 +121,12 @@ const Index = (): React.ReactElement => {
                             Working with us and utilizing the best solutions provided by our team is an opportunity to
                             grow and improve your business’s overall profits in a digitalized age.
                         </p>
-                        <img src={iconArrowRight} alt="Portofolio Kami" className="mt-6" />
+                        <img data-src={iconArrowRight} alt="Portofolio Kami" className="mt-6 lazyload" />
                     </div>
                     <div className="w-full md:w-1/2 px-15px">
                         <picture>
-                            <source srcSet={imgPortoWebp} type="image/webp" />
-                            <img src={imgPorto} alt="logique portfolio" className="w-full" />
+                            <source data-srcSet={imgPortoWebp} type="image/webp" />
+                            <img data-src={imgPorto} alt="logique portfolio" className="w-full lazyload" />
                         </picture>
                     </div>
                 </div>

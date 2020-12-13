@@ -65,11 +65,11 @@ const HomeCard = ({
                 <>
                     {icon && iconWebp ? (
                         <picture>
-                            <source srcSet={iconWebp} type="image/webp" />
-                            <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
+                            <source data-srcSet={iconWebp} type="image/webp" />
+                            <img data-src={icon} alt={iconAlt} className={`mb-4 ${iconStyle} lazyload`} />
                         </picture>
                     ) : (
-                        <img src={icon} alt={iconAlt} className={`mb-4 ${iconStyle}`} />
+                        <img data-src={icon} alt={iconAlt} className={`mb-4 ${iconStyle} lazyload`} />
                     )}
                 </>
             )}
@@ -79,7 +79,7 @@ const HomeCard = ({
                 </div>
             )}
             <p className="mb-3 md:mb-6 text-lg">{children}</p>
-            {!noArrow && <img src={iconArrowRight} className="mb-3" alt="go to website page" />}
+            {!noArrow && <img data-src={iconArrowRight} className="mb-3 lazyload" alt="go to website page" />}
         </Card>
     );
 };

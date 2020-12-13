@@ -102,8 +102,12 @@ const LogiqueContact = ({ lang, className }: LogiqueContactProps): React.ReactEl
                         {logiqueTitleLang}
                     </TitleHeadline>
                     <picture>
-                        <source srcSet={imgContactWebp} type="image/webp" />
-                        <img src={imgContact} alt="Hubungi Logique" className="w-8/12 md:w-full mx-auto" />
+                        <source data-srcSet={imgContactWebp} type="image/webp" />
+                        <img
+                            data-src={imgContact}
+                            alt="Hubungi Logique"
+                            className="w-8/12 md:w-full mx-auto lazyload"
+                        />
                     </picture>
                 </div>
                 <div className="w-full md:w-7/12 px-15px">

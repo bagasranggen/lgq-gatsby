@@ -366,13 +366,13 @@ const Footer = ({ pageLang }: FooterProps): React.ReactElement => {
                     <div className="mb-8">
                         <a href="tel:622122708935" className="flex -mx-15px group">
                             <div className="px-15px mb-4">
-                                <img src={IconWa} alt="office landline" className="w-5" />
+                                <img data-src={IconWa} alt="office landline" className="w-5 lazyload" />
                             </div>
                             <p className="flex-grow duration-150 group-hover:text-yellow-500">(021) 22708935 / 36</p>
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=62811870321" className="flex -mx-15px group">
                             <div className="px-15px">
-                                <img src={IconPhone} alt="office whatsapp group" className="w-5" />
+                                <img data-src={IconPhone} alt="office whatsapp group" className="w-5 lazyload" />
                             </div>
                             <p className="flex-grow duration-150 group-hover:text-yellow-500">0811-870-321</p>
                         </a>

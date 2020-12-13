@@ -121,12 +121,12 @@ const Index = (): React.ReactElement => {
                             berbagai permintaan, seperti pembuatan sistem lelang online, E-commerce, sistem rekrutmen
                             karyawan, e-money, berbagai aplikasi internal perusahaan, dan pengoperasian iklan digital.
                         </p>
-                        <img src={iconArrowRight} alt="Portofolio Kami" className="mt-6" />
+                        <img data-src={iconArrowRight} alt="Portofolio Kami" className="mt-6 lazyload" />
                     </div>
                     <div className="w-full md:w-1/2 px-15px">
                         <picture>
-                            <source srcSet={imgPortoWebp} type="image/webp" />
-                            <img src={imgPorto} alt="logique portfolio" className="w-full" />
+                            <source data-srcSet={imgPortoWebp} type="image/webp" />
+                            <img data-src={imgPorto} alt="logique portfolio" className="w-full lazyload" />
                         </picture>
                     </div>
                 </div>
