@@ -2,14 +2,14 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import Index from '../pages/index';
+import Product from '../../pages/en/product';
 
 export default {
-    title: 'Page/ID/Index',
-    component: Index,
+    title: 'Page/EN/Product',
+    component: Product,
 } as Meta;
 
-const Template: Story = (args) => <Index {...args} />;
+const Template: Story = (args) => <Product {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {};

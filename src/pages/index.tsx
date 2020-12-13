@@ -9,7 +9,6 @@ import HomeLinks from 'components/home/homeLinks/HomeLinks';
 import HomeOtherLink from 'components/home/homeOtherLink/HomeOtherLink';
 import TitleHeadline from 'components/common/titleHeadline/TitleHeadline';
 import Button from 'components/common/button/Button';
-// import Breadcrumbs from 'components/common/breadcrumbs/Breadcrumbs';
 
 import imgVideo from 'assets/img/jpg/img-video-banner.jpg';
 import videoMp4 from 'assets/vid/mainbanner-video.mp4';
@@ -75,7 +74,6 @@ const Index = (): React.ReactElement => {
             )}
 
             <Container>
-                {/* <Breadcrumbs breadcrumbLinks={breadcrumb} /> */}
                 <div className="w-full md:w-10/12 py-12 mx-auto text-center">
                     <h1 className="text-3xl mb-3">
                         Pengembang Sistem Web Terbaik di Jakarta, <br /> Menyediakan Solusi Digital untuk Bisnis Anda
