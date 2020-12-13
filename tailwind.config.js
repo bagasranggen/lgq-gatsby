@@ -88,7 +88,7 @@ module.exports = {
                 150: '#e5f1fc',
                 200: '#d0dde9',
                 250: '#d7e4f1',
-                300: '#9ab6cb',
+                300: '#50abf1', // twitter light blue
                 400: '#31658c',
                 500: '#34495e',
                 550: '#2a67b2', // linkedin blue
@@ -192,8 +192,8 @@ module.exports = {
             'double-100': '100% 100%',
         },
         borderColor: (theme) => ({
-            ...theme('colors'),
             default: theme('colors.gray.300', 'currentColor'),
+            ...theme('colors'),
         }),
         borderOpacity: (theme) => theme('opacity'),
         borderRadius: {
@@ -308,6 +308,7 @@ module.exports = {
             ...theme('spacing'),
             full: '100%',
             screen: '100vh',
+            '40%': '40%',
             '240px': '240px',
             '280px': '280px',
             '425px': '425px',

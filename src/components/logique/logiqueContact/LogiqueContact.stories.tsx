@@ -2,14 +2,14 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import Index from '../pages/index';
+import LogiqueContact, { LogiqueContactProps } from './LogiqueContact';
 
 export default {
-    title: 'Page/ID/Index',
-    component: Index,
+    title: 'Logique/Logique Contact',
+    component: LogiqueContact,
 } as Meta;
 
-const Template: Story = (args) => <Index {...args} />;
+const Template: Story<LogiqueContactProps> = (args) => <LogiqueContact {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {};

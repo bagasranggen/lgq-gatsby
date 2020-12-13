@@ -428,7 +428,7 @@ const Footer = ({ pageLang }: FooterProps): React.ReactElement => {
                         </a>
                         <a
                             href="/"
-                            className="group mr-3 duration-200 border border-white rounded-full hover:border-transparent"
+                            className="group mr-3 duration-200 border-default border-white rounded-full hover:border-transparent"
                         >
                             <svg width="39" height="39" viewBox="0 0 39 39" xmlns="http://www.w3.org/2000/svg">
                                 <title>B41BF21D-9E41-4B42-90EB-393FF13B1B1F@2.00x</title>

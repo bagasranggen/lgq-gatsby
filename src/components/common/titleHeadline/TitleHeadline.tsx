@@ -2,6 +2,7 @@ import React from 'react';
 
 export type TitleHeadlineProps = {
     children: string | any;
+    className?: string;
     borderWidth?: 'md' | 'lg';
     borderLength?: 'md' | 'lg';
     fontSize?: 'md' | 'lg';
@@ -10,6 +11,7 @@ export type TitleHeadlineProps = {
 
 const TitleHeadline = ({
     children,
+    className,
     borderWidth,
     borderLength,
     fontSize,
@@ -45,7 +47,7 @@ const TitleHeadline = ({
     }
 
     return (
-        <div className={`${position} mb-10`}>
+        <div className={`${position} ${className} mb-10`}>
             <h2 className={`${size} mb-3`}>{children}</h2>
             <div className={`bg-yellow-500 ${length} ${width} ${position}`} />
         </div>
